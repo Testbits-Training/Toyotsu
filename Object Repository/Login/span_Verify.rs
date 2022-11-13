@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Verify</name>
+   <tag></tag>
+   <elementGuidId>b525e405-9002-4e08-9b93-1e134a13bb58</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-base']/div[2]/div/div[2]/form/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.base-MuiButtonBase-root.base-MuiButton-root.base-MuiButton-contained.base-base49.base-MuiButton-containedPrimary.base-MuiButton-fullWidth > span.base-MuiButton-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f6da2a69-26dd-46cb-b76b-07c403bd9c92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiButton-label</value>
+      <webElementGuid>5b51b052-d1f8-494f-b5ac-5b2c197d7293</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Verify</value>
+      <webElementGuid>7f80f382-77c7-4ef3-b34c-1d132408afac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base8&quot;]/div[@class=&quot;base-base9&quot;]/div[@class=&quot;base-base11&quot;]/form[@class=&quot;base-base39&quot;]/button[@class=&quot;base-MuiButtonBase-root base-MuiButton-root base-MuiButton-contained base-base49 base-MuiButton-containedPrimary base-MuiButton-fullWidth&quot;]/span[@class=&quot;base-MuiButton-label&quot;]</value>
+      <webElementGuid>9ca7dc7a-2ec3-40ec-942f-1a6bb1444a33</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-base']/div[2]/div/div[2]/form/button/span</value>
+      <webElementGuid>b1606b4b-9c1a-46a7-9781-15cb39bd04df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Re-send'])[1]/following::span[2]</value>
+      <webElementGuid>dc80ce06-f3c4-400e-9aea-23273033325b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verify'])[1]/following::span[3]</value>
+      <webElementGuid>e8329a89-99a0-403b-85de-aab43ff33891</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::span[4]</value>
+      <webElementGuid>efbb152b-f721-4ecd-a96f-69c79bb77e1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/button/span</value>
+      <webElementGuid>a8c90e7d-f4c9-4f40-b1a1-c57d61574a4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Verify' or . = 'Verify')]</value>
+      <webElementGuid>7ebfc547-0121-4696-9c5f-4e17db98ee81</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

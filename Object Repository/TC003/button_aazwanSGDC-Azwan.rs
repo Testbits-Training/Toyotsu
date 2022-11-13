@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_aazwanSGDC-Azwan</name>
+   <tag></tag>
+   <elementGuidId>de463e8b-2ace-4de7-b865-0554bcdff313</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'aazwanSGDC-Azwan' or . = 'aazwanSGDC-Azwan')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div[id='webapp-base'] p:nth-child(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>div[id='webapp-base'] p:nth-child(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6c04d029-b617-4730-ad6f-925584d7890c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiButtonBase-root base-MuiButton-root base-base63 base-MuiButton-text base-base65</value>
+      <webElementGuid>d81fae9a-a825-4c5e-a155-ac119d56fec9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>2837c5cd-e219-4bec-9fb7-cc32efaa3e39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f0e8e0e1-9982-4b79-abee-b06aaf878c4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>aazwanSGDC-Azwan</value>
+      <webElementGuid>8472da08-6c11-467b-b8e4-8e6663e5b7e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base42&quot;]/div[@class=&quot;base-base43&quot;]/div[@class=&quot;base-base44&quot;]/div[@class=&quot;base-base47&quot;]/button[@class=&quot;base-MuiButtonBase-root base-MuiButton-root base-base63 base-MuiButton-text base-base65&quot;]</value>
+      <webElementGuid>72d71b15-68cd-49e0-be00-fd60924df7ce</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[67]</value>
+      <webElementGuid>e1ea91aa-fd98-4236-b865-c31712368f82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-base']/div/div/div/div[2]/button</value>
+      <webElementGuid>8c6bdf44-8f7c-46a4-b0a8-6c361c46ce29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privilege'])[1]/following::button[2]</value>
+      <webElementGuid>1352a923-96ed-4323-aeb4-f9c46dc9266c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Master'])[1]/following::button[3]</value>
+      <webElementGuid>0db0ffae-7853-483a-bcc3-ee58233ca32d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chats'])[1]/preceding::button[2]</value>
+      <webElementGuid>474c8d7b-97a9-45cc-a8a0-d93db17b9090</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>0d2048b4-81ff-480b-814d-3933b5358cb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'aazwanSGDC-Azwan' or . = 'aazwanSGDC-Azwan')]</value>
+      <webElementGuid>3d9638fd-d6c4-49bd-a9fd-609cb13309c0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

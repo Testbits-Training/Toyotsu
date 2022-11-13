@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_scroll</name>
+   <tag></tag>
+   <elementGuidId>505896f6-6bc9-4201-b231-039e8d7e0a8e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4ac9b498-7374-46e8-bb2b-0f1e318b95ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm1325 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded</value>
+      <webElementGuid>853a16f1-6a92-456d-8ad9-27c7045facf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>3Input Shipping PlanANDParts No.Parts DescriptionCustomer Parts No.Supplier Parts No.Exp CountrySupplier CodeUOM CodeOrder LotFirm QtyOld Requested Inbound PlanNew Requested Inbound Plan Mar 17, 2023Mar 17, 2023 QtyAUT20221028003Parts Description: AUT-VNTTVN-CUS-20221028-003AUT-VNTTVN-CUS-20221028-003AUT-SGBAFCO-20221028-003SGSG-BAFCOBOX10-11,000AUT20221028004Parts Description: AUT-VNTTVN-CUS-20221028-004AUT-VNTTVN-CUS-20221028-004AUT-SGBAFCO-20221028-004SGSG-BAFCOKG101,000</value>
+      <webElementGuid>2f9a4302-b488-4321-9ff0-37074917b0e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm1 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm5&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm1325 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]</value>
+      <webElementGuid>c8275a69-6c5f-4bcf-93b6-5b216af9c5dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div[5]</value>
+      <webElementGuid>5fc5307d-959a-4305-8aee-5d4d22e05848</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/following::div[122]</value>
+      <webElementGuid>21de322c-77ac-4ff0-bcc5-30fa19414e96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Input Order QTY for each PN'])[1]/following::div[133]</value>
+      <webElementGuid>a7bfc802-c2ef-437b-8a41-3a5578f63e7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[5]</value>
+      <webElementGuid>6c842e6e-8494-4496-8100-ef7b9e5fc7e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '3Input Shipping PlanANDParts No.Parts DescriptionCustomer Parts No.Supplier Parts No.Exp CountrySupplier CodeUOM CodeOrder LotFirm QtyOld Requested Inbound PlanNew Requested Inbound Plan Mar 17, 2023Mar 17, 2023 QtyAUT20221028003Parts Description: AUT-VNTTVN-CUS-20221028-003AUT-VNTTVN-CUS-20221028-003AUT-SGBAFCO-20221028-003SGSG-BAFCOBOX10-11,000AUT20221028004Parts Description: AUT-VNTTVN-CUS-20221028-004AUT-VNTTVN-CUS-20221028-004AUT-SGBAFCO-20221028-004SGSG-BAFCOKG101,000' or . = '3Input Shipping PlanANDParts No.Parts DescriptionCustomer Parts No.Supplier Parts No.Exp CountrySupplier CodeUOM CodeOrder LotFirm QtyOld Requested Inbound PlanNew Requested Inbound Plan Mar 17, 2023Mar 17, 2023 QtyAUT20221028003Parts Description: AUT-VNTTVN-CUS-20221028-003AUT-VNTTVN-CUS-20221028-003AUT-SGBAFCO-20221028-003SGSG-BAFCOBOX10-11,000AUT20221028004Parts Description: AUT-VNTTVN-CUS-20221028-004AUT-VNTTVN-CUS-20221028-004AUT-SGBAFCO-20221028-004SGSG-BAFCOKG101,000')]</value>
+      <webElementGuid>6a538702-3480-4959-93d3-86f90c110854</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

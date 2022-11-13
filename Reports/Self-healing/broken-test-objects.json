@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC009/Page_Brivge/li_Shipping Detail List",
+      "brokenLocator": "//a[6]/li",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Logistics\u0027])[2]/following::li[7]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC009/Page_Brivge/li_Shipping Detail List_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC009/Page_Brivge/button_Confirm",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[23]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Chats\u0027])[1]/preceding::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC009/Page_Brivge/button_Confirm_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC010/Page_Brivge/div_clock",
+      "brokenLocator": "//div[33]/div[3]/div/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "div.lcbm-MuiPickersClock-squareMask",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC010/Page_Brivge/div_clock_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC003/button_aazwanSGDC-Azwan",
+      "brokenLocator": "div[id\u003d\u0027webapp-base\u0027] p:nth-child(2)",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "//div[2]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC003/button_aazwanSGDC-Azwan_position.png"
+    }
+  ]
+}

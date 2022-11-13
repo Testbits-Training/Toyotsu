@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>not yet delivery price 1</name>
+   <tag></tag>
+   <elementGuidId>660c15c3-84b2-4396-87e3-62ca5ccab58a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.lcbm-lcbm1661.lcbm-lcbm1866 > div > div.lcbm-lcbm1749 > div.os-host.os-host-foreign.os-theme-dark.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.lcbm-lcbm4.os-host-scrollbar-vertical-hidden.os-host-transition > div.os-padding > div.os-viewport.os-viewport-native-scrollbars-invisible > div.os-content > div > table.lcbm-MuiTable-root > tbody.lcbm-MuiTableBody-root > tr.lcbm-MuiTableRow-root.lcbm-lcbm1888 > td.lcbm-MuiTableCell-root.lcbm-MuiTableCell-body.lcbm-lcbm1889 > div.lcbm-lcbm1890 > p.lcbm-MuiTypography-root.lcbm-lcbm1893.lcbm-MuiTypography-body2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div[5]/div[2]/div/div/div/div[3]/div[2]/div/div/div[3]/div/div[2]/div/div/div/div/div[3]/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[5]/div/p)[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>a49cc76a-d5f7-4bb6-9b5b-6c9a30029171</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTypography-root lcbm-lcbm1893 lcbm-MuiTypography-body2</value>
+      <webElementGuid>45da66e6-f54a-4ba1-9202-3750aa940ec3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1,100</value>
+      <webElementGuid>501375fa-6dfa-4a11-8f27-b2cef89b824f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm1 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm5&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm50 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm53&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm1711 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-lcbm1723&quot;]/div[@class=&quot;lcbm-lcbm1724&quot;]/div[1]/div[@class=&quot;lcbm-lcbm1661 lcbm-lcbm1836&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm1837 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm1844&quot;]/div[1]/div[@class=&quot;lcbm-lcbm1661 lcbm-lcbm1866&quot;]/div[1]/div[@class=&quot;lcbm-lcbm1749&quot;]/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm4 os-host-scrollbar-vertical-hidden os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[1]/table[@class=&quot;lcbm-MuiTable-root&quot;]/tbody[@class=&quot;lcbm-MuiTableBody-root&quot;]/tr[@class=&quot;lcbm-MuiTableRow-root lcbm-lcbm1888&quot;]/td[@class=&quot;lcbm-MuiTableCell-root lcbm-MuiTableCell-body lcbm-lcbm1889&quot;]/div[@class=&quot;lcbm-lcbm1890&quot;]/p[@class=&quot;lcbm-MuiTypography-root lcbm-lcbm1893 lcbm-MuiTypography-body2&quot;]</value>
+      <webElementGuid>ad30880e-efb1-4eb4-85c6-a6f9dd3733ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div[5]/div[2]/div/div/div/div[3]/div[2]/div/div/div[3]/div/div[2]/div/div/div/div/div[3]/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[5]/div/p</value>
+      <webElementGuid>fdf94185-5462-4567-bd1b-5f071c7b8303</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+ ADD PARTS'])[1]/following::p[9]</value>
+      <webElementGuid>a2928edf-e311-4d43-8d3b-e13f0478db0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Outer Package 1:'])[1]/following::p[15]</value>
+      <webElementGuid>84ade7da-dc80-400f-9550-ea41b2e94090</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+ ADD INNER PACKAGE'])[1]/preceding::p[6]</value>
+      <webElementGuid>4f5a7ee7-7140-4652-9bae-5e538242b2e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::p[7]</value>
+      <webElementGuid>555026c0-2670-46a6-b21c-fac78dac1b29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1,100']/parent::*</value>
+      <webElementGuid>221306b3-17b5-4a61-ac6d-22154ba8e1e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]/div/p</value>
+      <webElementGuid>f4bdfe86-9b14-4f71-b258-69b30c08c29f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '1,100' or . = '1,100')]</value>
+      <webElementGuid>16bbe9c1-dde2-49ec-9f24-8afefbcbdf7f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

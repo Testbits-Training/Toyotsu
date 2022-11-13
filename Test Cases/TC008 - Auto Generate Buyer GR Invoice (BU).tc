@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008 - Auto Generate Buyer GR Invoice (BU)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cabd6f87-bfa5-4710-8b96-0fd17787714f</testCaseGuid>
+</TestCaseEntity>

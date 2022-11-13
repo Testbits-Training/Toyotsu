@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "776835046E85F8A574530FD80D3A60A5",
+  "keywordClasses": [
+    {
+      "name": "util.currentTimeGenerator",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

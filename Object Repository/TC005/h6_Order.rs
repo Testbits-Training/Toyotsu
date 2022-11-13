@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_Order</name>
+   <tag></tag>
+   <elementGuidId>a7a6fd1b-cb8d-4848-9e88-3f031ee86bbc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-base']/div/div/div/div/nav/div[2]/div/button/span/h6</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h6.base-MuiTypography-root.base-base61.base-MuiTypography-subtitle2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>f318d928-7367-428f-b3ff-b96c4dd0f71b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiTypography-root base-base61 base-MuiTypography-subtitle2</value>
+      <webElementGuid>3576c3a9-06a4-45f8-ba7b-5ad368de6635</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Order</value>
+      <webElementGuid>5a20575e-2e8f-4278-a832-57256eaa23f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base42&quot;]/div[@class=&quot;base-base43&quot;]/div[@class=&quot;base-base44&quot;]/div[@class=&quot;base-base46&quot;]/nav[@class=&quot;base-base53&quot;]/div[@class=&quot;base-base54&quot;]/div[@class=&quot;base-base55&quot;]/button[@class=&quot;base-MuiButtonBase-root base-MuiButton-root base-MuiButton-text base-base58&quot;]/span[@class=&quot;base-MuiButton-label&quot;]/h6[@class=&quot;base-MuiTypography-root base-base61 base-MuiTypography-subtitle2&quot;]</value>
+      <webElementGuid>ea1d9901-03e3-4b76-b146-b07baab80e86</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-base']/div/div/div/div/nav/div[2]/div/button/span/h6</value>
+      <webElementGuid>7cd74619-710b-4f94-8af3-a4e7f5895007</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You have 1 Delayed Inbound Job'])[1]/following::h6[1]</value>
+      <webElementGuid>15bfc13e-1e4d-4c96-bedc-7b00ac24ac89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logistics'])[1]/preceding::h6[1]</value>
+      <webElementGuid>80b299d0-bcc0-4978-95fb-d8edad7e903e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accounting'])[1]/preceding::h6[2]</value>
+      <webElementGuid>fde801ca-c661-4170-881d-ab87992e7685</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Order']/parent::*</value>
+      <webElementGuid>b54c1d57-840d-4307-9d67-8bd3194affad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span/h6</value>
+      <webElementGuid>d389f0da-2c8c-4c07-b8de-993f401fe83d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Order' or . = 'Order')]</value>
+      <webElementGuid>95d1a445-6c2d-4bce-80ed-34fda9c2ced2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

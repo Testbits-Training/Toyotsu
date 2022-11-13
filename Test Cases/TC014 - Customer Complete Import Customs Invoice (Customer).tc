@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC014 - Customer Complete Import Customs Invoice (Customer)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6f87fdb-83b8-41bc-b6b6-d25788cc82d0</testCaseGuid>
+</TestCaseEntity>

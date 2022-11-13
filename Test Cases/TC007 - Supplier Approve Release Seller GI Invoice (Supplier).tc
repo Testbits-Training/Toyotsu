@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC007 - Supplier Approve Release Seller GI Invoice (Supplier)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9aec89a-6205-4b4b-aae7-4ac8b27d721f</testCaseGuid>
+</TestCaseEntity>

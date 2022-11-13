@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "FF9EC21DD5EB2CCE95978828B3E9A11D",
+  "keywordClasses": [
+    {
+      "name": "util.generateTime",
+      "keywordMethods": [
+        {
+          "name": "dateTimeGenerator",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

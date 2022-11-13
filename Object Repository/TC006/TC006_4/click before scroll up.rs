@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>click before scroll up</name>
+   <tag></tag>
+   <elementGuidId>f6ae61da-7738-4f4d-9d4b-0b3d672dec38</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>66fe486b-3495-415e-9250-19dc5961bdf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm50 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded</value>
+      <webElementGuid>dd136a73-8edc-4cf3-9fea-44a975cf68c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>3 INPUT CONTAINER &amp; PACKAGE INFORMATIONPlease provide information on containers and packages used in this outbound below.No.Parts No.Parts DescriptionTotal Quantity1AUT20221103017Parts Description:AUT-SGBAFCO-20221103-01702AUT20221103018Parts Description:AUT-SGBAFCO-20221103-0180Showing 1~2 out of 2 resultsShow:15 rows1Container/Truck informationNumber of ContainersContent of ContainersType of ContainersTotal Gross Weight (KG)sPackage Info Total Number of PackageTotal M3Total Net Weight (KG)Total Gross Weight (KG)Container 1+ ADD CONTAINERContainer/Truck informationType of ContainersNumber Of CartonType Of CommoditiesQuantityContainer No.Seal No.Container M3Container NW(KG)Container GW(KG)withInContainerOuterPackage+ ADD OUTER PACKAGEOuter Package 1: Outer Package No.Outer Package TypePackage M3Package NW(KG)Package GW(KG)Within Outer Package - Parts+ ADD PARTSSeller Parts No.Parts No.Sales Order No.QuantityNot Yet Delivery QtyAUT-SGBAFCO-20221103-017AUT20221103017s110319-22110011,100AUT-SGBAFCO-20221103-018AUT20221103018s110319-22110011,100Within Outer Package - Inner Packages+ ADD INNER PACKAGE</value>
+      <webElementGuid>13d7ff56-d405-433c-8f23-69b2f5feca16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm1 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm5&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm50 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]</value>
+      <webElementGuid>59d49bc8-36bf-464b-9e76-c2aff1149324</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div[5]</value>
+      <webElementGuid>60b7cdb1-d63d-4212-a7d0-ec8542e6ccee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::div[51]</value>
+      <webElementGuid>77b6a69f-0617-451c-a38f-ed53b6a30f28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::div[60]</value>
+      <webElementGuid>ae0dbda6-2854-4471-85d6-6b5d3eb795cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[5]</value>
+      <webElementGuid>e913f663-c8cc-4986-9386-38c08186257c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '3 INPUT CONTAINER &amp; PACKAGE INFORMATIONPlease provide information on containers and packages used in this outbound below.No.Parts No.Parts DescriptionTotal Quantity1AUT20221103017Parts Description:AUT-SGBAFCO-20221103-01702AUT20221103018Parts Description:AUT-SGBAFCO-20221103-0180Showing 1~2 out of 2 resultsShow:15 rows1Container/Truck informationNumber of ContainersContent of ContainersType of ContainersTotal Gross Weight (KG)sPackage Info Total Number of PackageTotal M3Total Net Weight (KG)Total Gross Weight (KG)Container 1+ ADD CONTAINERContainer/Truck informationType of ContainersNumber Of CartonType Of CommoditiesQuantityContainer No.Seal No.Container M3Container NW(KG)Container GW(KG)withInContainerOuterPackage+ ADD OUTER PACKAGEOuter Package 1: Outer Package No.Outer Package TypePackage M3Package NW(KG)Package GW(KG)Within Outer Package - Parts+ ADD PARTSSeller Parts No.Parts No.Sales Order No.QuantityNot Yet Delivery QtyAUT-SGBAFCO-20221103-017AUT20221103017s110319-22110011,100AUT-SGBAFCO-20221103-018AUT20221103018s110319-22110011,100Within Outer Package - Inner Packages+ ADD INNER PACKAGE' or . = '3 INPUT CONTAINER &amp; PACKAGE INFORMATIONPlease provide information on containers and packages used in this outbound below.No.Parts No.Parts DescriptionTotal Quantity1AUT20221103017Parts Description:AUT-SGBAFCO-20221103-01702AUT20221103018Parts Description:AUT-SGBAFCO-20221103-0180Showing 1~2 out of 2 resultsShow:15 rows1Container/Truck informationNumber of ContainersContent of ContainersType of ContainersTotal Gross Weight (KG)sPackage Info Total Number of PackageTotal M3Total Net Weight (KG)Total Gross Weight (KG)Container 1+ ADD CONTAINERContainer/Truck informationType of ContainersNumber Of CartonType Of CommoditiesQuantityContainer No.Seal No.Container M3Container NW(KG)Container GW(KG)withInContainerOuterPackage+ ADD OUTER PACKAGEOuter Package 1: Outer Package No.Outer Package TypePackage M3Package NW(KG)Package GW(KG)Within Outer Package - Parts+ ADD PARTSSeller Parts No.Parts No.Sales Order No.QuantityNot Yet Delivery QtyAUT-SGBAFCO-20221103-017AUT20221103017s110319-22110011,100AUT-SGBAFCO-20221103-018AUT20221103018s110319-22110011,100Within Outer Package - Inner Packages+ ADD INNER PACKAGE')]</value>
+      <webElementGuid>b8505d2e-4203-4cac-bb50-0cfb8d716c53</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

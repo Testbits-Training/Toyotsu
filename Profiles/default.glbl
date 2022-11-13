@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Luqman'</initValue>
+      <name>usernameLuqman</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Luqman-123'</initValue>
+      <name>passwordLuqman</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'828864'</initValue>
+      <name>verificationLuqman</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Azwan'</initValue>
+      <name>usernameAzwan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Azwan-123'</initValue>
+      <name>passwordAzwan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'575159'</initValue>
+      <name>verificationAzwan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'VN-TTVN'</initValue>
+      <name>vnttvn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'SG-TTAP'</initValue>
+      <name>sgttap</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'SG-BAFCO'</initValue>
+      <name>sgbafco</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'SG-TTAP-DC'</initValue>
+      <name>sgttapdc</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'SGTTAP TO VNTTVN 1028002'</initValue>
+      <name>custContractNo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'SGBAFCO TO SGTTAP 1028002'</initValue>
+      <name>supplContractNo</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
