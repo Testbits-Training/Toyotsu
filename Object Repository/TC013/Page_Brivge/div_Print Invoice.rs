@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Print Invoice</name>
+   <tag></tag>
+   <elementGuidId>a29b701a-f3bb-45fd-851b-0e511986f5d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Print Invoice' or . = 'Print Invoice')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.lcbm-MuiButtonBase-root.lcbm-MuiListItem-root.lcbm-MuiListItem-dense.lcbm-MuiListItem-gutters.lcbm-MuiListItem-button.lcbm-MuiListItem-secondaryAction</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d7f0471c-4d8e-48a9-b732-bbe7f40d312b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiButtonBase-root lcbm-MuiListItem-root lcbm-MuiListItem-dense lcbm-MuiListItem-gutters lcbm-MuiListItem-button lcbm-MuiListItem-secondaryAction</value>
+      <webElementGuid>edc77fa4-c6f9-4065-95c4-b30b2a10ab24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>8a76147f-851c-45f9-915d-43f510a3b9dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b469175e-ae58-487d-9ba1-87e4081b664b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>4fb3d03a-a907-4a2b-a182-8b0362757401</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Print Invoice</value>
+      <webElementGuid>c05f81de-5e89-4891-8b82-bc0165537233</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;fade-menu&quot;)/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiMenu-paper lcbm-MuiPopover-paper lcbm-MuiPaper-elevation8 lcbm-MuiPaper-rounded&quot;]/ul[@class=&quot;lcbm-MuiList-root lcbm-MuiMenu-list lcbm-MuiList-padding&quot;]/ul[@class=&quot;lcbm-MuiList-root lcbm-MuiList-padding&quot;]/li[@class=&quot;lcbm-MuiListItem-container&quot;]/div[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiListItem-root lcbm-MuiListItem-dense lcbm-MuiListItem-gutters lcbm-MuiListItem-button lcbm-MuiListItem-secondaryAction&quot;]</value>
+      <webElementGuid>4941fb42-6ec0-4e70-8cb2-25061a21c5eb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='fade-menu']/div[3]/ul/ul/li/div</value>
+      <webElementGuid>5abab259-1bbb-42d7-a6dd-e4a96b2fc9dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RECOMMENDATIONS'])[2]/following::div[7]</value>
+      <webElementGuid>11268d30-d549-4fd0-9d1a-3660e98c749b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[2]/following::div[8]</value>
+      <webElementGuid>78c33352-142d-4edb-8cc4-e8acae5b061a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Packing List'])[1]/preceding::div[5]</value>
+      <webElementGuid>6edaa000-638a-4315-bce7-2393e71f6a8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div</value>
+      <webElementGuid>9191b9d3-0ddd-413f-b8c4-c7f1c68d6ece</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Print Invoice' or . = 'Print Invoice')]</value>
+      <webElementGuid>b5022b95-faff-4ca1-8f80-fd7258de0a3e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

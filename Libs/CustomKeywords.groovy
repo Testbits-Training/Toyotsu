@@ -7,6 +7,8 @@ import com.kms.katalon.core.testobject.TestObject
 
 import java.lang.String
 
+import java.io.File
+
 import com.applitools.eyes.selenium.Eyes
 
 import org.openqa.selenium.WebElement
@@ -30,6 +32,19 @@ def static "util.copyToExcel.exel"(
      , 	int colNum	) {
     (new util.copyToExcel()).exel(
         	name
+         , 	rowNum
+         , 	colNum)
+}
+
+
+def static "util.copyToExcel.exelInboundPlan"(
+    	File file	
+     , 	String name	
+     , 	int rowNum	
+     , 	int colNum	) {
+    (new util.copyToExcel()).exelInboundPlan(
+        	file
+         , 	name
          , 	rowNum
          , 	colNum)
 }

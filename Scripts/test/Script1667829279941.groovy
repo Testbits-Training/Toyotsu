@@ -17,7 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-y = CustomKeywords.'util.getDownloadedFile.getLatestFileFromDirectory'()
-
-System.out.println("Last file received " + y)
+CustomKeywords.'util.copyToExcel.exelInboundPlan'('C:\\Katalon_downloaded_file\\Pending Inbound.20221113113703.xlsx')
 

@@ -21,24 +21,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class getDownloadedFile {
-	
+
 	@Keyword
 	public File getLatestFileFromDirectory() {
-	
-	File dir = new File('C:\\Katalon_downloaded_file');
-	
-	File[] files = dir.listFiles();
-	
-	if(files == null || files.length == 0) {
-	return null;
+
+		File dir = new File('C:\\Katalon_downloaded_file');
+
+		File[] files = dir.listFiles();
+
+		if(files == null || files.length == 0) {
+			return null;
+		}
+
+		File lastModifiedFile = files[0];
+		for (int i = 1; i < files.length; i++) {
+			if (lastModifiedFile.lastModified() < files[i].lastModified()) {
+				lastModifiedFile = files[i];
+			}
+		}
+		return lastModifiedFile;
 	}
 	
-	File lastModifiedFile = files[0];
-	for (int i = 1; i < files.length; i++) {
-	   if (lastModifiedFile.lastModified() < files[i].lastModified()) {
-	       lastModifiedFile = files[i];
-	   }
-	}
-	return lastModifiedFile;
-	}
+//	@Keyword
+	//public String getFileNameForInboundPlan(String fileName) {
+		
+				
 }
+

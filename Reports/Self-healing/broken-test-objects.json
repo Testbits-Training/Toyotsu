@@ -39,6 +39,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/TC003/button_aazwanSGDC-Azwan_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/input_Verify_verificationCode",
+      "brokenLocator": "//input[@id\u003d\u0027verificationCode\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Login/input_Verify_verificationCode_position.png"
     }
   ]
 }

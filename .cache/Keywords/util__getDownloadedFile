@@ -1,16 +1,15 @@
 {
-  "keywordFileContentHash": "439E598485C212566B9F8668BEAB959B",
+  "keywordFileContentHash": "69D8D693B7A4D815DB9CE9895F5CDF40",
   "keywordClasses": [
     {
       "name": "util.getDownloadedFile",
       "keywordMethods": [
         {
           "name": "getLatestFileFromDirectory",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

@@ -17,3 +17,36 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('common/Login'), [('username') : GlobalVariable.usernameLuqman, ('password') : GlobalVariable.passwordLuqman
+        , ('verification') : GlobalVariable.verificationLuqman, ('company') : GlobalVariable.vnttvn], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('TC014/Page_Brivge/button_Logistics'))
+
+WebUI.click(findTestObject('TC014/Page_Brivge/li_Customs Invoice List(Import)'))
+
+WebUI.setText(findTestObject('TC014/Page_Brivge/input_Customs Invoice(Import)'), 'BA2209038')
+
+WebUI.click(findTestObject('TC014/Page_Brivge/input_checkbox'))
+
+WebUI.click(findTestObject('TC014/Page_Brivge/button_input cargo status'))
+
+WebUI.click(findTestObject('TC014/Page_Brivge/input_Input Cargo Status_cargoStatus'))
+
+WebUI.click(findTestObject('TC014/Page_Brivge/li_Imp clearance in progress'))
+
+WebUI.click(findTestObject('TC014/Page_Brivge/button_update'))
+
+WebUI.verifyElementVisible(findTestObject('TC014/Page_Brivge/p_The operation was successful'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('TC014/Page_Brivge/button_complete'))
+
+WebUI.click(findTestObject('TC014/Page_Brivge/button_CONFIRM'))
+
+WebUI.verifyElementVisible(findTestObject('TC014/Page_Brivge/p_The operation was successful'))
+
+WebUI.verifyElementText(findTestObject('TC014/Page_Brivge/div_Imp clearance in progress'), 'Imp clearance in progress')
+
+WebUI.verifyElementText(findTestObject('TC014/Page_Brivge/div_Customs Clearance Completed'), 'Customs Clearance Completed')
+

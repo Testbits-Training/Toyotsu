@@ -24,6 +24,9 @@ import org.apache.poi.ss.usermodel.Row
 import org.apache.poi.xssf.usermodel.XSSFSheet
 import org.apache.poi.xssf.usermodel.XSSFWorkbook
 
+import org.apache.commons.io.FileUtils;
+import java.io.File;
+import java.nio.file.Path
 public class copyToExcel {
 
 	@Keyword
@@ -38,5 +41,32 @@ public class copyToExcel {
 		FileOutputStream fos = new FileOutputStream("C:\\toyotsudata.xlsx");
 		workbook.write(fos);
 		fos.close();
+	}
+	
+	@Keyword
+	public String exelInboundPlan(File file, String name, int rowNum, int colNum) throws IOException{
+		
+		//convert downloaded File to Path
+		Path path = file.getAbsolutePath();
+		
+		//open excel file
+		FileInputStream fis = new FileInputStream(path);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		
+		//edit 
+		XSSFSheet sheet = workbook.getSheet("Sheet1");
+		Row row = sheet.getRow(rowNum);
+		Cell cell = row.createCell(colNum);
+		cell.setCellValue(name);
+		
+		//close 
+		FileOutputStream fos = new FileOutputStream(path);
+		workbook.write(fos);
+		fos.close();
+		
+		//return the file path for upload
+		System.out.println("File path is: " + path);
+		return path;
+		
 	}
 }

@@ -20,3 +20,38 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('common/Login'), [('username') : GlobalVariable.usernameLuqman, ('password') : GlobalVariable.passwordLuqman
         , ('verification') : GlobalVariable.verificationLuqman, ('company') : GlobalVariable.sgttap], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('TC013/Page_Brivge/button_Logistics'))
+
+WebUI.click(findTestObject('TC013/Page_Brivge/li_Customs Invoice List(Export)'))
+
+WebUI.setText(findTestObject('TC013/Page_Brivge/input_Customs Invoice(Export)'), 'TTAP2209007')
+
+'<---- Update cargo status ---->'
+WebUI.click(findTestObject('TC013/Page_Brivge/button_update 1'))
+
+WebUI.click(findTestObject('TC013/Page_Brivge/input_Input Cargo Status_cargoStatus'))
+
+WebUI.click(findTestObject('TC013/Page_Brivge/li_Exp clearance in progress'))
+
+WebUI.click(findTestObject('TC013/Page_Brivge/button_update 2'))
+
+WebUI.verifyElementVisible(findTestObject('TC013/Page_Brivge/p_The operation was successful'))
+
+WebUI.delay(5)
+
+'<---- Complete custom invoice ---->'
+WebUI.click(findTestObject('TC013/Page_Brivge/button_completed'))
+
+WebUI.click(findTestObject('TC013/Page_Brivge/button_CONFIRM'))
+
+WebUI.verifyElementVisible(findTestObject('TC013/Page_Brivge/p_The operation was successful'))
+
+'<---- Print invoice ---->'
+WebUI.click(findTestObject('TC013/Page_Brivge/button_print 1'))
+
+WebUI.click(findTestObject('TC013/Page_Brivge/div_Print Invoice'))
+
+WebUI.click(findTestObject('TC013/Page_Brivge/button_Print 2'))
+
+WebUI.verifyElementVisible(findTestObject('TC013/Page_Brivge/p_The operation was successful'))
+
