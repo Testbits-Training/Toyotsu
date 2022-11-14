@@ -28,7 +28,7 @@ if (WebUI.verifyElementVisible(findTestObject('TC005/h1_What can you do in Chang
     WebUI.click(findTestObject('TC005/span_X'))
 }
 
-WebUI.setText(findTestObject('TC005/input Search'), findTestData('Contract Route No').getValue(1, 9))
+WebUI.setText(findTestObject('TC005/input Search'), findTestData('Toyotsu-data').getValue(1, 2))
 
 WebUI.click(findTestObject('TC005/button filter'))
 

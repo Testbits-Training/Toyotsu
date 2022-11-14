@@ -42,6 +42,20 @@ WebUI.click(findTestObject('TC003/button_Search'))
 
 WebUI.click(findTestObject('TC003/button detail'))
 
+salesOrderNo = WebUI.getAttribute(findTestObject('TC003/Page_Brivge/input_Please input related basic information_orderNo'), 
+    'value')
+
+buyer = WebUI.getAttribute(findTestObject('TC003/Page_Brivge/input_Please input related basic information_buyer'), 'value')
+
+receiver = WebUI.getAttribute(findTestObject('TC003/Page_Brivge/input_Please input related basic information_receiver'), 
+    'value')
+
+CustomKeywords.'util.copyToExcel.exel'(salesOrderNo, 1, 2)
+
+CustomKeywords.'util.copyToExcel.exel'(buyer, 1, 3)
+
+CustomKeywords.'util.copyToExcel.exel'(receiver, 1, 4)
+
 WebUI.verifyElementAttributeValue(findTestObject('TC003/input_Please input related basic information_status'), 'value', 
     'Received', 0)
 

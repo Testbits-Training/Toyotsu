@@ -25,7 +25,7 @@ WebUI.click(findTestObject('TC009/Page_Brivge/h6_Logistics'))
 WebUI.click(findTestObject('TC009/Page_Brivge/li_Shipping Detail List'))
 
 'Booking no from TC006(timestamp) will change later'
-WebUI.setText(findTestObject('TC009/Page_Brivge/input_Shipping Detail List'), 'C-221028001')
+WebUI.setText(findTestObject('TC009/Page_Brivge/input_Shipping Detail List'), findTestData('Toyotsu-data').getValue(8, 2))
 
 WebUI.click(findTestObject('TC009/Page_Brivge/button_edit'))
 

@@ -35,7 +35,7 @@ WebUI.verifyElementText(findTestObject('TC001/verify_div_SGTTAP TO VNTTVN 102800
 
 y = WebUI.getText(findTestObject('TC003/div_CR-VN-TTVN-2210020'))
 
-CustomKeywords.'util.copyToExcel.exel'(y, 8, 0)
+CustomKeywords.'util.copyToExcel.exel'(y, 1, 0)
 
 WebUI.click(findTestObject('TC001/button_AND_lcbm-MuiButtonBase-root lcbm-MuiIconButton-root'))
 
@@ -88,6 +88,8 @@ WebUI.click(findTestObject('TC001/button_Basic info (order summary)_lcbm-MuiButt
 
 currentTime = CustomKeywords.'util.generateTime.dateTimeGenerator'()
 
+CustomKeywords.'util.copyToExcel.exel'(currentTime, 1, 1)
+
 WebUI.setText(findTestObject('TC001/input_Basic info (order summary)_orderRefNo'), currentTime)
 
 WebUI.click(findTestObject('TC001/button_issue'))
@@ -95,6 +97,4 @@ WebUI.click(findTestObject('TC001/button_issue'))
 WebUI.click(findTestObject('TC001/button_CONFIRM (1)'))
 
 WebUI.verifyElementVisible(findTestObject('TC001/p_The operation was successful'))
-
-WebUI.callTestCase(findTestCase('TC002 - Run Combine Order Batch (Admin)'), [:], FailureHandling.STOP_ON_FAILURE)
 

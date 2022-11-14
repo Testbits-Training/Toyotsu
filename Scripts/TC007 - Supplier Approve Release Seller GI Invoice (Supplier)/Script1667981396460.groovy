@@ -25,8 +25,8 @@ WebUI.click(findTestObject('TC007/Page_Brivge/h6_Accounting'))
 
 WebUI.click(findTestObject('TC007/Page_Brivge/li_Seller(GI) Invoice List'))
 
-'contract no. generated from so monitoring details '
-WebUI.setText(findTestObject('TC007/Page_Brivge/input_contract no list'), 'SGBAFCO TO SGTTAP 1103009')
+'supplier contract no\r\n'
+WebUI.setText(findTestObject('TC007/Page_Brivge/input_contract no list'), GlobalVariable.supplContractNo)
 
 WebUI.click(findTestObject('TC007/Page_Brivge/button filter'))
 
@@ -38,8 +38,8 @@ WebUI.click(findTestObject('TC007/Page_Brivge/button_Search'))
 
 y = WebUI.getText(findTestObject('TC007/Page_Brivge/div_invoice No'))
 
-'Save invoice no to c:\\\\toyotsudata.xsl'
-CustomKeywords.'util.copyToExcel.exel'(y, 8, 2)
+'Save invoice no to desktop toyotsudata.xlsx'
+CustomKeywords.'util.copyToExcel.exel'(y, 1, 6)
 
 WebUI.click(findTestObject('TC007/Page_Brivge/button approve'))
 
@@ -58,6 +58,12 @@ WebUI.click(findTestObject('TC007/Page_Brivge/button release'))
 WebUI.click(findTestObject('TC007/Page_Brivge/button_CONFIRM'))
 
 WebUI.verifyElementVisible(findTestObject('TC007/Page_Brivge/p_The operation was successful'))
+
+WebUI.click(findTestObject('TC007/Page_Brivge/button filter'))
+
+WebUI.click(findTestObject('TC007/Page_Brivge/button_clear'))
+
+WebUI.click(findTestObject('TC007/Page_Brivge/input_contract no list'))
 
 WebUI.verifyElementText(findTestObject('TC007/Page_Brivge/div_Released'), 'Released')
 

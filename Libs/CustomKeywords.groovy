@@ -81,6 +81,13 @@ def static "util.test.getHtmlTableRows"(
 }
 
 
+def static "util.testing.otpKey"(
+    	String name	) {
+    (new util.testing()).otpKey(
+        	name)
+}
+
+
 def static "util.generateTime.dateTimeGenerator"() {
     (new util.generateTime()).dateTimeGenerator()
 }
@@ -104,15 +111,6 @@ def static "util.handlePicker2.handleCalendar"(
 }
 
 
-def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkElement"(
-    	Eyes eyes	
-     , 	WebElement element	) {
-    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkElement(
-        	eyes
-         , 	element)
-}
-
-
 def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow"(
     	String testName	) {
     (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkWindow(
@@ -129,6 +127,15 @@ def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkTestObject"(
 }
 
 
+def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkElement"(
+    	Eyes eyes	
+     , 	WebElement element	) {
+    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkElement(
+        	eyes
+         , 	element)
+}
+
+
 def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpenWithBaseline"(
     	String baselineName	
      , 	String testName	
@@ -140,12 +147,8 @@ def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpenWithBaseline
 }
 
 
-def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpen"(
-    	String testName	
-     , 	RectangleSize viewportSize	) {
-    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesOpen(
-        	testName
-         , 	viewportSize)
+def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesInit"() {
+    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesInit()
 }
 
 
@@ -156,6 +159,10 @@ def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesClose"(
 }
 
 
-def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesInit"() {
-    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesInit()
+def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpen"(
+    	String testName	
+     , 	RectangleSize viewportSize	) {
+    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesOpen(
+        	testName
+         , 	viewportSize)
 }

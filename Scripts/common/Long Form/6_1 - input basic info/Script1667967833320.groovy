@@ -19,15 +19,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('TC006/Page_Brivge/input__buyer'))
 
-WebUI.click(findTestObject('TC006/Page_Brivge/li_VN-TTVN'))
+WebUI.setText(findTestObject('TC006/Page_Brivge/input__buyer'), findTestData('Toyotsu-data').getValue(4, 2))
+
+WebUI.sendKeys(findTestObject('TC006/Page_Brivge/input__buyer'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('TC006/Page_Brivge/input__receiver'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('TC006/Page_Brivge/input__receiver'), 'VN-TTVN')
+WebUI.setText(findTestObject('TC006/Page_Brivge/input__receiver'), findTestData('Toyotsu-data').getValue(5, 2))
 
-WebUI.click(findTestObject('TC006/Page_Brivge/li_VN-TTVN'))
+WebUI.sendKeys(findTestObject('TC006/Page_Brivge/input__receiver'), Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('TC006/Page_Brivge/input__outboundRefNo'), 'O-SG-TTAP-DC-221028001')
+y = CustomKeywords.'util.generateTime.dateTimeGenerator'()
+
+String outBoundRefNo = 'o-' + y
+
+String bookingNo = 'BN' + y
+
+CustomKeywords.'util.copyToExcel.exel'(outBoundRefNo, 1, 5)
+
+WebUI.setText(findTestObject('TC006/Page_Brivge/input__outboundRefNo'), outBoundRefNo)
+
+WebUI.setText(findTestObject('TC006/Page_Brivge/input__bookingNo'), bookingNo)
+
+CustomKeywords.'util.copyToExcel.exel'(bookingNo, 1, 7)
 
 'Choose date for ETD - 1/12/2022'
 WebUI.click(findTestObject('TC006/Page_Brivge/input__etd'))

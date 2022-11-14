@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('TC006/Page_Brivge/button_ADD PARTS'))
 
-WebUI.setText(findTestObject('TC006/TC006_4/input_inner_part_list_search'), 's110319-2211001')
+WebUI.setText(findTestObject('TC006/TC006_4/input_inner_part_list_search'), findTestData('Toyotsu-data').getValue(3, 2))
 
 WebUI.check(findTestObject('TC006/TC006_4/input_checkboxAll'))
 

@@ -25,8 +25,12 @@ WebUI.click(findTestObject('TC001/h6_Order'))
 WebUI.click(findTestObject('delete order summary/li_Place ChangeCancel'))
 
 'Contract Route No. generated from TC001'
+WebUI.focus(findTestObject('delete order summary/input_Forecast Change_lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm110 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'Contract Route No. generated from TC001'
 WebUI.setText(findTestObject('delete order summary/input_Forecast Change_lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm110 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd'), 
-    findTestData('Contract Route No').getValue(1, 9))
+    findTestData('Toyotsu-data').getValue(1, 2))
 
 WebUI.delay(2)
 
@@ -64,7 +68,7 @@ WebUI.sendKeys(findTestObject('TC004/input 4'), '1500')
 
 y = CustomKeywords.'util.generateTime.dateTimeGenerator'()
 
-CustomKeywords.'util.copyToExcel.exel'(y, 8, 1)
+CustomKeywords.'util.copyToExcel.exel'(y, 1, 1)
 
 WebUI.doubleClick(findTestObject('TC004/input_Basic info (order summary)_customerRefNo'), FailureHandling.STOP_ON_FAILURE)
 
