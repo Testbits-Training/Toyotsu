@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[38]</value>
+         <value>(//*[@class = 'lcbm-MuiButtonBase-root lcbm-MuiIconButton-root lcbm-MuiPickersCalendarHeader-iconButton' and @type = 'button'])[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6565fef2-64bc-403a-a3eb-1c94e0925856</webElementGuid>
+      <webElementGuid>cf81f85d-5bc2-4a34-9254-de0e1b0f91e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiButtonBase-root lcbm-MuiIconButton-root lcbm-MuiPickersCalendarHeader-iconButton</value>
-      <webElementGuid>1bf37e61-0dfa-4bce-8d26-9b25f4664406</webElementGuid>
+      <webElementGuid>1af850c8-1143-485d-b079-485861ee5f85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>1080e98a-58a8-4bfe-b62b-43e2618c5f23</webElementGuid>
+      <webElementGuid>ec730ff6-7dfa-43af-86a3-912782640139</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0d524ae0-51fa-4716-9157-803be582855b</webElementGuid>
+      <webElementGuid>42eefcc4-404e-4add-bf9e-1e53f33c5b57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiPopover-root&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiPopover-paper lcbm-lcbm438 lcbm-MuiPaper-elevation8 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiPickersBasePicker-container&quot;]/div[@class=&quot;lcbm-MuiPickersBasePicker-pickerView&quot;]/div[1]/div[@class=&quot;lcbm-MuiPickersCalendarHeader-switchHeader&quot;]/button[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiIconButton-root lcbm-MuiPickersCalendarHeader-iconButton&quot;]</value>
-      <webElementGuid>63b81a8a-8c27-4b5c-b415-675822f90546</webElementGuid>
+      <webElementGuid>679f60a7-2c37-4371-91fb-7fe3c652bd16</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[38]</value>
-      <webElementGuid>0bcf90ee-0614-4074-b8a2-969637f071f6</webElementGuid>
+      <webElementGuid>d618c512-dae7-4122-a32c-0254f9c2d228</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='RECOMMENDATIONS'])[7]/following::button[2]</value>
-      <webElementGuid>185e03bf-f64b-4281-b4d5-e9a282d4cac5</webElementGuid>
+      <webElementGuid>c5b2aadc-7d3f-4f17-ae58-5fac518b17c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[7]/following::button[2]</value>
-      <webElementGuid>969240ac-d47d-4adc-b64c-0274809716fa</webElementGuid>
+      <webElementGuid>619b2cf1-f293-4f1b-af89-d76225094b5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun'])[1]/preceding::button[2]</value>
-      <webElementGuid>9f215167-4280-49db-b434-82021e2268d8</webElementGuid>
+      <webElementGuid>4df925e5-7b7c-43a0-ac89-9806ad640060</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mon'])[1]/preceding::button[2]</value>
-      <webElementGuid>8326802c-6078-4d3c-a2d9-634ec639a910</webElementGuid>
+      <webElementGuid>30da01b5-c73e-4e08-85c1-c557ff2e1bbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[24]/div[3]/div/div/div/div/button</value>
-      <webElementGuid>fca85974-d341-43ff-8ff1-16cb92909184</webElementGuid>
+      <webElementGuid>4a8b2048-0721-404d-b950-d0bc57db2e2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>f5e65bfe-bbf3-4ce3-b516-c3a8b9dd76bc</webElementGuid>
+      <webElementGuid>56251e70-c240-473b-9321-ee718cfba4d5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

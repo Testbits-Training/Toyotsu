@@ -33,27 +33,34 @@ y = CustomKeywords.'util.generateTime.dateTimeGenerator'()
 
 String outBoundRefNo = 'o-' + y
 
-String bookingNo = 'BN' + y
-
 CustomKeywords.'util.copyToExcel.exel'(outBoundRefNo, 1, 5)
 
 WebUI.setText(findTestObject('TC006/Page_Brivge/input__outboundRefNo'), outBoundRefNo)
+
+'Enter booking no'
+String bookingNo = 'BN' + y
 
 WebUI.setText(findTestObject('TC006/Page_Brivge/input__bookingNo'), bookingNo)
 
 CustomKeywords.'util.copyToExcel.exel'(bookingNo, 1, 7)
 
-'Choose date for ETD - 1/12/2022'
+WebUI.click(findTestObject('TC006/TC006_1/Page_Brivge/input__outboundDate'))
+
+'Choose date for Outbound- 15/1/2023'
+CustomKeywords.'util.handlePicker.handleCalendar'(findTestObject('TC006/TC006_1/Page_Brivge/div_calendar header'), findTestObject(
+        'TC010/Page_Brivge/button next calendar'), 15, 1)
+
+'Choose date for ETD - 1/2/2023'
 WebUI.click(findTestObject('TC006/Page_Brivge/input__etd'))
 
-WebUI.click(findTestObject('TC006/Page_Brivge/button next estimated date departure'))
+CustomKeywords.'util.handlePicker.handleCalendar'(findTestObject('TC006/TC006_1/Page_Brivge/div_calendar header'), findTestObject(
+        'TC006/Page_Brivge/button next estimated date departure'), 1, 2)
 
-WebUI.click(findTestObject('TC006/Page_Brivge/button_1'))
+WebUI.delay(2)
 
-'Choose date for ETA - 15/12/2022'
+'Choose date for ETA - 15/2/2023'
 WebUI.click(findTestObject('TC006/Page_Brivge/input__eta'))
 
-WebUI.click(findTestObject('TC006/Page_Brivge/button next time for arrival'))
-
-WebUI.click(findTestObject('TC006/Page_Brivge/button_15'))
+CustomKeywords.'util.handlePicker.handleCalendar'(findTestObject('TC006/TC006_1/Page_Brivge/div_calendar header'), findTestObject(
+        'TC006/Page_Brivge/button next time for arrival'), 15, 2)
 

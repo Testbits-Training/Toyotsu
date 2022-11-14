@@ -48,10 +48,6 @@ WebUI.click(findTestObject('TC007/Page_Brivge/button_CONFIRM'))
 
 WebUI.verifyElementVisible(findTestObject('TC007/Page_Brivge/p_The operation was successful'))
 
-WebUI.verifyElementText(findTestObject('TC007/Page_Brivge/div_Approved'), 'Approved')
-
-KeywordUtil.markPassed('GI Invoice is approved successfully')
-
 WebUI.click(findTestObject('TC007/Page_Brivge/button release'))
 
 'Clicking confirm to release GI Invoice'
@@ -64,6 +60,10 @@ WebUI.click(findTestObject('TC007/Page_Brivge/button filter'))
 WebUI.click(findTestObject('TC007/Page_Brivge/button_clear'))
 
 WebUI.click(findTestObject('TC007/Page_Brivge/input_contract no list'))
+
+WebUI.verifyElementText(findTestObject('TC007/Page_Brivge/div_Approved'), 'Approved')
+
+KeywordUtil.markPassed('GI Invoice is approved successfully')
 
 WebUI.verifyElementText(findTestObject('TC007/Page_Brivge/div_Released'), 'Released')
 

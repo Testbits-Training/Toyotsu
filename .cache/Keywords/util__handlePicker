@@ -1,11 +1,11 @@
 {
-  "keywordFileContentHash": "8C762570C2691BBF13515F259C7AA923",
+  "keywordFileContentHash": "1AB99C1690A0A0215A47012CD3A0D32C",
   "keywordClasses": [
     {
-      "name": "util.handlepicker",
+      "name": "util.handlePicker",
       "keywordMethods": [
         {
-          "name": "parseAValueToWebObject",
+          "name": "handleCalendar",
           "parameters": [
             {
               "name": "currentMonthYear",
@@ -13,19 +13,6 @@
               "type": {
                 "fullClassName": "com.kms.katalon.core.testobject.TestObject",
                 "unresolvedClassName": "TestObject",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "text",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
                 "hasImmutableClassName": false,
@@ -72,10 +59,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

@@ -69,6 +69,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/TC001/input_Basic info (order summary)_orderRefNo_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC010/Page_Brivge/p_The operation was successful",
+      "brokenLocator": "//p[(text() \u003d \u0027The operation was successful.\u0027 or . \u003d \u0027The operation was successful.\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027webapp-base\u0027]/div[2]/div/div/div[2]/div/div/div/div[4]/div/div/p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC010/Page_Brivge/p_The operation was successful_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC010/Page_Brivge/p_The operation was successful",
+      "brokenLocator": "//p[(text() \u003d \u0027The operation was successful.\u0027 or . \u003d \u0027The operation was successful.\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027a\u0027])[1]/following::p[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC010/Page_Brivge/p_The operation was successful_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC006/TC006_1/Page_Brivge/ETA current date",
+      "brokenLocator": "//div[17]/div[3]/div/div/div/div/div/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027RECOMMENDATIONS\u0027])[4]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC006/TC006_1/Page_Brivge/ETA current date_neighbor.png"
     }
   ]
 }

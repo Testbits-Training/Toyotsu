@@ -23,7 +23,7 @@ import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory
-public class handlePicker2 {
+public class handlePicker {
 
 
 	public findIndex(String[] arr, String t) {
@@ -98,7 +98,9 @@ public class handlePicker2 {
 		}
 
 		WebDriver driver = DriverFactory.getWebDriver();
-		WebElement day = driver.findElement(By.xpath("//button[@type = 'button' and (text() = '" + inputDay+ "' or . = '" + inputDay + "')]"));
+		//WebElement day = driver.findElement(By.xpath("//button[@type = 'button' and (text() = '" + inputDay+ "' or . = '" + inputDay + "')]"));
+		WebElement day = driver.findElement(By.xpath("//*[@class = 'lcbm-MuiButtonBase-root lcbm-MuiIconButton-root lcbm-MuiPickersDay-day' and @type = 'button' and (text() = '" + inputDay + "' or . = '"+inputDay+ "')]"));
+		
 		day.click();
 	}
 }

@@ -53,14 +53,18 @@ CustomKeywords.'util.copyToExcel.exel'(inboundRefNo, 1, 8)
 
 WebUI.setText(findTestObject('TC010/Page_Brivge/input__inboundRefNo'), inboundRefNo)
 
-'input date'
+'input inbound date'
 WebUI.click(findTestObject('TC010/Page_Brivge/input__inboundDate'))
 
-CustomKeywords.'util.handlePicker2.handleCalendar'(findTestObject('TC010/Page_Brivge/currentmonth'), findTestObject('TC010/Page_Brivge/button next calendar'), 
-    15, 4)
+CustomKeywords.'util.handlePicker.handleCalendar'(findTestObject('TC010/Page_Brivge/currentmonth'), findTestObject('TC010/Page_Brivge/button next calendar'), 
+    1, 14)
 
 'Input time'
 CustomKeywords.'util.parseValue.parseAValueToWebObject'(findTestObject('TC010/Page_Brivge/input__inboundTime'), '12:00:00')
 
 WebUI.click(findTestObject('TC010/Page_Brivge/button_Confirm 2'))
+
+WebUI.click(findTestObject('TC010/Page_Brivge/button_CONFIRM 3'))
+
+WebUI.verifyElementVisible(findTestObject('TC010/Page_Brivge/p_The operation was successful'))
 
