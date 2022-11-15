@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/TC001 - Customer Place Order for Contract (Customer)","testCaseId":"Test Cases/TC001 - Customer Place Order for Contract (Customer)","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC002 - Run Combine Order Batch (Admin)","testCaseId":"Test Cases/TC002 - Run Combine Order Batch (Admin)","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC003 - Confirm Supplier Order (Supplier)","testCaseId":"Test Cases/TC003 - Confirm Supplier Order (Supplier)","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC004 - Customer Change Order (Customer)","testCaseId":"Test Cases/TC004 - Customer Change Order (Customer)","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC005 - Approve Change Cancel Request (Supplier)","testCaseId":"Test Cases/TC005 - Approve Change Cancel Request (Supplier)","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC006 - Supplier Outbound Details (Supplier)","testCaseId":"Test Cases/TC006 - Supplier Outbound Details (Supplier)","iterationVariableName":""}

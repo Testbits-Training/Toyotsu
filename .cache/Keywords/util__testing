@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "3490615D3DDE6E3C3FD8A4DC25416DF3",
+  "keywordClasses": [
+    {
+      "name": "util.testing",
+      "keywordMethods": [
+        {
+          "name": "otpKey",
+          "parameters": [
+            {
+              "name": "name",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

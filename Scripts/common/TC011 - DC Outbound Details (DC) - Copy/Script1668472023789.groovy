@@ -40,6 +40,10 @@ WebUI.setText(findTestObject('TC011/Verify and Input Basic Info/input__receiver'
 
 WebUI.sendKeys(findTestObject('TC011/Verify and Input Basic Info/input__receiver'), Keys.chord(Keys.ENTER))
 
+y = CustomKeywords.'util.generateTime.dateTimeGenerator'()
+
+String outboundRefDC = "o-" + y;
+
 WebUI.click(findTestObject('TC011/Verify and Input Basic Info/input__outboundRefNo'))
 
 WebUI.setText(findTestObject('TC011/Verify and Input Basic Info/input__outboundRefNo'), 'O-test11112022')

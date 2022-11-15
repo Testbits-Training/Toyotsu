@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2022-11-15 10:46:33,2022-11-15 10:46:35,2.047s,PASSED
+,,,,,,,
+Test Cases/testing/New Test Case (1),,,,2022-11-15 10:46:33,2022-11-15 10:46:35,1.202s,PASSED
+y = util.generateTime.dateTimeGenerator(),,,,2022-11-15 10:46:34,2022-11-15 10:46:34,0.069s,PASSED
+test1 = y,,,,2022-11-15 10:46:34,2022-11-15 10:46:35,0.600s,PASSED
+,,,,,,,
+Test Cases/testing/New Test Case,,,,2022-11-15 10:46:35,2022-11-15 10:46:35,0.418s,PASSED
+out.println(test1),,,,2022-11-15 10:46:35,2022-11-15 10:46:35,0.025s,PASSED
