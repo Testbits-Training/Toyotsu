@@ -24,7 +24,10 @@ WebUI.click(findTestObject('TC013/Page_Brivge/button_Logistics'))
 
 WebUI.click(findTestObject('TC013/Page_Brivge/li_Customs Invoice List(Export)'))
 
-WebUI.setText(findTestObject('TC013/Page_Brivge/input_Customs Invoice(Export)'), 'TTAP2209007')
+WebUI.setText(findTestObject('TC013/Page_Brivge/input_Customs Invoice(Export)'), findTestData('Toyotsu-data').getValue(12, 
+        2))
+
+WebUI.click(findTestObject('TC013/Page_Brivge/checkbox'))
 
 '<---- Update cargo status ---->'
 WebUI.click(findTestObject('TC013/Page_Brivge/button_update 1'))
@@ -54,4 +57,6 @@ WebUI.click(findTestObject('TC013/Page_Brivge/div_Print Invoice'))
 WebUI.click(findTestObject('TC013/Page_Brivge/button_Print 2'))
 
 WebUI.verifyElementVisible(findTestObject('TC013/Page_Brivge/p_The operation was successful'))
+
+WebUI.takeFullPageScreenshot()
 

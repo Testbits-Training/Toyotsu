@@ -26,7 +26,11 @@ WebUI.click(findTestObject('TC012/li_Seller(GI) Invoice List'))
 
 WebUI.click(findTestObject('TC012/input_Seller(GI) Invoice List'))
 
-WebUI.setText(findTestObject('TC012/input_Seller(GI) Invoice List'), 'SGTTAP TO VNTTVN 1103010')
+WebUI.setText(findTestObject('TC012/input_Seller(GI) Invoice List'), GlobalVariable.custContractNo)
+
+invoiceNo = WebUI.getText(findTestObject('TC012/p_invoiceNo'))
+
+CustomKeywords.'util.copyToExcel.exel'(invoiceNo, 1, 11)
 
 WebUI.check(findTestObject('TC012/input_SGTTAP TO VNTTVN 1103010'))
 

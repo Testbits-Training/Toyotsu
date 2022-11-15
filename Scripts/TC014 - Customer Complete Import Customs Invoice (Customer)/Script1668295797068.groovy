@@ -24,7 +24,8 @@ WebUI.click(findTestObject('TC014/Page_Brivge/button_Logistics'))
 
 WebUI.click(findTestObject('TC014/Page_Brivge/li_Customs Invoice List(Import)'))
 
-WebUI.setText(findTestObject('TC014/Page_Brivge/input_Customs Invoice(Import)'), 'BA2209038')
+WebUI.setText(findTestObject('TC014/Page_Brivge/input_Customs Invoice(Import)'), findTestData('Toyotsu-data').getValue(12, 
+        2))
 
 WebUI.click(findTestObject('TC014/Page_Brivge/input_checkbox'))
 

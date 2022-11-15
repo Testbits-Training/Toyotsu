@@ -98,9 +98,9 @@ public class handlePicker {
 		}
 
 		WebDriver driver = DriverFactory.getWebDriver();
-		//WebElement day = driver.findElement(By.xpath("//button[@type = 'button' and (text() = '" + inputDay+ "' or . = '" + inputDay + "')]"));
-		WebElement day = driver.findElement(By.xpath("//*[@class = 'lcbm-MuiButtonBase-root lcbm-MuiIconButton-root lcbm-MuiPickersDay-day' and @type = 'button' and (text() = '" + inputDay + "' or . = '"+inputDay+ "')]"));
-		
+		WebElement day = driver.findElement(By.xpath("//button[@type = 'button' and (text() = '" + inputDay+ "' or . = '" + inputDay + "')]"));
+		//WebElement day = driver.findElement(By.xpath("//*[@class = 'lcbm-MuiButtonBase-root lcbm-MuiIconButton-root lcbm-MuiPickersDay-day' and @type = 'button' and (text() = '" + inputDay + "' or . = '"+inputDay+ "')]"));
+
 		day.click();
 	}
 }

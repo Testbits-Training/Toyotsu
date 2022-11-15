@@ -44,17 +44,11 @@ WebUI.setText(findTestObject('TC006/Page_Brivge/input__bookingNo'), bookingNo)
 
 CustomKeywords.'util.copyToExcel.exel'(bookingNo, 1, 7)
 
-WebUI.click(findTestObject('TC006/TC006_1/Page_Brivge/input__outboundDate'))
-
-'Choose date for Outbound- 15/1/2023'
-CustomKeywords.'util.handlePicker.handleCalendar'(findTestObject('TC006/TC006_1/Page_Brivge/div_calendar header'), findTestObject(
-        'TC010/Page_Brivge/button next calendar'), 15, 1)
-
 'Choose date for ETD - 1/2/2023'
 WebUI.click(findTestObject('TC006/Page_Brivge/input__etd'))
 
 CustomKeywords.'util.handlePicker.handleCalendar'(findTestObject('TC006/TC006_1/Page_Brivge/div_calendar header'), findTestObject(
-        'TC006/Page_Brivge/button next estimated date departure'), 1, 2)
+        'TC006/Page_Brivge/button next calendar'), 1, 2)
 
 WebUI.delay(2)
 
@@ -62,5 +56,5 @@ WebUI.delay(2)
 WebUI.click(findTestObject('TC006/Page_Brivge/input__eta'))
 
 CustomKeywords.'util.handlePicker.handleCalendar'(findTestObject('TC006/TC006_1/Page_Brivge/div_calendar header'), findTestObject(
-        'TC006/Page_Brivge/button next time for arrival'), 15, 2)
+        'TC006/Page_Brivge/button next calendar'), 15, 2)
 

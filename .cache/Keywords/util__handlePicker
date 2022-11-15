@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "1AB99C1690A0A0215A47012CD3A0D32C",
+  "keywordFileContentHash": "FE1C1617CCE909568BEBAA85E4B346A1",
   "keywordClasses": [
     {
       "name": "util.handlePicker",
@@ -59,11 +59,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

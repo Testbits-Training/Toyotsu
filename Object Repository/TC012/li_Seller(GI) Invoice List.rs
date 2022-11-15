@@ -6,15 +6,18 @@
    <elementGuidId>f303d3d9-1d03-4568-b0ba-cbe945a6d430</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'menuitem' and (text() = 'Seller(GI) Invoice List' or . = 'Seller(GI) Invoice List')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Accounting'])[2]/following::li[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>2eee0882-cbc9-4ef4-855a-723caee7e8ff</webElementGuid>
+      <webElementGuid>38b51f63-d2a0-4a1a-86b9-8c7ddf915bde</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base94 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button</value>
-      <webElementGuid>8f6f26ae-8dff-48c4-acce-51a30c22fbaf</webElementGuid>
+      <webElementGuid>92eccbad-656b-490b-b7e2-1bc38c6f407b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +41,15 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>ac17b992-17ec-477e-9b1b-c58308bdf82f</webElementGuid>
+      <webElementGuid>297ec0dc-a223-4d84-aad4-2f61eb6cb1c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>6a1ed814-daf5-4386-b668-54ae417aad47</webElementGuid>
+      <webElementGuid>3e565fed-5ea6-41ea-b73d-55d946330e78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +57,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f45d2bf4-aa8d-4d3d-b1ba-c731e0fb7a06</webElementGuid>
+      <webElementGuid>94539615-3d3c-4b54-af10-3b2d59c3fee3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Seller(GI) Invoice List</value>
-      <webElementGuid>8a255977-08e9-4d01-8bbd-13a92fe9acfb</webElementGuid>
+      <webElementGuid>a5799df8-1f59-449e-9312-2acfcb008d7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;base-base80&quot;]/div[@class=&quot;base-MuiPaper-root base-base81 base-MuiPaper-elevation1 base-MuiPaper-rounded&quot;]/div[@class=&quot;base-base84&quot;]/ul[@class=&quot;base-MuiList-root base-base92 base-MuiList-padding&quot;]/a[2]/li[@class=&quot;base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base94 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button&quot;]</value>
-      <webElementGuid>2168b053-4d61-41d2-bc35-b3b666fe67e5</webElementGuid>
+      <webElementGuid>deee4d5f-8aee-45ae-a068-2e1d3d0c3917</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Accounting'])[2]/following::li[2]</value>
-      <webElementGuid>717d56ce-6bcc-41c9-80e7-c3ac785e0891</webElementGuid>
+      <webElementGuid>d6a0cc32-3d20-4812-be43-fb07e57c1ea5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='RECOMMENDATIONS'])[2]/following::li[2]</value>
-      <webElementGuid>8383df50-91c1-4c76-b74b-d710af10a03e</webElementGuid>
+      <webElementGuid>adeb950b-8daa-4c68-bb07-879dd7206506</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]/li</value>
-      <webElementGuid>c1dbf934-97d8-4244-8adc-958bba3fdcb1</webElementGuid>
+      <webElementGuid>1e0c9bd1-f40d-4c42-9d91-736b0975cb3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Seller(GI) Invoice List' or . = 'Seller(GI) Invoice List')]</value>
-      <webElementGuid>89fbe2af-f0b8-46e3-bf00-acc157e364f9</webElementGuid>
+      <webElementGuid>8213ca74-29ed-4f2d-8615-ab5e47cfe668</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

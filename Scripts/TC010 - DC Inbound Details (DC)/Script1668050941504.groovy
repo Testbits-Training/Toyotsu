@@ -57,7 +57,7 @@ WebUI.setText(findTestObject('TC010/Page_Brivge/input__inboundRefNo'), inboundRe
 WebUI.click(findTestObject('TC010/Page_Brivge/input__inboundDate'))
 
 CustomKeywords.'util.handlePicker.handleCalendar'(findTestObject('TC010/Page_Brivge/currentmonth'), findTestObject('TC010/Page_Brivge/button next calendar'), 
-    1, 14)
+    15, 11)
 
 'Input time'
 CustomKeywords.'util.parseValue.parseAValueToWebObject'(findTestObject('TC010/Page_Brivge/input__inboundTime'), '12:00:00')

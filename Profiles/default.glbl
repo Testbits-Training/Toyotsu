@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'853564'</initValue>
+      <initValue>'575615'</initValue>
       <name>verificationLuqman</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'262683'</initValue>
+      <initValue>'752809'</initValue>
       <name>verificationAzwan</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,12 +56,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'SGTTAP TO VNTTVN 1103005'</initValue>
+      <initValue>'SGTTAP TO VNTTVN 1103002'</initValue>
       <name>custContractNo</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'SGBAFCO TO SGTTAP 1103005'</initValue>
+      <initValue>'SGBAFCO TO SGTTAP 1103002'</initValue>
       <name>supplContractNo</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

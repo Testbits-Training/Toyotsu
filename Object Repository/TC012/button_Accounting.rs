@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[70]</value>
+         <value>//button[@type = 'button' and (text() = 'Accounting' or . = 'Accounting')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>bc931f35-04bd-4b45-92ef-25bdecad6840</webElementGuid>
+      <webElementGuid>9fd42ed2-7c32-4aef-8d2b-580156810238</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>base-MuiButtonBase-root base-MuiButton-root base-MuiButton-text base-base58 base-base59</value>
-      <webElementGuid>28ad9bd0-b8cf-47c4-802e-c0ff56edd5dc</webElementGuid>
+      <webElementGuid>d14ef9ea-ae13-4c75-9e35-8094b7d4b5a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>81dd907b-b1be-4759-82aa-ffc058e19322</webElementGuid>
+      <webElementGuid>1b5bc3a5-80a9-477e-8c3c-9dcb8f1f710b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>bb7fa0c1-61c0-4c73-a067-8a3733c8a562</webElementGuid>
+      <webElementGuid>dc147dd2-d324-42ae-a5ec-c18605a98aa8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>7c7ff9d5-298f-4a02-a5b8-ca7544854cb6</webElementGuid>
+      <webElementGuid>ff3bbe1d-ff1c-4d9a-bb77-d10c1b022630</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Accounting</value>
-      <webElementGuid>8f10a3b8-2428-48b1-8a71-272a060aa22c</webElementGuid>
+      <webElementGuid>b3874a02-b704-40b6-b13a-72dc88b23e8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base42&quot;]/div[@class=&quot;base-base43&quot;]/div[@class=&quot;base-base44&quot;]/div[@class=&quot;base-base46&quot;]/nav[@class=&quot;base-base53&quot;]/div[@class=&quot;base-base54&quot;]/div[@class=&quot;base-base55&quot;]/button[@class=&quot;base-MuiButtonBase-root base-MuiButton-root base-MuiButton-text base-base58 base-base59&quot;]</value>
-      <webElementGuid>4bd61ece-d36e-4d8a-a64f-333d6c23bf84</webElementGuid>
+      <webElementGuid>4d85df02-0522-468e-a7dc-aec6ad54301d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[70]</value>
-      <webElementGuid>ac643290-f6bb-4904-9643-85856da11836</webElementGuid>
+      <webElementGuid>bc48b07a-4bda-4368-9927-04a76b8d35aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='webapp-base']/div/div/div/div/nav/div[2]/div/button[3]</value>
-      <webElementGuid>2f80d592-743c-4727-a7a1-797f41dd27ba</webElementGuid>
+      <webElementGuid>77bead97-5245-4cee-9c7c-831131488c4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Logistics'])[1]/following::button[1]</value>
-      <webElementGuid>fe969385-8d0a-465f-9906-099253eb92eb</webElementGuid>
+      <webElementGuid>624ef1e1-8e34-4cf8-8f7e-556d49aa3cb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/following::button[2]</value>
-      <webElementGuid>dfeef7ba-544b-4d3b-8597-67610f4b33cc</webElementGuid>
+      <webElementGuid>91300de3-bcfb-4a2a-b6db-c88bedd4aff5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::button[1]</value>
-      <webElementGuid>864cb9c9-5663-4a2e-91f1-189f7fde7ec4</webElementGuid>
+      <webElementGuid>8f51966c-ec5d-4e19-9813-e3b584b00985</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[3]</value>
-      <webElementGuid>3c7b059a-0111-4427-8d92-ff2d38967ac0</webElementGuid>
+      <webElementGuid>786ad7a8-7df4-40db-af2c-c46d3c1f6684</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Accounting' or . = 'Accounting')]</value>
-      <webElementGuid>ab97665a-3f06-4d1a-ab2a-2c6c91ba62ad</webElementGuid>
+      <webElementGuid>13e2c45a-efe3-4203-85cc-d4c5108047b3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
