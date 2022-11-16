@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Forecast Change_lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm110 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd</name>
+   <name>input_Forecast Change</name>
    <tag></tag>
    <elementGuidId>06cb03b0-ad9a-427a-a5d4-950992d6f847</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@value='SGTTAP TO VNTTVN 1028002']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input.lcbm-MuiInputBase-input.lcbm-MuiFilledInput-input.lcbm-lcbm110.lcbm-MuiInputBase-inputAdornedEnd.lcbm-MuiFilledInput-inputAdornedEnd</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='SGTTAP TO VNTTVN 1028002']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

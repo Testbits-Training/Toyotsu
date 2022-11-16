@@ -17,16 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('TC001/h6_Order'))
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('delete order summary/li_Place ChangeCancel'))
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('delete order summary/input_Forecast Change'), 
-    GlobalVariable.custContractNo)
+WebUI.navigateToUrl('https://test.brivge.com/home')
 
-WebUI.click(findTestObject('delete order summary/delete button'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Login/input_Sign In_username'), 0)
 
-WebUI.click(findTestObject('delete order summary/button_CONFIRM'))
+WebUI.setText(findTestObject('Object Repository/Login/input_Sign In_username'), GlobalVariable.usernameAzwan)
 
-WebUI.verifyElementVisible(findTestObject('delete order summary/p_The operation was successful'))
+WebUI.setText(findTestObject('Object Repository/Login/input_Sign In_password'), GlobalVariable.passwordAzwan)
+
+WebUI.click(findTestObject('Object Repository/Login/span_Sign In'))
+
+WebUI.setText(findTestObject('Object Repository/Login/input_Verify_verificationCode'), GlobalVariable.verificationAzwan)
+
+WebUI.click(findTestObject('Object Repository/Login/span_Verify'))
+
+WebUI.click(findTestObject('TC003/button_aazwanSGDC-Azwan'))
 

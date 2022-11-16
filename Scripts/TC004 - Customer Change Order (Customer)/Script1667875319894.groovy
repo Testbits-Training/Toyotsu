@@ -25,11 +25,11 @@ WebUI.click(findTestObject('TC001/h6_Order'))
 WebUI.click(findTestObject('delete order summary/li_Place ChangeCancel'))
 
 'Contract Route No. generated from TC001'
-WebUI.focus(findTestObject('delete order summary/input_Forecast Change_lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm110 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd'), 
+WebUI.focus(findTestObject('delete order summary/input_Forecast Change'), 
     FailureHandling.STOP_ON_FAILURE)
 
 'Contract Route No. generated from TC001'
-WebUI.setText(findTestObject('delete order summary/input_Forecast Change_lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm110 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd'), 
+WebUI.setText(findTestObject('delete order summary/input_Forecast Change'), 
     findTestData('Toyotsu-data').getValue(1, 2))
 
 WebUI.delay(2)
