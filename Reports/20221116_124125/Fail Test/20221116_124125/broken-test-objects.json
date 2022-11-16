@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/input_Verify_verificationCode",
+      "brokenLocator": "//input[@id\u003d\u0027verificationCode\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20221116_124125/Fail Test/20221116_124125/Object Repository/Login/input_Verify_verificationCode_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC003/button_aazwanSGDC-Azwan",
+      "brokenLocator": "//div[@id\u003d\u0027webapp-base\u0027]/div/div/div/div[2]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "div[id\u003d\u0027webapp-base\u0027] p:nth-child(2)",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20221116_124125/Fail Test/20221116_124125/Object Repository/TC003/button_aazwanSGDC-Azwan_CSS.png"
+    }
+  ]
+}

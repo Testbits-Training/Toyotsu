@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Fail Test,Chrome 107.0.0.0,,,2022-11-16 12:58:21,2022-11-16 12:58:54,33.013s,FAILED
+,,,,,,,
+Test Cases/common/Fail Login,Chrome 107.0.0.0,,,2022-11-16 12:58:22,2022-11-16 12:58:54,32.283s,FAILED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-16 12:58:23,2022-11-16 12:58:28,5.201s,PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-16 12:58:28,2022-11-16 12:58:28,0.275s,PASSED
+"navigateToUrl(""https://test.brivge.com/home"")",Chrome 107.0.0.0,,,2022-11-16 12:58:28,2022-11-16 12:58:32,3.347s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Login/input_Sign In_username""), 0)",Chrome 107.0.0.0,,,2022-11-16 12:58:32,2022-11-16 12:58:34,2.051s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Sign In_username""), usernameLuqman)",Chrome 107.0.0.0,,,2022-11-16 12:58:34,2022-11-16 12:58:35,1.703s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Sign In_password""), ""Password"")",Chrome 107.0.0.0,,,2022-11-16 12:58:35,2022-11-16 12:58:36,0.899s,PASSED
+"click(findTestObject(""Object Repository/Login/span_Sign In""))",Chrome 107.0.0.0,,,2022-11-16 12:58:36,2022-11-16 12:58:37,0.517s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Login/input_Verify_verificationCode""))",Chrome 107.0.0.0,,,2022-11-16 12:58:37,2022-11-16 12:58:54,17.003s,FAILED

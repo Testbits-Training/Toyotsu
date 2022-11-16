@@ -6,15 +6,19 @@
    <elementGuidId>87f11f75-144a-47fd-ad6c-762b0345897a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#verificationCode</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='verificationCode']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#verificationCode</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'verificationCode' and @placeholder = 'Verification Code' and @type = 'text']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>686ad603-6f47-49e4-ba52-a09b31d529a2</webElementGuid>
+      <webElementGuid>f9afabf2-481a-4ed6-a1ae-6daa519a36f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>id</name>
       <type>Main</type>
       <value>verificationCode</value>
-      <webElementGuid>02913b2a-e439-4290-91ca-65217c29ddb7</webElementGuid>
+      <webElementGuid>4ceecde2-39cd-42dc-bae3-92ed093c1154</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Verification Code</value>
-      <webElementGuid>7b1be75e-5584-448a-9f0b-42ca679f8132</webElementGuid>
+      <webElementGuid>05a094e2-577d-4419-a6c8-7749f7370ab1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>da745cb5-8f96-496f-abff-b5afed006c23</webElementGuid>
+      <webElementGuid>5f869978-c728-4041-8221-26abd6210085</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>base-MuiInputBase-input base-MuiInput-input</value>
-      <webElementGuid>d53d4a08-f770-46f9-994a-77caf2639708</webElementGuid>
+      <webElementGuid>6551599c-7de5-45d1-9f1a-b1772ac8cef2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;verificationCode&quot;)</value>
-      <webElementGuid>3573d661-6c71-4bb0-832f-b1b9ee2ff6e3</webElementGuid>
+      <webElementGuid>2bfbe244-ef56-45ed-9123-f3ed094e5049</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,30 +74,6 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='verificationCode']</value>
-      <webElementGuid>00283a90-edd5-4bc4-9634-37b40f3b22ec</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='webapp-base']/div[2]/div/div[2]/form/div[2]/div/div/input</value>
-      <webElementGuid>42d60b26-afc2-49a4-b590-0965282d47ff</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>d60dcb76-eee7-4695-aad2-3d954ce07012</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@id = 'verificationCode' and @placeholder = 'Verification Code' and @type = 'text']</value>
-      <webElementGuid>2912b5bd-e248-4c6f-820d-12aa72422de0</webElementGuid>
+      <webElementGuid>a58f285a-fb72-4324-a025-5472039ab660</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

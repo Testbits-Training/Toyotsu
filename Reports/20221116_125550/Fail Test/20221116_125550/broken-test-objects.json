@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/input_Verify_verificationCode",
+      "brokenLocator": "//input[@id\u003d\u0027verificationCode\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20221116_125550/Fail Test/20221116_125550/Object Repository/Login/input_Verify_verificationCode_position.png"
+    }
+  ]
+}
