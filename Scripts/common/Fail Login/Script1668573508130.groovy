@@ -25,15 +25,15 @@ WebUI.navigateToUrl('https://test.brivge.com/home')
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Login/input_Sign In_username'), 0)
 
-WebUI.setText(findTestObject('Object Repository/Login/input_Sign In_username'), GlobalVariable.usernameLuqman)
+WebUI.setText(findTestObject('Object Repository/Login/input_Sign In_username'), GlobalVariable.usernameAzwan)
 
-WebUI.setText(findTestObject('Object Repository/Login/input_Sign In_password'), 'Password')
+WebUI.setText(findTestObject('Object Repository/Login/input_Sign In_password'), GlobalVariable.passwordAzwan)
 
 WebUI.click(findTestObject('Object Repository/Login/span_Sign In'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Login/input_Verify_verificationCode'))
 
-WebUI.setText(findTestObject('Object Repository/Login/input_Verify_verificationCode'), GlobalVariable.verificationLuqman, 
+WebUI.setText(findTestObject('Object Repository/Login/input_Verify_verificationCode'), GlobalVariable.verificationAzwan, 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('TC001/Page_Brivge/Verify_Inbound Record'))
