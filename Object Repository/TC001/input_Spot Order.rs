@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Spot Order Without Contract_lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm231 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd</name>
+   <name>input_Spot Order</name>
    <tag></tag>
    <elementGuidId>e80cc29e-001a-4cdc-b75b-882402fb5954</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@value='']</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value>//input[@type = 'text']</value>
@@ -16,6 +12,10 @@
       <entry>
          <key>CSS</key>
          <value>input.lcbm-MuiInputBase-input.lcbm-MuiFilledInput-input.lcbm-lcbm231.lcbm-MuiInputBase-inputAdornedEnd.lcbm-MuiFilledInput-inputAdornedEnd</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

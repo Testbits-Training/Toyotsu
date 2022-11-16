@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_AND_lcbm-MuiButtonBase-root lcbm-MuiButton-root lcbm-lcbm368 lcbm-MuiButton-text lcbm-lcbm383</name>
+   <name>button_1</name>
    <tag></tag>
    <elementGuidId>d8c907e4-9a08-4a3b-a50c-bb08716c4ada</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[5]/div[2]/div/div/div/div/div/div/div/span[2]/button)[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.lcbm-MuiButtonBase-root.lcbm-MuiButton-root.lcbm-lcbm368.lcbm-MuiButton-text.lcbm-lcbm383</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[5]/div[2]/div/div/div/div/div/div/div/span[2]/button)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

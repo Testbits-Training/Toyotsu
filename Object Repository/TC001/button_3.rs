@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Input OrderFC QTY for each PN_lcbm-MuiButtonBase-root lcbm-MuiIconButton-root</name>
+   <name>button_3</name>
    <tag></tag>
-   <elementGuidId>2ba4bdaa-3b08-4426-a552-2b32d6ce6b8a</elementGuidId>
+   <elementGuidId>62c82df1-b8b3-48b5-a493-38576c338d89</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[10]</value>
+         <key>CSS</key>
+         <value>#ONS011_Section_4 > div.lcbm-lcbm152 > div.lcbm-lcbm163 > button.lcbm-MuiButtonBase-root.lcbm-MuiIconButton-root</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#ONS011_Section_2 > div.lcbm-lcbm828 > div.lcbm-lcbm839 > button.lcbm-MuiButtonBase-root.lcbm-MuiIconButton-root</value>
+         <key>XPATH</key>
+         <value>//div[@id='ONS011_Section_4']/div/div[3]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d35c6ba5-fef8-4830-ae6b-0fde893923b2</webElementGuid>
+      <webElementGuid>19c6bb5a-8686-4f05-9492-564d636c8e06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiButtonBase-root lcbm-MuiIconButton-root</value>
-      <webElementGuid>a6a27256-5c04-45d2-ba96-58376c07a21f</webElementGuid>
+      <webElementGuid>7e0331b8-7619-4e30-b2f7-9133d9666336</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>7e025e33-1855-4e08-b1a5-4b1ad6ee8a13</webElementGuid>
+      <webElementGuid>8f8df17d-6e2a-477b-bd32-a90abb4ae660</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,71 +46,71 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>7233291f-6fed-47ad-a72a-07cffb2be352</webElementGuid>
+      <webElementGuid>29adeb68-e1b2-4643-aaf1-7eba3dbde411</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ONS011_Section_2&quot;)/div[@class=&quot;lcbm-lcbm828&quot;]/div[@class=&quot;lcbm-lcbm839&quot;]/button[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiIconButton-root&quot;]</value>
-      <webElementGuid>9e9a4603-af06-433d-bc6b-79b71be9e742</webElementGuid>
+      <value>id(&quot;ONS011_Section_4&quot;)/div[@class=&quot;lcbm-lcbm152&quot;]/div[@class=&quot;lcbm-lcbm163&quot;]/button[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiIconButton-root&quot;]</value>
+      <webElementGuid>6a6a7d7d-984a-4853-8667-11bd5f5d8a5e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[10]</value>
-      <webElementGuid>dd4c9bb8-9222-41d8-9d93-d59df9ebb7f6</webElementGuid>
+      <value>(//button[@type='button'])[42]</value>
+      <webElementGuid>5ca42cca-25ba-41db-bcf7-49d5724da6e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='ONS011_Section_2']/div/div[3]/button</value>
-      <webElementGuid>1fa37bf0-65d7-436f-ac08-090f425f85ff</webElementGuid>
+      <value>//div[@id='ONS011_Section_4']/div/div[3]/button</value>
+      <webElementGuid>30691b5f-42d6-41bf-bc71-08bf5f273f0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Input Order/FC QTY for each PN'])[1]/following::button[1]</value>
-      <webElementGuid>8b4b23b0-c38e-4369-8fec-fae7d2756d51</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Basic info (order summary)'])[1]/following::button[1]</value>
+      <webElementGuid>5e9f9fbf-f3fc-4a27-af65-fd64b8dc0ec1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::button[1]</value>
-      <webElementGuid>444fe174-3a99-4050-a4c2-75fbdaf06f63</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[2]/following::button[12]</value>
+      <webElementGuid>846efe8b-324f-477f-96a8-2bb0e0f3d342</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/preceding::button[1]</value>
-      <webElementGuid>a827e701-b9e0-42ca-8e82-330a05468f8a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::button[2]</value>
+      <webElementGuid>0a4e973e-1d68-4369-ae14-b0de0dbe82f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Input Shipping Plan'])[1]/preceding::button[19]</value>
-      <webElementGuid>a183cb57-56ce-4cd3-8b26-c80cef9f9b87</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logistics'])[1]/preceding::button[3]</value>
+      <webElementGuid>1fb973a5-220e-4cb6-bad1-aa63b865d156</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div[3]/button</value>
-      <webElementGuid>4aefff14-8de7-4679-8a52-3acced01a0ff</webElementGuid>
+      <value>//div[7]/div/div[3]/button</value>
+      <webElementGuid>5414b59f-3044-438d-957a-c513ac98718c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>f4694568-bcb0-4a0d-b855-65b937d24c4c</webElementGuid>
+      <webElementGuid>a4ad7772-bb45-4d19-b157-08574789a8ff</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

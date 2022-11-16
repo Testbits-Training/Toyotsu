@@ -25,10 +25,10 @@ WebUI.click(findTestObject('TC001/h6_Order'))
 
 WebUI.click(findTestObject('TC001/p_Place Order'))
 
-WebUI.waitForElementVisible(findTestObject('TC001/input_Spot Order Without Contract_lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm231 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd'), 
+WebUI.waitForElementVisible(findTestObject('TC001/input_Spot Order'), 
     0)
 
-WebUI.setText(findTestObject('TC001/input_Spot Order Without Contract_lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm231 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd'), 
+WebUI.setText(findTestObject('TC001/input_Spot Order'), 
     GlobalVariable.custContractNo)
 
 WebUI.verifyElementText(findTestObject('TC001/verify_div_SGTTAP TO VNTTVN 1028002'), GlobalVariable.custContractNo, FailureHandling.OPTIONAL)
@@ -37,9 +37,9 @@ y = WebUI.getText(findTestObject('TC003/div_CR-VN-TTVN-2210020'))
 
 CustomKeywords.'util.copyToExcel.exel'(y, 1, 0)
 
-WebUI.click(findTestObject('TC001/button_AND_lcbm-MuiButtonBase-root lcbm-MuiIconButton-root'))
+WebUI.click(findTestObject('TC001/button_2'))
 
-WebUI.click(findTestObject('TC001/button_Input OrderFC QTY for each PN_lcbm-MuiButtonBase-root lcbm-MuiIconButton-root'))
+WebUI.click(findTestObject('TC001/button_4'))
 
 WebUI.doubleClick(findTestObject('TC001/input number 1'))
 
@@ -57,9 +57,9 @@ WebUI.doubleClick(findTestObject('TC001/input number 4'), FailureHandling.STOP_O
 
 WebUI.sendKeys(findTestObject('TC001/input number 4'), '1000')
 
-WebUI.click(findTestObject('TC001/button_Input Shipping Plan_lcbm-MuiButtonBase-root lcbm-MuiIconButton-root'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('TC001/button_5'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('TC001/button_AND_lcbm-MuiButtonBase-root lcbm-MuiButton-root lcbm-lcbm368 lcbm-MuiButton-text lcbm-lcbm383'), 
+WebUI.click(findTestObject('TC001/button_1'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('TC001/input__inboundPlanDate'))
@@ -84,7 +84,7 @@ WebUI.click(findTestObject('TC001/input number 6'), FailureHandling.STOP_ON_FAIL
 
 WebUI.sendKeys(findTestObject('TC001/input number 6'), '1000')
 
-WebUI.click(findTestObject('TC001/button_Basic info (order summary)_lcbm-MuiButtonBase-root lcbm-MuiIconButton-root'))
+WebUI.click(findTestObject('TC001/button_3'))
 
 currentTime = CustomKeywords.'util.generateTime.dateTimeGenerator'()
 
