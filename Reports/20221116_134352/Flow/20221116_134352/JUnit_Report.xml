@@ -1,0 +1,2628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Flow" time="826.398" tests="15" failures="0" errors="0">
+   <testsuite name="Flow" tests="15" failures="0" errors="0" time="826.398" skipped="0" timestamp="2022-11-16 13:44:11" hostname="Mohd Azwan - LAPTOP-GE4K8KER" id="Test Suites/Flow">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\azwan\\git\\Toyotsu\\Reports\\20221116_134352\\Flow\\20221116_134352"/>
+         <property name="logFiles" value="C:\\Users\\azwan\\git\\Toyotsu\\Reports\\20221116_134352\\Flow\\20221116_134352\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\azwan\\git\\Toyotsu\\Reports\\20221116_134352\\Flow\\20221116_134352\\1668577893237.png, C:\\Users\\azwan\\git\\Toyotsu\\Reports\\20221116_134352\\Flow\\20221116_134352\\1668577895963.png, keyes\keyes-Invoice Detail.png, keyes\keyes-Invoice Detail 2.png, C:\\Users\\azwan\\git\\Toyotsu\\Reports\\20221116_134352\\Flow\\20221116_134352\\1668578186836.png"/>
+         <property name="hostName" value="Mohd Azwan - LAPTOP-GE4K8KER"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="browser" value="Chrome 107.0.0.0"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="09556eba104145850c78b03d5d99909f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC001 - Customer Place Order for Contract (Customer)" time="90.714" classname="Test Cases/TC001 - Customer Place Order for Contract (Customer)" status="PASSED">
+         <system-out><![CDATA[2022-11-16 13:44:12 - [TEST_CASE][PASSED] - Test Cases/TC001 - Customer Place Order for Contract (Customer): Test Cases/TC001 - Customer Place Order for Contract (Customer)
+
+2022-11-16 13:44:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Login"), ["username":usernameLuqman, "password":passwordLuqman, "verification":verificationLuqman, "company":vnttvn], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:44:14 - [TEST_CASE][PASSED] - Test Cases/common/Login: Test Cases/common/Login
+
+2022-11-16 13:44:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-16 13:44:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-16 13:44:15 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Katalon_downloaded_file}']
+
+2022-11-16 13:44:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-16 13:44:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-16 13:44:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-16 13:44:20 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-16 13:44:20 - [TEST_STEP][PASSED] - navigateToUrl("https://test.brivge.com/home"): Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:44:24 - [MESSAGE][PASSED] - Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:44:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/input_Sign In_username"), 0): Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:44:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:44:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:44:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_username"), username): Text 'Luqman' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:44:28 - [MESSAGE][PASSED] - Text 'Luqman' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:44:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_password"), password): Text 'Luqman-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:44:29 - [MESSAGE][PASSED] - Text 'Luqman-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:44:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Sign In")): Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:44:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:44:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Verify_verificationCode"), verification): Text '986737' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:44:31 - [MESSAGE][PASSED] - Text '986737' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:44:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Verify")): Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:44:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:44:31 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_aazwanSGDC-Azwan")): Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:44:44 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_company")): Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:44:45 - [TEST_STEP][PASSED] - click(findTestObject("Login/li_Company", ["company":company])): Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:44:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:44:48 - [TEST_STEP][PASSED] - click(findTestObject("TC001/h6_Order")): Object: 'Object Repository/TC001/h6_Order' is clicked on
+
+2022-11-16 13:44:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/h6_Order' is clicked on
+
+2022-11-16 13:44:52 - [TEST_STEP][PASSED] - click(findTestObject("TC001/p_Place Order")): Object: 'Object Repository/TC001/p_Place Order' is clicked on
+
+2022-11-16 13:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/p_Place Order' is clicked on
+
+2022-11-16 13:44:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("TC001/input_Spot Order"), 0): Object 'Object Repository/TC001/input_Spot Order' is visible
+
+2022-11-16 13:44:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:44:55 - [MESSAGE][PASSED] - Object 'Object Repository/TC001/input_Spot Order' is visible
+
+2022-11-16 13:44:55 - [TEST_STEP][PASSED] - setText(findTestObject("TC001/input_Spot Order"), custContractNo): Text 'SGTTAP TO VNTTVN 1028001' is set on object 'Object Repository/TC001/input_Spot Order'
+
+2022-11-16 13:44:58 - [MESSAGE][PASSED] - Text 'SGTTAP TO VNTTVN 1028001' is set on object 'Object Repository/TC001/input_Spot Order'
+
+2022-11-16 13:44:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TC001/verify_div_SGTTAP TO VNTTVN 1028002"), custContractNo, OPTIONAL): Actual text and expected text of test object 'Object Repository/TC001/verify_div_SGTTAP TO VNTTVN 1028002' are matched.
+
+2022-11-16 13:44:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC001/verify_div_SGTTAP TO VNTTVN 1028002' are matched.
+
+2022-11-16 13:44:58 - [TEST_STEP][PASSED] - y = getText(findTestObject("TC003/div_CR-VN-TTVN-2210020")): Text of object 'Object Repository/TC003/div_CR-VN-TTVN-2210020' is: 'CR-VN-TTVN-2210019'
+
+2022-11-16 13:44:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC003/div_CR-VN-TTVN-2210020' is: 'CR-VN-TTVN-2210019'
+
+2022-11-16 13:44:59 - [TEST_STEP][PASSED] - util.copyToExcel.exel(y, 1, 0): util.copyToExcel.exel is PASSED
+
+2022-11-16 13:45:00 - [MESSAGE][PASSED] - util.copyToExcel.exel is PASSED
+
+2022-11-16 13:45:00 - [TEST_STEP][PASSED] - click(findTestObject("TC001/button_2")): Object: 'Object Repository/TC001/button_2' is clicked on
+
+2022-11-16 13:45:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/button_2' is clicked on
+
+2022-11-16 13:45:02 - [TEST_STEP][PASSED] - click(findTestObject("TC001/button_4")): Object: 'Object Repository/TC001/button_4' is clicked on
+
+2022-11-16 13:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/button_4' is clicked on
+
+2022-11-16 13:45:03 - [TEST_STEP][PASSED] - doubleClick(findTestObject("TC001/input number 1")): Object: 'Object Repository/TC001/input number 1' is double clicked on
+
+2022-11-16 13:45:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/input number 1' is double clicked on
+
+2022-11-16 13:45:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC001/input number 1"), "1000", STOP_ON_FAILURE): Keys '1000' sent to object: 'Object Repository/TC001/input number 1'
+
+2022-11-16 13:45:09 - [MESSAGE][PASSED] - Keys '1000' sent to object: 'Object Repository/TC001/input number 1'
+
+2022-11-16 13:45:09 - [TEST_STEP][PASSED] - doubleClick(findTestObject("TC001/input number 2"), STOP_ON_FAILURE): Object: 'Object Repository/TC001/input number 2' is double clicked on
+
+2022-11-16 13:45:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/input number 2' is double clicked on
+
+2022-11-16 13:45:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC001/input number 2"), "1000"): Keys '1000' sent to object: 'Object Repository/TC001/input number 2'
+
+2022-11-16 13:45:11 - [MESSAGE][PASSED] - Keys '1000' sent to object: 'Object Repository/TC001/input number 2'
+
+2022-11-16 13:45:11 - [TEST_STEP][PASSED] - doubleClick(findTestObject("TC001/input number 3"), STOP_ON_FAILURE): Object: 'Object Repository/TC001/input number 3' is double clicked on
+
+2022-11-16 13:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/input number 3' is double clicked on
+
+2022-11-16 13:45:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC001/input number 3"), "1000"): Keys '1000' sent to object: 'Object Repository/TC001/input number 3'
+
+2022-11-16 13:45:12 - [MESSAGE][PASSED] - Keys '1000' sent to object: 'Object Repository/TC001/input number 3'
+
+2022-11-16 13:45:12 - [TEST_STEP][PASSED] - doubleClick(findTestObject("TC001/input number 4"), STOP_ON_FAILURE): Object: 'Object Repository/TC001/input number 4' is double clicked on
+
+2022-11-16 13:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/input number 4' is double clicked on
+
+2022-11-16 13:45:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC001/input number 4"), "1000"): Keys '1000' sent to object: 'Object Repository/TC001/input number 4'
+
+2022-11-16 13:45:13 - [MESSAGE][PASSED] - Keys '1000' sent to object: 'Object Repository/TC001/input number 4'
+
+2022-11-16 13:45:13 - [TEST_STEP][PASSED] - click(findTestObject("TC001/button_5"), STOP_ON_FAILURE): Object: 'Object Repository/TC001/button_5' is clicked on
+
+2022-11-16 13:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/button_5' is clicked on
+
+2022-11-16 13:45:14 - [TEST_STEP][PASSED] - click(findTestObject("TC001/button_1"), STOP_ON_FAILURE): Object: 'Object Repository/TC001/button_1' is clicked on
+
+2022-11-16 13:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/button_1' is clicked on
+
+2022-11-16 13:45:15 - [TEST_STEP][PASSED] - click(findTestObject("TC001/input__inboundPlanDate")): Object: 'Object Repository/TC001/input__inboundPlanDate' is clicked on
+
+2022-11-16 13:45:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/input__inboundPlanDate' is clicked on
+
+2022-11-16 13:45:16 - [TEST_STEP][PASSED] - click(findTestObject("TC001/button date")): Object: 'Object Repository/TC001/button date' is clicked on
+
+2022-11-16 13:45:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/button date' is clicked on
+
+2022-11-16 13:45:17 - [TEST_STEP][PASSED] - click(findTestObject("TC001/button date")): Object: 'Object Repository/TC001/button date' is clicked on
+
+2022-11-16 13:45:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/button date' is clicked on
+
+2022-11-16 13:45:18 - [TEST_STEP][PASSED] - click(findTestObject("TC001/button date")): Object: 'Object Repository/TC001/button date' is clicked on
+
+2022-11-16 13:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/button date' is clicked on
+
+2022-11-16 13:45:19 - [TEST_STEP][PASSED] - click(findTestObject("TC001/button date")): Object: 'Object Repository/TC001/button date' is clicked on
+
+2022-11-16 13:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/button date' is clicked on
+
+2022-11-16 13:45:20 - [TEST_STEP][PASSED] - click(findTestObject("TC001/button_17")): Object: 'Object Repository/TC001/button_17' is clicked on
+
+2022-11-16 13:45:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/button_17' is clicked on
+
+2022-11-16 13:45:21 - [TEST_STEP][PASSED] - click(findTestObject("TC001/button_Confirm")): Object: 'Object Repository/TC001/button_Confirm' is clicked on
+
+2022-11-16 13:45:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/button_Confirm' is clicked on
+
+2022-11-16 13:45:22 - [TEST_STEP][PASSED] - click(findTestObject("TC001/input number 5")): Object: 'Object Repository/TC001/input number 5' is clicked on
+
+2022-11-16 13:45:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/input number 5' is clicked on
+
+2022-11-16 13:45:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC001/input number 5"), "1000"): Keys '1000' sent to object: 'Object Repository/TC001/input number 5'
+
+2022-11-16 13:45:23 - [MESSAGE][PASSED] - Keys '1000' sent to object: 'Object Repository/TC001/input number 5'
+
+2022-11-16 13:45:23 - [TEST_STEP][PASSED] - click(findTestObject("TC001/input number 6"), STOP_ON_FAILURE): Object: 'Object Repository/TC001/input number 6' is clicked on
+
+2022-11-16 13:45:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/input number 6' is clicked on
+
+2022-11-16 13:45:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC001/input number 6"), "1000"): Keys '1000' sent to object: 'Object Repository/TC001/input number 6'
+
+2022-11-16 13:45:25 - [MESSAGE][PASSED] - Keys '1000' sent to object: 'Object Repository/TC001/input number 6'
+
+2022-11-16 13:45:25 - [TEST_STEP][PASSED] - click(findTestObject("TC001/button_3")): Object: 'Object Repository/TC001/button_3' is clicked on
+
+2022-11-16 13:45:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/button_3' is clicked on
+
+2022-11-16 13:45:25 - [TEST_STEP][PASSED] - currentTime = util.generateTime.dateTimeGenerator(): util.generateTime.dateTimeGenerator is PASSED
+
+2022-11-16 13:45:26 - [MESSAGE][PASSED] - util.generateTime.dateTimeGenerator is PASSED
+
+2022-11-16 13:45:26 - [TEST_STEP][PASSED] - util.copyToExcel.exel(currentTime, 1, 1): util.copyToExcel.exel is PASSED
+
+2022-11-16 13:45:26 - [MESSAGE][PASSED] - util.copyToExcel.exel is PASSED
+
+2022-11-16 13:45:26 - [TEST_STEP][PASSED] - setText(findTestObject("TC001/input_Basic info (order summary)_orderRefNo"), currentTime): Text '20221116134526' is set on object 'Object Repository/TC001/input_Basic info (order summary)_orderRefNo'
+
+2022-11-16 13:45:27 - [MESSAGE][PASSED] - Text '20221116134526' is set on object 'Object Repository/TC001/input_Basic info (order summary)_orderRefNo'
+
+2022-11-16 13:45:27 - [TEST_STEP][PASSED] - click(findTestObject("TC001/button_issue")): Object: 'Object Repository/TC001/button_issue' is clicked on
+
+2022-11-16 13:45:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'button' and (text() = 'issue' or . = 'issue')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-16 13:45:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TC001/button_issue'. Try using Self-healing.
+
+2022-11-16 13:45:40 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/azwan/git/Toyotsu/Reports/Self-healing/Object Repository/TC001/button_issue_XPATH.png
+
+2022-11-16 13:45:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/TC001/button_issue' was broken. Propose an alternative one: '(//button[@type='button'])[6]'.
+
+2022-11-16 13:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/button_issue' is clicked on
+
+2022-11-16 13:45:40 - [TEST_STEP][PASSED] - click(findTestObject("TC001/button_CONFIRM (1)")): Object: 'Object Repository/TC001/button_CONFIRM (1)' is clicked on
+
+2022-11-16 13:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/button_CONFIRM (1)' is clicked on
+
+2022-11-16 13:45:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC001/p_The operation was successful")): Object 'Object Repository/TC001/p_The operation was successful' is visible
+
+2022-11-16 13:45:42 - [MESSAGE][PASSED] - Object 'Object Repository/TC001/p_The operation was successful' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002 - Run Combine Order Batch (Admin)" time="36.597" classname="Test Cases/TC002 - Run Combine Order Batch (Admin)" status="PASSED">
+         <system-out><![CDATA[2022-11-16 13:45:42 - [TEST_CASE][PASSED] - Test Cases/TC002 - Run Combine Order Batch (Admin): Test Cases/TC002 - Run Combine Order Batch (Admin)
+
+2022-11-16 13:45:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Login"), ["username":usernameLuqman, "password":passwordLuqman, "verification":verificationLuqman, "company":sgttap], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:45:43 - [TEST_CASE][PASSED] - Test Cases/common/Login: Test Cases/common/Login
+
+2022-11-16 13:45:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-16 13:45:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-16 13:45:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-16 13:45:44 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Katalon_downloaded_file}']
+
+2022-11-16 13:45:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-16 13:45:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-16 13:45:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-16 13:45:47 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-16 13:45:47 - [TEST_STEP][PASSED] - navigateToUrl("https://test.brivge.com/home"): Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:45:51 - [MESSAGE][PASSED] - Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:45:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/input_Sign In_username"), 0): Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:45:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:45:53 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:45:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_username"), username): Text 'Luqman' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:45:54 - [MESSAGE][PASSED] - Text 'Luqman' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:45:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_password"), password): Text 'Luqman-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:45:55 - [MESSAGE][PASSED] - Text 'Luqman-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:45:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Sign In")): Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:45:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:45:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Verify_verificationCode"), verification): Text '986737' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:45:57 - [MESSAGE][PASSED] - Text '986737' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:45:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Verify")): Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:45:57 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_aazwanSGDC-Azwan")): Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:46:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:46:09 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_company")): Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:46:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:46:10 - [TEST_STEP][PASSED] - click(findTestObject("Login/li_Company", ["company":company])): Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:46:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:46:11 - [TEST_STEP][PASSED] - navigateToUrl("https://test.brivge.com/batch"): Navigate to 'https://test.brivge.com/batch' successfully
+
+2022-11-16 13:46:13 - [MESSAGE][PASSED] - Navigate to 'https://test.brivge.com/batch' successfully
+
+2022-11-16 13:46:13 - [TEST_STEP][PASSED] - click(findTestObject("TC002/button_Combine Order")): Object: 'Object Repository/TC002/button_Combine Order' is clicked on
+
+2022-11-16 13:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TC002/button_Combine Order' is clicked on
+
+2022-11-16 13:46:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC002/p_The operation was successful")): Object 'Object Repository/TC002/p_The operation was successful' is visible
+
+2022-11-16 13:46:19 - [MESSAGE][PASSED] - Object 'Object Repository/TC002/p_The operation was successful' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC003 - Confirm Supplier Order (Supplier)" time="43.379" classname="Test Cases/TC003 - Confirm Supplier Order (Supplier)" status="PASSED">
+         <system-out><![CDATA[2022-11-16 13:46:19 - [TEST_CASE][PASSED] - Test Cases/TC003 - Confirm Supplier Order (Supplier): Test Cases/TC003 - Confirm Supplier Order (Supplier)
+
+2022-11-16 13:46:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Login"), ["username":usernameAzwan, "password":passwordAzwan, "verification":verificationAzwan, "company":sgbafco], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:46:20 - [TEST_CASE][PASSED] - Test Cases/common/Login: Test Cases/common/Login
+
+2022-11-16 13:46:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-16 13:46:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-16 13:46:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-16 13:46:21 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Katalon_downloaded_file}']
+
+2022-11-16 13:46:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-16 13:46:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-16 13:46:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-16 13:46:24 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-16 13:46:24 - [TEST_STEP][PASSED] - navigateToUrl("https://test.brivge.com/home"): Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:46:27 - [MESSAGE][PASSED] - Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:46:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/input_Sign In_username"), 0): Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:46:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:46:29 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:46:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_username"), username): Text 'Azwan' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:46:30 - [MESSAGE][PASSED] - Text 'Azwan' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:46:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_password"), password): Text 'Azwan-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:46:31 - [MESSAGE][PASSED] - Text 'Azwan-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:46:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Sign In")): Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:46:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:46:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Verify_verificationCode"), verification): Text '707501' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:46:33 - [MESSAGE][PASSED] - Text '707501' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:46:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Verify")): Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:46:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:46:33 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_aazwanSGDC-Azwan")): Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:46:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:46:38 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_company")): Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:46:39 - [TEST_STEP][PASSED] - click(findTestObject("Login/li_Company", ["company":company])): Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:46:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:46:40 - [TEST_STEP][PASSED] - click(findTestObject("TC001/h6_Order")): Object: 'Object Repository/TC001/h6_Order' is clicked on
+
+2022-11-16 13:46:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/h6_Order' is clicked on
+
+2022-11-16 13:46:41 - [TEST_STEP][PASSED] - click(findTestObject("TC003/li_SO Monitoring List")): Object: 'Object Repository/TC003/li_SO Monitoring List' is clicked on
+
+2022-11-16 13:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/li_SO Monitoring List' is clicked on
+
+2022-11-16 13:46:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC003/div_what can you do in SO monitoring"), OPTIONAL): Object 'Object Repository/TC003/div_what can you do in SO monitoring' is visible
+
+2022-11-16 13:46:45 - [MESSAGE][PASSED] - Object 'Object Repository/TC003/div_what can you do in SO monitoring' is visible
+
+2022-11-16 13:46:45 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("TC003/div_what can you do in SO monitoring"), OPTIONAL) == true): null
+
+2022-11-16 13:46:47 - [MESSAGE][PASSED] - Object 'Object Repository/TC003/div_what can you do in SO monitoring' is visible
+
+2022-11-16 13:46:47 - [TEST_STEP][PASSED] - click(findTestObject("TC003/span_closeModel")): Object: 'Object Repository/TC003/span_closeModel' is clicked on
+
+2022-11-16 13:46:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/span_closeModel' is clicked on
+
+2022-11-16 13:46:48 - [TEST_STEP][PASSED] - setText(findTestObject("TC003/input_SO Monitoring List Search"), supplContractNo): Text 'SGBAFCO TO SGTTAP 1028001' is set on object 'Object Repository/TC003/input_SO Monitoring List Search'
+
+2022-11-16 13:46:50 - [MESSAGE][PASSED] - Text 'SGBAFCO TO SGTTAP 1028001' is set on object 'Object Repository/TC003/input_SO Monitoring List Search'
+
+2022-11-16 13:46:50 - [TEST_STEP][PASSED] - click(findTestObject("TC003/filter button")): Object: 'Object Repository/TC003/filter button' is clicked on
+
+2022-11-16 13:46:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/filter button' is clicked on
+
+2022-11-16 13:46:50 - [TEST_STEP][PASSED] - click(findTestObject("TC003/input__statusList")): Object: 'Object Repository/TC003/input__statusList' is clicked on
+
+2022-11-16 13:46:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/input__statusList' is clicked on
+
+2022-11-16 13:46:51 - [TEST_STEP][PASSED] - click(findTestObject("TC003/li_Received")): Object: 'Object Repository/TC003/li_Received' is clicked on
+
+2022-11-16 13:46:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/li_Received' is clicked on
+
+2022-11-16 13:46:52 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_Search")): Object: 'Object Repository/TC003/button_Search' is clicked on
+
+2022-11-16 13:46:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_Search' is clicked on
+
+2022-11-16 13:46:52 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button detail")): Object: 'Object Repository/TC003/button detail' is clicked on
+
+2022-11-16 13:46:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button detail' is clicked on
+
+2022-11-16 13:46:54 - [TEST_STEP][PASSED] - salesOrderNo = getAttribute(findTestObject("TC003/Page_Brivge/input_Please input related basic information_orderNo"), "value"): Attribute 'value' of object 'Object Repository/TC003/Page_Brivge/input_Please input related basic information_orderNo' is: 's102804-2211014'
+
+2022-11-16 13:46:55 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/TC003/Page_Brivge/input_Please input related basic information_orderNo' is: 's102804-2211014'
+
+2022-11-16 13:46:55 - [TEST_STEP][PASSED] - buyer = getAttribute(findTestObject("TC003/Page_Brivge/input_Please input related basic information_buyer"), "value"): Attribute 'value' of object 'Object Repository/TC003/Page_Brivge/input_Please input related basic information_buyer' is: 'SG-TTAP'
+
+2022-11-16 13:46:58 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/TC003/Page_Brivge/input_Please input related basic information_buyer' is: 'SG-TTAP'
+
+2022-11-16 13:46:58 - [TEST_STEP][PASSED] - receiver = getAttribute(findTestObject("TC003/Page_Brivge/input_Please input related basic information_receiver"), "value"): Attribute 'value' of object 'Object Repository/TC003/Page_Brivge/input_Please input related basic information_receiver' is: 'SG-TTAP-DC'
+
+2022-11-16 13:46:58 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/TC003/Page_Brivge/input_Please input related basic information_receiver' is: 'SG-TTAP-DC'
+
+2022-11-16 13:46:58 - [TEST_STEP][PASSED] - util.copyToExcel.exel(salesOrderNo, 1, 2): util.copyToExcel.exel is PASSED
+
+2022-11-16 13:46:58 - [MESSAGE][PASSED] - util.copyToExcel.exel is PASSED
+
+2022-11-16 13:46:58 - [TEST_STEP][PASSED] - util.copyToExcel.exel(buyer, 1, 3): util.copyToExcel.exel is PASSED
+
+2022-11-16 13:46:59 - [MESSAGE][PASSED] - util.copyToExcel.exel is PASSED
+
+2022-11-16 13:46:59 - [TEST_STEP][PASSED] - util.copyToExcel.exel(receiver, 1, 4): util.copyToExcel.exel is PASSED
+
+2022-11-16 13:46:59 - [MESSAGE][PASSED] - util.copyToExcel.exel is PASSED
+
+2022-11-16 13:46:59 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("TC003/input_Please input related basic information_status"), "value", "Received", 0): Object 'Object Repository/TC003/input_Please input related basic information_status' has attribute 'value' with value 'Received'
+
+2022-11-16 13:46:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:46:59 - [MESSAGE][PASSED] - Object 'Object Repository/TC003/input_Please input related basic information_status' has attribute 'value' with value 'Received'
+
+2022-11-16 13:46:59 - [TEST_STEP][PASSED] - y = getAttribute(findTestObject("TC003/input_Please input related basic information_orderNo"), "value"): Attribute 'value' of object 'Object Repository/TC003/input_Please input related basic information_orderNo' is: 's102804-2211014'
+
+2022-11-16 13:46:59 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/TC003/input_Please input related basic information_orderNo' is: 's102804-2211014'
+
+2022-11-16 13:46:59 - [TEST_STEP][PASSED] - out.println("sales order no: " + y): null
+
+2022-11-16 13:47:00 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_Confirm")): Object: 'Object Repository/TC003/button_Confirm' is clicked on
+
+2022-11-16 13:47:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_Confirm' is clicked on
+
+2022-11-16 13:47:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("TC003/p_Are you sure to do Confirm(c0001)"), 0): Object 'Object Repository/TC003/p_Are you sure to do Confirm(c0001)' is visible
+
+2022-11-16 13:47:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:47:01 - [MESSAGE][PASSED] - Object 'Object Repository/TC003/p_Are you sure to do Confirm(c0001)' is visible
+
+2022-11-16 13:47:01 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_CONFIRM (1)")): Object: 'Object Repository/TC003/button_CONFIRM (1)' is clicked on
+
+2022-11-16 13:47:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_CONFIRM (1)' is clicked on
+
+2022-11-16 13:47:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC003/p_The operation was successful")): Object 'Object Repository/TC003/p_The operation was successful' is visible
+
+2022-11-16 13:47:02 - [MESSAGE][PASSED] - Object 'Object Repository/TC003/p_The operation was successful' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC004 - Customer Change Order (Customer)" time="73.986" classname="Test Cases/TC004 - Customer Change Order (Customer)" status="PASSED">
+         <system-out><![CDATA[2022-11-16 13:47:02 - [TEST_CASE][PASSED] - Test Cases/TC004 - Customer Change Order (Customer): Test Cases/TC004 - Customer Change Order (Customer)
+
+2022-11-16 13:47:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Login"), ["username":usernameLuqman, "password":passwordLuqman, "verification":verificationLuqman, "company":vnttvn], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:47:03 - [TEST_CASE][PASSED] - Test Cases/common/Login: Test Cases/common/Login
+
+2022-11-16 13:47:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-16 13:47:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-16 13:47:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-16 13:47:04 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Katalon_downloaded_file}']
+
+2022-11-16 13:47:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-16 13:47:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-16 13:47:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-16 13:47:07 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-16 13:47:07 - [TEST_STEP][PASSED] - navigateToUrl("https://test.brivge.com/home"): Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:47:11 - [MESSAGE][PASSED] - Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:47:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/input_Sign In_username"), 0): Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:47:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:47:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:47:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_username"), username): Text 'Luqman' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:47:14 - [MESSAGE][PASSED] - Text 'Luqman' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:47:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_password"), password): Text 'Luqman-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:47:15 - [MESSAGE][PASSED] - Text 'Luqman-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:47:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Sign In")): Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:47:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Verify_verificationCode"), verification): Text '986737' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:47:16 - [MESSAGE][PASSED] - Text '986737' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:47:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Verify")): Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:47:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:47:17 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_aazwanSGDC-Azwan")): Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:47:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:47:27 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_company")): Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:47:28 - [TEST_STEP][PASSED] - click(findTestObject("Login/li_Company", ["company":company])): Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:47:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:47:31 - [TEST_STEP][PASSED] - click(findTestObject("TC001/h6_Order")): Object: 'Object Repository/TC001/h6_Order' is clicked on
+
+2022-11-16 13:47:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001/h6_Order' is clicked on
+
+2022-11-16 13:47:36 - [TEST_STEP][PASSED] - click(findTestObject("delete order summary/li_Place ChangeCancel")): Object: 'Object Repository/delete order summary/li_Place ChangeCancel' is clicked on
+
+2022-11-16 13:47:37 - [MESSAGE][PASSED] - Object: 'Object Repository/delete order summary/li_Place ChangeCancel' is clicked on
+
+2022-11-16 13:47:37 - [TEST_STEP][PASSED] - focus(findTestObject("delete order summary/input_Forecast Change_lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm110 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd"), STOP_ON_FAILURE): Object: 'Object Repository/delete order summary/input_Forecast Change_lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm110 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd' is focused
+
+2022-11-16 13:47:38 - [MESSAGE][PASSED] - Object: 'Object Repository/delete order summary/input_Forecast Change_lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm110 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd' is focused
+
+2022-11-16 13:47:38 - [TEST_STEP][PASSED] - setText(findTestObject("delete order summary/input_Forecast Change_lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm110 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd"), findTestData("Toyotsu-data").getValue(1, 2)): Text 'CR-VN-TTVN-2210019' is set on object 'Object Repository/delete order summary/input_Forecast Change_lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm110 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd'
+
+2022-11-16 13:47:41 - [MESSAGE][PASSED] - Text 'CR-VN-TTVN-2210019' is set on object 'Object Repository/delete order summary/input_Forecast Change_lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm110 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd'
+
+2022-11-16 13:47:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-11-16 13:47:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-11-16 13:47:43 - [TEST_STEP][PASSED] - click(findTestObject("TC004/create button")): Object: 'Object Repository/TC004/create button' is clicked on
+
+2022-11-16 13:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TC004/create button' is clicked on
+
+2022-11-16 13:47:45 - [TEST_STEP][PASSED] - doubleClick(findTestObject("TC004/input 1")): Object: 'Object Repository/TC004/input 1' is double clicked on
+
+2022-11-16 13:47:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC004/input 1' is double clicked on
+
+2022-11-16 13:47:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC004/input 1"), "1500"): Keys '1500' sent to object: 'Object Repository/TC004/input 1'
+
+2022-11-16 13:47:48 - [MESSAGE][PASSED] - Keys '1500' sent to object: 'Object Repository/TC004/input 1'
+
+2022-11-16 13:47:48 - [TEST_STEP][PASSED] - doubleClick(findTestObject("TC004/input 2")): Object: 'Object Repository/TC004/input 2' is double clicked on
+
+2022-11-16 13:47:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC004/input 2' is double clicked on
+
+2022-11-16 13:47:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC004/input 2"), "1500"): Keys '1500' sent to object: 'Object Repository/TC004/input 2'
+
+2022-11-16 13:47:49 - [MESSAGE][PASSED] - Keys '1500' sent to object: 'Object Repository/TC004/input 2'
+
+2022-11-16 13:47:49 - [TEST_STEP][PASSED] - click(findTestObject("TC004/button input shipping plan")): Object: 'Object Repository/TC004/button input shipping plan' is clicked on
+
+2022-11-16 13:47:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TC004/button input shipping plan' is clicked on
+
+2022-11-16 13:47:50 - [TEST_STEP][PASSED] - click(findTestObject("TC004/input__newInboundPlanDate")): Object: 'Object Repository/TC004/input__newInboundPlanDate' is clicked on
+
+2022-11-16 13:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC004/input__newInboundPlanDate' is clicked on
+
+2022-11-16 13:47:51 - [TEST_STEP][PASSED] - doubleClick(findTestObject("TC004/button next calendar")): Object: 'Object Repository/TC004/button next calendar' is double clicked on
+
+2022-11-16 13:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC004/button next calendar' is double clicked on
+
+2022-11-16 13:47:51 - [TEST_STEP][PASSED] - doubleClick(findTestObject("TC004/button next calendar")): Object: 'Object Repository/TC004/button next calendar' is double clicked on
+
+2022-11-16 13:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TC004/button next calendar' is double clicked on
+
+2022-11-16 13:47:53 - [TEST_STEP][PASSED] - doubleClick(findTestObject("TC004/button next calendar")): Object: 'Object Repository/TC004/button next calendar' is double clicked on
+
+2022-11-16 13:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC004/button next calendar' is double clicked on
+
+2022-11-16 13:47:54 - [TEST_STEP][PASSED] - click(findTestObject("TC004/button_17")): Object: 'Object Repository/TC004/button_17' is clicked on
+
+2022-11-16 13:47:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC004/button_17' is clicked on
+
+2022-11-16 13:47:55 - [TEST_STEP][PASSED] - click(findTestObject("TC004/button_Confirm input plan")): Object: 'Object Repository/TC004/button_Confirm input plan' is clicked on
+
+2022-11-16 13:47:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TC004/button_Confirm input plan' is clicked on
+
+2022-11-16 13:47:56 - [TEST_STEP][PASSED] - doubleClick(findTestObject("TC004/input 3")): Object: 'Object Repository/TC004/input 3' is double clicked on
+
+2022-11-16 13:47:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC004/input 3' is double clicked on
+
+2022-11-16 13:47:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC004/input 3"), "1500"): Keys '1500' sent to object: 'Object Repository/TC004/input 3'
+
+2022-11-16 13:47:58 - [MESSAGE][PASSED] - Keys '1500' sent to object: 'Object Repository/TC004/input 3'
+
+2022-11-16 13:47:58 - [TEST_STEP][PASSED] - doubleClick(findTestObject("TC004/input 4")): Object: 'Object Repository/TC004/input 4' is double clicked on
+
+2022-11-16 13:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TC004/input 4' is double clicked on
+
+2022-11-16 13:47:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC004/input 4"), "1500"): Keys '1500' sent to object: 'Object Repository/TC004/input 4'
+
+2022-11-16 13:47:59 - [MESSAGE][PASSED] - Keys '1500' sent to object: 'Object Repository/TC004/input 4'
+
+2022-11-16 13:47:59 - [TEST_STEP][PASSED] - y = util.generateTime.dateTimeGenerator(): util.generateTime.dateTimeGenerator is PASSED
+
+2022-11-16 13:47:59 - [MESSAGE][PASSED] - util.generateTime.dateTimeGenerator is PASSED
+
+2022-11-16 13:47:59 - [TEST_STEP][PASSED] - util.copyToExcel.exel(y, 1, 1): util.copyToExcel.exel is PASSED
+
+2022-11-16 13:47:59 - [MESSAGE][PASSED] - util.copyToExcel.exel is PASSED
+
+2022-11-16 13:47:59 - [TEST_STEP][PASSED] - doubleClick(findTestObject("TC004/input_Basic info (order summary)_customerRefNo"), STOP_ON_FAILURE): Object: 'Object Repository/TC004/input_Basic info (order summary)_customerRefNo' is double clicked on
+
+2022-11-16 13:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC004/input_Basic info (order summary)_customerRefNo' is double clicked on
+
+2022-11-16 13:48:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC004/input_Basic info (order summary)_customerRefNo"), y): Keys '20221116134759' sent to object: 'Object Repository/TC004/input_Basic info (order summary)_customerRefNo'
+
+2022-11-16 13:48:00 - [MESSAGE][PASSED] - Keys '20221116134759' sent to object: 'Object Repository/TC004/input_Basic info (order summary)_customerRefNo'
+
+2022-11-16 13:48:00 - [TEST_STEP][PASSED] - click(findTestObject("TC004/div_scroll"), STOP_ON_FAILURE): Object: 'Object Repository/TC004/div_scroll' is clicked on
+
+2022-11-16 13:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC004/div_scroll' is clicked on
+
+2022-11-16 13:48:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(HOME)): Keys 'HOME + ' sent to object: 'tempBody'
+
+2022-11-16 13:48:01 - [MESSAGE][WARNING] - Test object id is null
+
+2022-11-16 13:48:01 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-11-16 13:48:02 - [MESSAGE][PASSED] - Keys 'HOME + ' sent to object: 'tempBody'
+
+2022-11-16 13:48:02 - [TEST_STEP][PASSED] - click(findTestObject("TC004/button_issue")): Object: 'Object Repository/TC004/button_issue' is clicked on
+
+2022-11-16 13:48:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@type = 'button' and (text() = 'issue' or . = 'issue')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-16 13:48:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TC004/button_issue'. Try using Self-healing.
+
+2022-11-16 13:48:13 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(//button[@type='button'])[2]'.
+
+2022-11-16 13:48:14 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/azwan/git/Toyotsu/Reports/Self-healing/Object Repository/TC004/button_issue_attributes.png
+
+2022-11-16 13:48:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/TC004/button_issue' was broken. Propose an alternative one: '(//button[@type='button'])[2]'.
+
+2022-11-16 13:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC004/button_issue' is clicked on
+
+2022-11-16 13:48:14 - [TEST_STEP][PASSED] - click(findTestObject("TC004/button_CONFIRM")): Object: 'Object Repository/TC004/button_CONFIRM' is clicked on
+
+2022-11-16 13:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC004/button_CONFIRM' is clicked on
+
+2022-11-16 13:48:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("TC003/p_The operation was successful"), 0): Object 'Object Repository/TC003/p_The operation was successful' is present
+
+2022-11-16 13:48:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:48:16 - [MESSAGE][PASSED] - Object 'Object Repository/TC003/p_The operation was successful' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC005 - Approve Change Cancel Request (Supplier)" time="37.584" classname="Test Cases/TC005 - Approve Change Cancel Request (Supplier)" status="PASSED">
+         <system-out><![CDATA[2022-11-16 13:48:16 - [TEST_CASE][PASSED] - Test Cases/TC005 - Approve Change Cancel Request (Supplier): Test Cases/TC005 - Approve Change Cancel Request (Supplier)
+
+2022-11-16 13:48:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Login"), ["username":usernameAzwan, "password":passwordAzwan, "verification":verificationAzwan, "company":sgbafco], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:48:17 - [TEST_CASE][PASSED] - Test Cases/common/Login: Test Cases/common/Login
+
+2022-11-16 13:48:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-16 13:48:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-16 13:48:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-16 13:48:18 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Katalon_downloaded_file}']
+
+2022-11-16 13:48:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-16 13:48:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-16 13:48:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-16 13:48:21 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-16 13:48:21 - [TEST_STEP][PASSED] - navigateToUrl("https://test.brivge.com/home"): Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:48:24 - [MESSAGE][PASSED] - Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:48:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/input_Sign In_username"), 0): Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:48:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:48:26 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:48:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_username"), username): Text 'Azwan' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:48:27 - [MESSAGE][PASSED] - Text 'Azwan' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:48:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_password"), password): Text 'Azwan-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:48:28 - [MESSAGE][PASSED] - Text 'Azwan-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:48:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Sign In")): Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:48:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Verify_verificationCode"), verification): Text '707501' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:48:30 - [MESSAGE][PASSED] - Text '707501' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:48:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Verify")): Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:48:30 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_aazwanSGDC-Azwan")): Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:48:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:48:34 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_company")): Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:48:35 - [TEST_STEP][PASSED] - click(findTestObject("Login/li_Company", ["company":company])): Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:48:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:48:36 - [TEST_STEP][PASSED] - click(findTestObject("TC005/h6_Order")): Object: 'Object Repository/TC005/h6_Order' is clicked on
+
+2022-11-16 13:48:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TC005/h6_Order' is clicked on
+
+2022-11-16 13:48:37 - [TEST_STEP][PASSED] - click(findTestObject("TC005/li_ChangeCancel Request List")): Object: 'Object Repository/TC005/li_ChangeCancel Request List' is clicked on
+
+2022-11-16 13:48:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TC005/li_ChangeCancel Request List' is clicked on
+
+2022-11-16 13:48:40 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("TC005/h1_What can you do in Change or Cancel Request List")) == true): null
+
+2022-11-16 13:48:43 - [MESSAGE][PASSED] - Object 'Object Repository/TC005/h1_What can you do in Change or Cancel Request List' is visible
+
+2022-11-16 13:48:43 - [TEST_STEP][PASSED] - click(findTestObject("TC005/span_X")): Object: 'Object Repository/TC005/span_X' is clicked on
+
+2022-11-16 13:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TC005/span_X' is clicked on
+
+2022-11-16 13:48:44 - [TEST_STEP][PASSED] - setText(findTestObject("TC005/input Search"), findTestData("Toyotsu-data").getValue(1, 2)): Text 'CR-VN-TTVN-2210019' is set on object 'Object Repository/TC005/input Search'
+
+2022-11-16 13:48:46 - [MESSAGE][PASSED] - Text 'CR-VN-TTVN-2210019' is set on object 'Object Repository/TC005/input Search'
+
+2022-11-16 13:48:46 - [TEST_STEP][PASSED] - click(findTestObject("TC005/button filter")): Object: 'Object Repository/TC005/button filter' is clicked on
+
+2022-11-16 13:48:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC005/button filter' is clicked on
+
+2022-11-16 13:48:46 - [TEST_STEP][PASSED] - click(findTestObject("TC005/input__requestStatusList")): Object: 'Object Repository/TC005/input__requestStatusList' is clicked on
+
+2022-11-16 13:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TC005/input__requestStatusList' is clicked on
+
+2022-11-16 13:48:47 - [TEST_STEP][PASSED] - click(findTestObject("TC005/li_New")): Object: 'Object Repository/TC005/li_New' is clicked on
+
+2022-11-16 13:48:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TC005/li_New' is clicked on
+
+2022-11-16 13:48:48 - [TEST_STEP][PASSED] - click(findTestObject("TC005/button_Search")): Object: 'Object Repository/TC005/button_Search' is clicked on
+
+2022-11-16 13:48:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC005/button_Search' is clicked on
+
+2022-11-16 13:48:49 - [TEST_STEP][PASSED] - click(findTestObject("TC005/button detail")): Object: 'Object Repository/TC005/button detail' is clicked on
+
+2022-11-16 13:48:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC005/button detail' is clicked on
+
+2022-11-16 13:48:51 - [TEST_STEP][PASSED] - click(findTestObject("TC005/button_Approve")): Object: 'Object Repository/TC005/button_Approve' is clicked on
+
+2022-11-16 13:48:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TC005/button_Approve' is clicked on
+
+2022-11-16 13:48:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC005/p_The operation was successful")): Object 'Object Repository/TC005/p_The operation was successful' is visible
+
+2022-11-16 13:48:54 - [MESSAGE][PASSED] - Object 'Object Repository/TC005/p_The operation was successful' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC006 - Supplier Outbound Details (Supplier)" time="82.8" classname="Test Cases/TC006 - Supplier Outbound Details (Supplier)" status="PASSED">
+         <system-out><![CDATA[2022-11-16 13:48:54 - [TEST_CASE][PASSED] - Test Cases/TC006 - Supplier Outbound Details (Supplier): Test Cases/TC006 - Supplier Outbound Details (Supplier)
+
+2022-11-16 13:48:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Login"), ["username":usernameAzwan, "password":passwordAzwan, "verification":verificationAzwan, "company":sgbafco], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:48:54 - [TEST_CASE][PASSED] - Test Cases/common/Login: Test Cases/common/Login
+
+2022-11-16 13:48:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-16 13:48:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-16 13:48:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-16 13:48:55 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Katalon_downloaded_file}']
+
+2022-11-16 13:48:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-16 13:48:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-16 13:48:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-16 13:48:58 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-16 13:48:58 - [TEST_STEP][PASSED] - navigateToUrl("https://test.brivge.com/home"): Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:49:02 - [MESSAGE][PASSED] - Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:49:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/input_Sign In_username"), 0): Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:49:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:49:04 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:49:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_username"), username): Text 'Azwan' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:49:04 - [MESSAGE][PASSED] - Text 'Azwan' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:49:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_password"), password): Text 'Azwan-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:49:05 - [MESSAGE][PASSED] - Text 'Azwan-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:49:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Sign In")): Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:49:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:49:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Verify_verificationCode"), verification): Text '707501' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:49:07 - [MESSAGE][PASSED] - Text '707501' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:49:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Verify")): Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:49:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:49:08 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_aazwanSGDC-Azwan")): Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:49:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:49:11 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_company")): Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:49:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:49:12 - [TEST_STEP][PASSED] - click(findTestObject("Login/li_Company", ["company":company])): Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:49:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:49:13 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/h6_Logistics")): Object: 'Object Repository/TC006/Page_Brivge/h6_Logistics' is clicked on
+
+2022-11-16 13:49:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/h6_Logistics' is clicked on
+
+2022-11-16 13:49:14 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/li_Outbound Monitoring List")): Object: 'Object Repository/TC006/Page_Brivge/li_Outbound Monitoring List' is clicked on
+
+2022-11-16 13:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/li_Outbound Monitoring List' is clicked on
+
+2022-11-16 13:49:17 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/button create")): Object: 'Object Repository/TC006/Page_Brivge/button create' is clicked on
+
+2022-11-16 13:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/button create' is clicked on
+
+2022-11-16 13:49:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Long Form/6_1 - input basic info"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Long Form/6_1 - input basic info' successfully
+
+2022-11-16 13:49:19 - [TEST_CASE][PASSED] - Test Cases/common/Long Form/6_1 - input basic info: Test Cases/common/Long Form/6_1 - input basic info
+
+2022-11-16 13:49:20 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/input__buyer")): Object: 'Object Repository/TC006/Page_Brivge/input__buyer' is clicked on
+
+2022-11-16 13:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/input__buyer' is clicked on
+
+2022-11-16 13:49:23 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input__buyer"), findTestData("Toyotsu-data").getValue(4, 2)): Text 'SG-TTAP' is set on object 'Object Repository/TC006/Page_Brivge/input__buyer'
+
+2022-11-16 13:49:24 - [MESSAGE][PASSED] - Text 'SG-TTAP' is set on object 'Object Repository/TC006/Page_Brivge/input__buyer'
+
+2022-11-16 13:49:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC006/Page_Brivge/input__buyer"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/TC006/Page_Brivge/input__buyer'
+
+2022-11-16 13:49:25 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC006/Page_Brivge/input__buyer'
+
+2022-11-16 13:49:25 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/input__receiver"), STOP_ON_FAILURE): Object: 'Object Repository/TC006/Page_Brivge/input__receiver' is clicked on
+
+2022-11-16 13:49:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/input__receiver' is clicked on
+
+2022-11-16 13:49:25 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input__receiver"), findTestData("Toyotsu-data").getValue(5, 2)): Text 'SG-TTAP-DC' is set on object 'Object Repository/TC006/Page_Brivge/input__receiver'
+
+2022-11-16 13:49:27 - [MESSAGE][PASSED] - Text 'SG-TTAP-DC' is set on object 'Object Repository/TC006/Page_Brivge/input__receiver'
+
+2022-11-16 13:49:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC006/Page_Brivge/input__receiver"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/TC006/Page_Brivge/input__receiver'
+
+2022-11-16 13:49:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC006/Page_Brivge/input__receiver'
+
+2022-11-16 13:49:28 - [TEST_STEP][PASSED] - y = util.generateTime.dateTimeGenerator(): util.generateTime.dateTimeGenerator is PASSED
+
+2022-11-16 13:49:28 - [MESSAGE][PASSED] - util.generateTime.dateTimeGenerator is PASSED
+
+2022-11-16 13:49:28 - [TEST_STEP][PASSED] - outBoundRefNo = "o-" + y: null
+
+2022-11-16 13:49:28 - [TEST_STEP][PASSED] - util.copyToExcel.exel(outBoundRefNo, 1, 5): util.copyToExcel.exel is PASSED
+
+2022-11-16 13:49:28 - [MESSAGE][PASSED] - util.copyToExcel.exel is PASSED
+
+2022-11-16 13:49:28 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input__outboundRefNo"), outBoundRefNo): Text 'o-20221116134928' is set on object 'Object Repository/TC006/Page_Brivge/input__outboundRefNo'
+
+2022-11-16 13:49:29 - [MESSAGE][PASSED] - Text 'o-20221116134928' is set on object 'Object Repository/TC006/Page_Brivge/input__outboundRefNo'
+
+2022-11-16 13:49:29 - [TEST_STEP][PASSED] - bookingNo = "BN" + y: null
+
+2022-11-16 13:49:29 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input__bookingNo"), bookingNo): Text 'BN20221116134928' is set on object 'Object Repository/TC006/Page_Brivge/input__bookingNo'
+
+2022-11-16 13:49:30 - [MESSAGE][PASSED] - Text 'BN20221116134928' is set on object 'Object Repository/TC006/Page_Brivge/input__bookingNo'
+
+2022-11-16 13:49:30 - [TEST_STEP][PASSED] - util.copyToExcel.exel(bookingNo, 1, 7): util.copyToExcel.exel is PASSED
+
+2022-11-16 13:49:30 - [MESSAGE][PASSED] - util.copyToExcel.exel is PASSED
+
+2022-11-16 13:49:30 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/input__etd")): Object: 'Object Repository/TC006/Page_Brivge/input__etd' is clicked on
+
+2022-11-16 13:49:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/input__etd' is clicked on
+
+2022-11-16 13:49:31 - [TEST_STEP][PASSED] - util.handlePicker.handleCalendar(findTestObject("TC006/TC006_1/Page_Brivge/div_calendar header"), findTestObject("TC006/Page_Brivge/button next calendar"), 1, 2): util.handlePicker.handleCalendar is PASSED
+
+2022-11-16 13:49:36 - [MESSAGE][PASSED] - util.handlePicker.handleCalendar is PASSED
+
+2022-11-16 13:49:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-11-16 13:49:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-11-16 13:49:38 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/input__eta")): Object: 'Object Repository/TC006/Page_Brivge/input__eta' is clicked on
+
+2022-11-16 13:49:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/input__eta' is clicked on
+
+2022-11-16 13:49:38 - [TEST_STEP][PASSED] - util.handlePicker.handleCalendar(findTestObject("TC006/TC006_1/Page_Brivge/div_calendar header"), findTestObject("TC006/Page_Brivge/button next calendar"), 15, 2): util.handlePicker.handleCalendar is PASSED
+
+2022-11-16 13:49:45 - [MESSAGE][PASSED] - util.handlePicker.handleCalendar is PASSED
+
+2022-11-16 13:49:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Long Form/6_1 - input basic info' successfully
+
+2022-11-16 13:49:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Long Form/6_2 - input container info"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Long Form/6_2 - input container info' successfully
+
+2022-11-16 13:49:45 - [TEST_CASE][PASSED] - Test Cases/common/Long Form/6_2 - input container info: Test Cases/common/Long Form/6_2 - input container info
+
+2022-11-16 13:49:45 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/input_ADD CONTAINER_containerType")): Object: 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_containerType' is clicked on
+
+2022-11-16 13:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_containerType' is clicked on
+
+2022-11-16 13:49:46 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/li_20FT")): Object: 'Object Repository/TC006/Page_Brivge/li_20FT' is clicked on
+
+2022-11-16 13:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/li_20FT' is clicked on
+
+2022-11-16 13:49:46 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input_ADD CONTAINER_containerNo"), "C-221028001"): Text 'C-221028001' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_containerNo'
+
+2022-11-16 13:49:48 - [MESSAGE][PASSED] - Text 'C-221028001' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_containerNo'
+
+2022-11-16 13:49:48 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input_ADD CONTAINER_sealNo"), "C-221028001"): Text 'C-221028001' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_sealNo'
+
+2022-11-16 13:49:49 - [MESSAGE][PASSED] - Text 'C-221028001' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_sealNo'
+
+2022-11-16 13:49:49 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input_ADD CONTAINER_m3"), "1000"): Text '1000' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_m3'
+
+2022-11-16 13:49:50 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_m3'
+
+2022-11-16 13:49:50 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input_ADD CONTAINER_netWeight"), "1000"): Text '1000' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_netWeight'
+
+2022-11-16 13:49:52 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_netWeight'
+
+2022-11-16 13:49:52 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input_ADD CONTAINER_grossWeight"), "1000"): Text '1000' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_grossWeight'
+
+2022-11-16 13:49:53 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_grossWeight'
+
+2022-11-16 13:49:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Long Form/6_2 - input container info' successfully
+
+2022-11-16 13:49:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Long Form/6_3 - input outer package"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Long Form/6_3 - input outer package' successfully
+
+2022-11-16 13:49:53 - [TEST_CASE][PASSED] - Test Cases/common/Long Form/6_3 - input outer package: Test Cases/common/Long Form/6_3 - input outer package
+
+2022-11-16 13:49:53 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/button_ADD OUTER PACKAGE")): Object: 'Object Repository/TC006/Page_Brivge/button_ADD OUTER PACKAGE' is clicked on
+
+2022-11-16 13:49:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/button_ADD OUTER PACKAGE' is clicked on
+
+2022-11-16 13:49:54 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input_Outer Package 1_outerPackageNo"), "O-221028001"): Text 'O-221028001' is set on object 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_outerPackageNo'
+
+2022-11-16 13:49:56 - [MESSAGE][PASSED] - Text 'O-221028001' is set on object 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_outerPackageNo'
+
+2022-11-16 13:49:56 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/input_Outer Package 1_outerPackageType")): Object: 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_outerPackageType' is clicked on
+
+2022-11-16 13:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_outerPackageType' is clicked on
+
+2022-11-16 13:49:57 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/li_CARTONBOX")): Object: 'Object Repository/TC006/Page_Brivge/li_CARTONBOX' is clicked on
+
+2022-11-16 13:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/li_CARTONBOX' is clicked on
+
+2022-11-16 13:49:57 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input_Outer Package 1_m3"), "10.0"): Text '10.0' is set on object 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_m3'
+
+2022-11-16 13:49:58 - [MESSAGE][PASSED] - Text '10.0' is set on object 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_m3'
+
+2022-11-16 13:49:58 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input_Outer Package 1_netWeight"), "10.0"): Text '10.0' is set on object 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_netWeight'
+
+2022-11-16 13:50:00 - [MESSAGE][PASSED] - Text '10.0' is set on object 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_netWeight'
+
+2022-11-16 13:50:00 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input_Outer Package 1_grossWeight"), "10.0"): Text '10.0' is set on object 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_grossWeight'
+
+2022-11-16 13:50:01 - [MESSAGE][PASSED] - Text '10.0' is set on object 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_grossWeight'
+
+2022-11-16 13:50:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Long Form/6_3 - input outer package' successfully
+
+2022-11-16 13:50:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Long Form/6_4 - input add parts"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Long Form/6_4 - input add parts' successfully
+
+2022-11-16 13:50:01 - [TEST_CASE][PASSED] - Test Cases/common/Long Form/6_4 - input add parts: Test Cases/common/Long Form/6_4 - input add parts
+
+2022-11-16 13:50:02 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/button_ADD PARTS")): Object: 'Object Repository/TC006/Page_Brivge/button_ADD PARTS' is clicked on
+
+2022-11-16 13:50:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/button_ADD PARTS' is clicked on
+
+2022-11-16 13:50:03 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/TC006_4/input_inner_part_list_search"), findTestData("Toyotsu-data").getValue(3, 2)): Text 's102804-2211014' is set on object 'Object Repository/TC006/TC006_4/input_inner_part_list_search'
+
+2022-11-16 13:50:04 - [MESSAGE][PASSED] - Text 's102804-2211014' is set on object 'Object Repository/TC006/TC006_4/input_inner_part_list_search'
+
+2022-11-16 13:50:04 - [TEST_STEP][PASSED] - check(findTestObject("TC006/TC006_4/input_checkboxAll")): Object 'Object Repository/TC006/TC006_4/input_checkboxAll' is checked
+
+2022-11-16 13:50:05 - [MESSAGE][PASSED] - Object 'Object Repository/TC006/TC006_4/input_checkboxAll' is checked
+
+2022-11-16 13:50:05 - [TEST_STEP][PASSED] - click(findTestObject("TC006/TC006_4/button_OK")): Object: 'Object Repository/TC006/TC006_4/button_OK' is clicked on
+
+2022-11-16 13:50:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/TC006_4/button_OK' is clicked on
+
+2022-11-16 13:50:05 - [TEST_STEP][PASSED] - a = getText(findTestObject("TC006/TC006_4/not yet delivery price 1")): Text of object 'Object Repository/TC006/TC006_4/not yet delivery price 1' is: '1,500'
+
+2022-11-16 13:50:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC006/TC006_4/not yet delivery price 1' is: '1,500'
+
+2022-11-16 13:50:06 - [TEST_STEP][PASSED] - b = getText(findTestObject("TC006/TC006_4/not yet delivery price 2")): Text of object 'Object Repository/TC006/TC006_4/not yet delivery price 2' is: '1,500'
+
+2022-11-16 13:50:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC006/TC006_4/not yet delivery price 2' is: '1,500'
+
+2022-11-16 13:50:07 - [TEST_STEP][PASSED] - click(findTestObject("TC006/TC006_4/input_ADD PARTS_1"), STOP_ON_FAILURE): Object: 'Object Repository/TC006/TC006_4/input_ADD PARTS_1' is clicked on
+
+2022-11-16 13:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/TC006_4/input_ADD PARTS_1' is clicked on
+
+2022-11-16 13:50:07 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/TC006_4/input_ADD PARTS_1"), a): Text '1,500' is set on object 'Object Repository/TC006/TC006_4/input_ADD PARTS_1'
+
+2022-11-16 13:50:08 - [MESSAGE][PASSED] - Text '1,500' is set on object 'Object Repository/TC006/TC006_4/input_ADD PARTS_1'
+
+2022-11-16 13:50:08 - [TEST_STEP][PASSED] - click(findTestObject("TC006/TC006_4/input_ADD PARTS_2"), STOP_ON_FAILURE): Object: 'Object Repository/TC006/TC006_4/input_ADD PARTS_2' is clicked on
+
+2022-11-16 13:50:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/TC006_4/input_ADD PARTS_2' is clicked on
+
+2022-11-16 13:50:08 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/TC006_4/input_ADD PARTS_2"), b): Text '1,500' is set on object 'Object Repository/TC006/TC006_4/input_ADD PARTS_2'
+
+2022-11-16 13:50:09 - [MESSAGE][PASSED] - Text '1,500' is set on object 'Object Repository/TC006/TC006_4/input_ADD PARTS_2'
+
+2022-11-16 13:50:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Long Form/6_4 - input add parts' successfully
+
+2022-11-16 13:50:09 - [TEST_STEP][PASSED] - click(findTestObject("TC006/TC006_4/click before scroll up")): Object: 'Object Repository/TC006/TC006_4/click before scroll up' is clicked on
+
+2022-11-16 13:50:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/TC006_4/click before scroll up' is clicked on
+
+2022-11-16 13:50:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(HOME)): Keys 'HOME + ' sent to object: 'tempBody'
+
+2022-11-16 13:50:11 - [MESSAGE][WARNING] - Test object id is null
+
+2022-11-16 13:50:11 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-11-16 13:50:12 - [MESSAGE][PASSED] - Keys 'HOME + ' sent to object: 'tempBody'
+
+2022-11-16 13:50:12 - [TEST_STEP][PASSED] - click(findTestObject("TC006/TC006_4/button_Submit")): Object: 'Object Repository/TC006/TC006_4/button_Submit' is clicked on
+
+2022-11-16 13:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/TC006_4/button_Submit' is clicked on
+
+2022-11-16 13:50:13 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/button_CONFIRM")): Object: 'Object Repository/TC006/Page_Brivge/button_CONFIRM' is clicked on
+
+2022-11-16 13:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/button_CONFIRM' is clicked on
+
+2022-11-16 13:50:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC006/Page_Brivge/p_The operation was successful")): Object 'Object Repository/TC006/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:50:17 - [MESSAGE][PASSED] - Object 'Object Repository/TC006/Page_Brivge/p_The operation was successful' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC007 - Supplier Approve Release Seller GI Invoice (Supplier)" time="41.412" classname="Test Cases/TC007 - Supplier Approve Release Seller GI Invoice (Supplier)" status="PASSED">
+         <system-out><![CDATA[2022-11-16 13:50:17 - [TEST_CASE][PASSED] - Test Cases/TC007 - Supplier Approve Release Seller GI Invoice (Supplier): Test Cases/TC007 - Supplier Approve Release Seller GI Invoice (Supplier)
+
+2022-11-16 13:50:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Login"), ["username":usernameAzwan, "password":passwordAzwan, "verification":verificationAzwan, "company":sgbafco], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:50:17 - [TEST_CASE][PASSED] - Test Cases/common/Login: Test Cases/common/Login
+
+2022-11-16 13:50:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-16 13:50:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-16 13:50:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-16 13:50:18 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Katalon_downloaded_file}']
+
+2022-11-16 13:50:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-16 13:50:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-16 13:50:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-16 13:50:21 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-16 13:50:21 - [TEST_STEP][PASSED] - navigateToUrl("https://test.brivge.com/home"): Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:50:24 - [MESSAGE][PASSED] - Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:50:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/input_Sign In_username"), 0): Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:50:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:50:26 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:50:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_username"), username): Text 'Azwan' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:50:27 - [MESSAGE][PASSED] - Text 'Azwan' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:50:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_password"), password): Text 'Azwan-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:50:28 - [MESSAGE][PASSED] - Text 'Azwan-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:50:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Sign In")): Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:50:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:50:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Verify_verificationCode"), verification): Text '707501' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:50:30 - [MESSAGE][PASSED] - Text '707501' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:50:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Verify")): Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:50:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:50:30 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_aazwanSGDC-Azwan")): Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:50:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:50:34 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_company")): Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:50:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:50:35 - [TEST_STEP][PASSED] - click(findTestObject("Login/li_Company", ["company":company])): Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:50:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:50:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:50:36 - [TEST_STEP][PASSED] - click(findTestObject("TC007/Page_Brivge/h6_Accounting")): Object: 'Object Repository/TC007/Page_Brivge/h6_Accounting' is clicked on
+
+2022-11-16 13:50:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TC007/Page_Brivge/h6_Accounting' is clicked on
+
+2022-11-16 13:50:37 - [TEST_STEP][PASSED] - click(findTestObject("TC007/Page_Brivge/li_Seller(GI) Invoice List")): Object: 'Object Repository/TC007/Page_Brivge/li_Seller(GI) Invoice List' is clicked on
+
+2022-11-16 13:50:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC007/Page_Brivge/li_Seller(GI) Invoice List' is clicked on
+
+2022-11-16 13:50:39 - [TEST_STEP][PASSED] - setText(findTestObject("TC007/Page_Brivge/input_contract no list"), supplContractNo): Text 'SGBAFCO TO SGTTAP 1028001' is set on object 'Object Repository/TC007/Page_Brivge/input_contract no list'
+
+2022-11-16 13:50:44 - [MESSAGE][PASSED] - Text 'SGBAFCO TO SGTTAP 1028001' is set on object 'Object Repository/TC007/Page_Brivge/input_contract no list'
+
+2022-11-16 13:50:44 - [TEST_STEP][PASSED] - click(findTestObject("TC007/Page_Brivge/button filter")): Object: 'Object Repository/TC007/Page_Brivge/button filter' is clicked on
+
+2022-11-16 13:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TC007/Page_Brivge/button filter' is clicked on
+
+2022-11-16 13:50:45 - [TEST_STEP][PASSED] - click(findTestObject("TC007/Page_Brivge/input__statusList")): Object: 'Object Repository/TC007/Page_Brivge/input__statusList' is clicked on
+
+2022-11-16 13:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC007/Page_Brivge/input__statusList' is clicked on
+
+2022-11-16 13:50:46 - [TEST_STEP][PASSED] - click(findTestObject("TC007/Page_Brivge/li_New")): Object: 'Object Repository/TC007/Page_Brivge/li_New' is clicked on
+
+2022-11-16 13:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TC007/Page_Brivge/li_New' is clicked on
+
+2022-11-16 13:50:47 - [TEST_STEP][PASSED] - click(findTestObject("TC007/Page_Brivge/button_Search")): Object: 'Object Repository/TC007/Page_Brivge/button_Search' is clicked on
+
+2022-11-16 13:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TC007/Page_Brivge/button_Search' is clicked on
+
+2022-11-16 13:50:47 - [TEST_STEP][PASSED] - y = getText(findTestObject("TC007/Page_Brivge/div_invoice No")): Text of object 'Object Repository/TC007/Page_Brivge/div_invoice No' is: 'BA2211015'
+
+2022-11-16 13:50:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC007/Page_Brivge/div_invoice No' is: 'BA2211015'
+
+2022-11-16 13:50:48 - [TEST_STEP][PASSED] - util.copyToExcel.exel(y, 1, 6): util.copyToExcel.exel is PASSED
+
+2022-11-16 13:50:48 - [MESSAGE][PASSED] - util.copyToExcel.exel is PASSED
+
+2022-11-16 13:50:48 - [TEST_STEP][PASSED] - click(findTestObject("TC007/Page_Brivge/button approve")): Object: 'Object Repository/TC007/Page_Brivge/button approve' is clicked on
+
+2022-11-16 13:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC007/Page_Brivge/button approve' is clicked on
+
+2022-11-16 13:50:49 - [TEST_STEP][PASSED] - click(findTestObject("TC007/Page_Brivge/button_CONFIRM")): Object: 'Object Repository/TC007/Page_Brivge/button_CONFIRM' is clicked on
+
+2022-11-16 13:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC007/Page_Brivge/button_CONFIRM' is clicked on
+
+2022-11-16 13:50:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC007/Page_Brivge/p_The operation was successful")): Object 'Object Repository/TC007/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:50:50 - [MESSAGE][PASSED] - Object 'Object Repository/TC007/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:50:50 - [TEST_STEP][PASSED] - click(findTestObject("TC007/Page_Brivge/button filter")): Object: 'Object Repository/TC007/Page_Brivge/button filter' is clicked on
+
+2022-11-16 13:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC007/Page_Brivge/button filter' is clicked on
+
+2022-11-16 13:50:51 - [TEST_STEP][PASSED] - click(findTestObject("TC007/Page_Brivge/button_clear")): Object: 'Object Repository/TC007/Page_Brivge/button_clear' is clicked on
+
+2022-11-16 13:50:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC007/Page_Brivge/button_clear' is clicked on
+
+2022-11-16 13:50:52 - [TEST_STEP][PASSED] - click(findTestObject("TC007/Page_Brivge/button_Search")): Object: 'Object Repository/TC007/Page_Brivge/button_Search' is clicked on
+
+2022-11-16 13:50:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC007/Page_Brivge/button_Search' is clicked on
+
+2022-11-16 13:50:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TC007/Page_Brivge/div_Approved"), "Approved"): Actual text and expected text of test object 'Object Repository/TC007/Page_Brivge/div_Approved' are matched.
+
+2022-11-16 13:50:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC007/Page_Brivge/div_Approved' are matched.
+
+2022-11-16 13:50:53 - [TEST_STEP][PASSED] - click(findTestObject("TC007/Page_Brivge/button release")): Object: 'Object Repository/TC007/Page_Brivge/button release' is clicked on
+
+2022-11-16 13:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC007/Page_Brivge/button release' is clicked on
+
+2022-11-16 13:50:54 - [TEST_STEP][PASSED] - click(findTestObject("TC007/Page_Brivge/button_CONFIRM")): Object: 'Object Repository/TC007/Page_Brivge/button_CONFIRM' is clicked on
+
+2022-11-16 13:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC007/Page_Brivge/button_CONFIRM' is clicked on
+
+2022-11-16 13:50:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC007/Page_Brivge/p_The operation was successful")): Object 'Object Repository/TC007/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:50:55 - [MESSAGE][PASSED] - Object 'Object Repository/TC007/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:50:55 - [TEST_STEP][PASSED] - click(findTestObject("TC007/Page_Brivge/button filter")): Object: 'Object Repository/TC007/Page_Brivge/button filter' is clicked on
+
+2022-11-16 13:50:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TC007/Page_Brivge/button filter' is clicked on
+
+2022-11-16 13:50:56 - [TEST_STEP][PASSED] - click(findTestObject("TC007/Page_Brivge/button_clear")): Object: 'Object Repository/TC007/Page_Brivge/button_clear' is clicked on
+
+2022-11-16 13:50:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC007/Page_Brivge/button_clear' is clicked on
+
+2022-11-16 13:50:57 - [TEST_STEP][PASSED] - click(findTestObject("TC007/Page_Brivge/button_Search")): Object: 'Object Repository/TC007/Page_Brivge/button_Search' is clicked on
+
+2022-11-16 13:50:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC007/Page_Brivge/button_Search' is clicked on
+
+2022-11-16 13:50:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TC007/Page_Brivge/div_Released"), "Released"): Actual text and expected text of test object 'Object Repository/TC007/Page_Brivge/div_Released' are matched.
+
+2022-11-16 13:50:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC007/Page_Brivge/div_Released' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC008 - Auto Generate Buyer GR Invoice (BU)" time="41.824" classname="Test Cases/TC008 - Auto Generate Buyer GR Invoice (BU)" status="PASSED">
+         <system-out><![CDATA[2022-11-16 13:50:58 - [TEST_CASE][PASSED] - Test Cases/TC008 - Auto Generate Buyer GR Invoice (BU): Test Cases/TC008 - Auto Generate Buyer GR Invoice (BU)
+
+2022-11-16 13:50:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Login"), ["username":usernameLuqman, "password":passwordLuqman, "verification":verificationLuqman, "company":sgttap], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:50:59 - [TEST_CASE][PASSED] - Test Cases/common/Login: Test Cases/common/Login
+
+2022-11-16 13:50:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-16 13:50:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-16 13:51:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-16 13:51:00 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Katalon_downloaded_file}']
+
+2022-11-16 13:51:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-16 13:51:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-16 13:51:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-16 13:51:02 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-16 13:51:02 - [TEST_STEP][PASSED] - navigateToUrl("https://test.brivge.com/home"): Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:51:05 - [MESSAGE][PASSED] - Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:51:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/input_Sign In_username"), 0): Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:51:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:51:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:51:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_username"), username): Text 'Luqman' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:51:09 - [MESSAGE][PASSED] - Text 'Luqman' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:51:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_password"), password): Text 'Luqman-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:51:10 - [MESSAGE][PASSED] - Text 'Luqman-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:51:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Sign In")): Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:51:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Verify_verificationCode"), verification): Text '986737' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:51:11 - [MESSAGE][PASSED] - Text '986737' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:51:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Verify")): Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:51:12 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_aazwanSGDC-Azwan")): Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:51:23 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_company")): Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:51:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:51:24 - [TEST_STEP][PASSED] - click(findTestObject("Login/li_Company", ["company":company])): Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:51:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:51:25 - [TEST_STEP][PASSED] - click(findTestObject("TC007/Page_Brivge/h6_Accounting")): Object: 'Object Repository/TC007/Page_Brivge/h6_Accounting' is clicked on
+
+2022-11-16 13:51:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TC007/Page_Brivge/h6_Accounting' is clicked on
+
+2022-11-16 13:51:26 - [TEST_STEP][PASSED] - click(findTestObject("TC008/Page_Brivge/li_Buyer(GR) Invoice List")): Object: 'Object Repository/TC008/Page_Brivge/li_Buyer(GR) Invoice List' is clicked on
+
+2022-11-16 13:51:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TC008/Page_Brivge/li_Buyer(GR) Invoice List' is clicked on
+
+2022-11-16 13:51:28 - [TEST_STEP][PASSED] - setText(findTestObject("TC008/Page_Brivge/input_Buyer(GR) Invoice List"), findTestData("Toyotsu-data").getValue(7, 2)): Text 'BA2211015' is set on object 'Object Repository/TC008/Page_Brivge/input_Buyer(GR) Invoice List'
+
+2022-11-16 13:51:32 - [MESSAGE][PASSED] - Text 'BA2211015' is set on object 'Object Repository/TC008/Page_Brivge/input_Buyer(GR) Invoice List'
+
+2022-11-16 13:51:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TC008/Page_Brivge/div_Released"), "Released"): Actual text and expected text of test object 'Object Repository/TC008/Page_Brivge/div_Released' are matched.
+
+2022-11-16 13:51:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC008/Page_Brivge/div_Released' are matched.
+
+2022-11-16 13:51:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-11-16 13:51:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azwan\\git\\Toyotsu\\Reports\\20221116_134352\\Flow\\20221116_134352\\1668577893237.png]]
+
+2022-11-16 13:51:33 - [TEST_STEP][PASSED] - click(findTestObject("TC008/Page_Brivge/button view")): Object: 'Object Repository/TC008/Page_Brivge/button view' is clicked on
+
+2022-11-16 13:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TC008/Page_Brivge/button view' is clicked on
+
+2022-11-16 13:51:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC008/Page_Brivge/h3_Buyer(GR) Invoice Detail")): Object 'Object Repository/TC008/Page_Brivge/h3_Buyer(GR) Invoice Detail' is visible
+
+2022-11-16 13:51:35 - [MESSAGE][PASSED] - Object 'Object Repository/TC008/Page_Brivge/h3_Buyer(GR) Invoice Detail' is visible
+
+2022-11-16 13:51:35 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-11-16 13:51:37 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-11-16 13:51:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azwan\\git\\Toyotsu\\Reports\\20221116_134352\\Flow\\20221116_134352\\1668577895963.png]]
+
+2022-11-16 13:51:37 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Invoice Detail"): Taking screenshot successfully
+
+2022-11-16 13:51:38 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-11-16 13:51:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Invoice Detail.png]]
+
+2022-11-16 13:51:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2022-11-16 13:51:38 - [MESSAGE][WARNING] - Test object id is null
+
+2022-11-16 13:51:38 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-11-16 13:51:39 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'tempBody'
+
+2022-11-16 13:51:39 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Invoice Detail 2"): Taking screenshot successfully
+
+2022-11-16 13:51:40 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-11-16 13:51:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Invoice Detail 2.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC009 - Supplier Revise and Confirm Shipment (Supplier)" time="41.203" classname="Test Cases/TC009 - Supplier Revise and Confirm Shipment (Supplier)" status="PASSED">
+         <system-out><![CDATA[2022-11-16 13:51:40 - [TEST_CASE][PASSED] - Test Cases/TC009 - Supplier Revise and Confirm Shipment (Supplier): Test Cases/TC009 - Supplier Revise and Confirm Shipment (Supplier)
+
+2022-11-16 13:51:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Login"), ["username":usernameAzwan, "password":passwordAzwan, "verification":verificationAzwan, "company":sgbafco], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:51:41 - [TEST_CASE][PASSED] - Test Cases/common/Login: Test Cases/common/Login
+
+2022-11-16 13:51:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-16 13:51:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-16 13:51:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-16 13:51:41 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Katalon_downloaded_file}']
+
+2022-11-16 13:51:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-16 13:51:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-16 13:51:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-16 13:51:44 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-16 13:51:44 - [TEST_STEP][PASSED] - navigateToUrl("https://test.brivge.com/home"): Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:51:48 - [MESSAGE][PASSED] - Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:51:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/input_Sign In_username"), 0): Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:51:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:51:50 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:51:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_username"), username): Text 'Azwan' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:51:51 - [MESSAGE][PASSED] - Text 'Azwan' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:51:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_password"), password): Text 'Azwan-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:51:52 - [MESSAGE][PASSED] - Text 'Azwan-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:51:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Sign In")): Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:51:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:51:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Verify_verificationCode"), verification): Text '707501' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:51:53 - [MESSAGE][PASSED] - Text '707501' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:51:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Verify")): Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:51:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:51:54 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_aazwanSGDC-Azwan")): Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:51:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:51:57 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_company")): Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:51:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:51:58 - [TEST_STEP][PASSED] - click(findTestObject("Login/li_Company", ["company":company])): Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:51:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:51:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:51:59 - [TEST_STEP][PASSED] - click(findTestObject("TC009/Page_Brivge/h6_Logistics")): Object: 'Object Repository/TC009/Page_Brivge/h6_Logistics' is clicked on
+
+2022-11-16 13:52:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC009/Page_Brivge/h6_Logistics' is clicked on
+
+2022-11-16 13:52:00 - [TEST_STEP][PASSED] - click(findTestObject("TC009/Page_Brivge/li_Shipping Detail List")): Object: 'Object Repository/TC009/Page_Brivge/li_Shipping Detail List' is clicked on
+
+2022-11-16 13:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TC009/Page_Brivge/li_Shipping Detail List' is clicked on
+
+2022-11-16 13:52:03 - [TEST_STEP][PASSED] - setText(findTestObject("TC009/Page_Brivge/input_Shipping Detail List"), findTestData("Toyotsu-data").getValue(8, 2)): Text 'BN20221116134928' is set on object 'Object Repository/TC009/Page_Brivge/input_Shipping Detail List'
+
+2022-11-16 13:52:07 - [MESSAGE][PASSED] - Text 'BN20221116134928' is set on object 'Object Repository/TC009/Page_Brivge/input_Shipping Detail List'
+
+2022-11-16 13:52:07 - [TEST_STEP][PASSED] - click(findTestObject("TC009/Page_Brivge/button_edit")): Object: 'Object Repository/TC009/Page_Brivge/button_edit' is clicked on
+
+2022-11-16 13:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TC009/Page_Brivge/button_edit' is clicked on
+
+2022-11-16 13:52:07 - [TEST_STEP][PASSED] - y = util.generateTime.dateTimeGenerator(): util.generateTime.dateTimeGenerator is PASSED
+
+2022-11-16 13:52:07 - [MESSAGE][PASSED] - util.generateTime.dateTimeGenerator is PASSED
+
+2022-11-16 13:52:07 - [TEST_STEP][PASSED] - click(findTestObject("TC009/Page_Brivge/input__atd")): Object: 'Object Repository/TC009/Page_Brivge/input__atd' is clicked on
+
+2022-11-16 13:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TC009/Page_Brivge/input__atd' is clicked on
+
+2022-11-16 13:52:09 - [TEST_STEP][PASSED] - click(findTestObject("TC009/Page_Brivge/button next atd calendar")): Object: 'Object Repository/TC009/Page_Brivge/button next atd calendar' is clicked on
+
+2022-11-16 13:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TC009/Page_Brivge/button next atd calendar' is clicked on
+
+2022-11-16 13:52:10 - [TEST_STEP][PASSED] - click(findTestObject("TC009/Page_Brivge/button_1")): Object: 'Object Repository/TC009/Page_Brivge/button_1' is clicked on
+
+2022-11-16 13:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TC009/Page_Brivge/button_1' is clicked on
+
+2022-11-16 13:52:11 - [TEST_STEP][PASSED] - click(findTestObject("TC009/Page_Brivge/input__blDate")): Object: 'Object Repository/TC009/Page_Brivge/input__blDate' is clicked on
+
+2022-11-16 13:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TC009/Page_Brivge/input__blDate' is clicked on
+
+2022-11-16 13:52:12 - [TEST_STEP][PASSED] - click(findTestObject("TC009/Page_Brivge/button next bl calendar")): Object: 'Object Repository/TC009/Page_Brivge/button next bl calendar' is clicked on
+
+2022-11-16 13:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC009/Page_Brivge/button next bl calendar' is clicked on
+
+2022-11-16 13:52:13 - [TEST_STEP][PASSED] - click(findTestObject("TC009/Page_Brivge/button_15")): Object: 'Object Repository/TC009/Page_Brivge/button_15' is clicked on
+
+2022-11-16 13:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC009/Page_Brivge/button_15' is clicked on
+
+2022-11-16 13:52:14 - [TEST_STEP][PASSED] - setText(findTestObject("TC009/Page_Brivge/input__blNo"), "BL No " + y): Text 'BL No 20221116135207' is set on object 'Object Repository/TC009/Page_Brivge/input__blNo'
+
+2022-11-16 13:52:15 - [MESSAGE][PASSED] - Text 'BL No 20221116135207' is set on object 'Object Repository/TC009/Page_Brivge/input__blNo'
+
+2022-11-16 13:52:15 - [TEST_STEP][PASSED] - setText(findTestObject("TC009/Page_Brivge/input__voyageNo"), "voyage " + y): Text 'voyage 20221116135207' is set on object 'Object Repository/TC009/Page_Brivge/input__voyageNo'
+
+2022-11-16 13:52:16 - [MESSAGE][PASSED] - Text 'voyage 20221116135207' is set on object 'Object Repository/TC009/Page_Brivge/input__voyageNo'
+
+2022-11-16 13:52:16 - [TEST_STEP][PASSED] - setText(findTestObject("TC009/Page_Brivge/input__vesselName"), "Vessel A"): Text 'Vessel A' is set on object 'Object Repository/TC009/Page_Brivge/input__vesselName'
+
+2022-11-16 13:52:17 - [MESSAGE][PASSED] - Text 'Vessel A' is set on object 'Object Repository/TC009/Page_Brivge/input__vesselName'
+
+2022-11-16 13:52:17 - [TEST_STEP][PASSED] - click(findTestObject("TC009/Page_Brivge/input__cargoStatus")): Object: 'Object Repository/TC009/Page_Brivge/input__cargoStatus' is clicked on
+
+2022-11-16 13:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TC009/Page_Brivge/input__cargoStatus' is clicked on
+
+2022-11-16 13:52:18 - [TEST_STEP][PASSED] - click(findTestObject("TC009/Page_Brivge/li_Cargo Outbound")): Object: 'Object Repository/TC009/Page_Brivge/li_Cargo Outbound' is clicked on
+
+2022-11-16 13:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TC009/Page_Brivge/li_Cargo Outbound' is clicked on
+
+2022-11-16 13:52:18 - [TEST_STEP][PASSED] - click(findTestObject("TC009/Page_Brivge/button_Confirm")): Object: 'Object Repository/TC009/Page_Brivge/button_Confirm' is clicked on
+
+2022-11-16 13:52:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC009/Page_Brivge/button_Confirm' is clicked on
+
+2022-11-16 13:52:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC009/Page_Brivge/p_Are you sure to do Confirm(c0001)")): Object 'Object Repository/TC009/Page_Brivge/p_Are you sure to do Confirm(c0001)' is visible
+
+2022-11-16 13:52:20 - [MESSAGE][PASSED] - Object 'Object Repository/TC009/Page_Brivge/p_Are you sure to do Confirm(c0001)' is visible
+
+2022-11-16 13:52:20 - [TEST_STEP][PASSED] - click(findTestObject("TC009/Page_Brivge/button_CONFIRM 2")): Object: 'Object Repository/TC009/Page_Brivge/button_CONFIRM 2' is clicked on
+
+2022-11-16 13:52:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TC009/Page_Brivge/button_CONFIRM 2' is clicked on
+
+2022-11-16 13:52:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC007/Page_Brivge/p_The operation was successful")): Object 'Object Repository/TC007/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:52:21 - [MESSAGE][PASSED] - Object 'Object Repository/TC007/Page_Brivge/p_The operation was successful' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC010 - DC Inbound Details (DC)" time="40.945" classname="Test Cases/TC010 - DC Inbound Details (DC)" status="PASSED">
+         <system-out><![CDATA[2022-11-16 13:52:21 - [TEST_CASE][PASSED] - Test Cases/TC010 - DC Inbound Details (DC): Test Cases/TC010 - DC Inbound Details (DC)
+
+2022-11-16 13:52:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Login"), ["username":usernameAzwan, "password":passwordAzwan, "verification":verificationAzwan, "company":sgttapdc], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:52:22 - [TEST_CASE][PASSED] - Test Cases/common/Login: Test Cases/common/Login
+
+2022-11-16 13:52:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-16 13:52:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-16 13:52:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-16 13:52:23 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Katalon_downloaded_file}']
+
+2022-11-16 13:52:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-16 13:52:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-16 13:52:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-16 13:52:25 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-16 13:52:25 - [TEST_STEP][PASSED] - navigateToUrl("https://test.brivge.com/home"): Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:52:28 - [MESSAGE][PASSED] - Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:52:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/input_Sign In_username"), 0): Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:52:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:52:30 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:52:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_username"), username): Text 'Azwan' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:52:31 - [MESSAGE][PASSED] - Text 'Azwan' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:52:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_password"), password): Text 'Azwan-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:52:32 - [MESSAGE][PASSED] - Text 'Azwan-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:52:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Sign In")): Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:52:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:52:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Verify_verificationCode"), verification): Text '707501' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:52:34 - [MESSAGE][PASSED] - Text '707501' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:52:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Verify")): Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:52:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:52:34 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_aazwanSGDC-Azwan")): Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:52:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:52:38 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_company")): Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:52:39 - [TEST_STEP][PASSED] - click(findTestObject("Login/li_Company", ["company":company])): Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:52:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:52:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:52:40 - [TEST_STEP][PASSED] - click(findTestObject("TC010/Page_Brivge/span_Logistics")): Object: 'Object Repository/TC010/Page_Brivge/span_Logistics' is clicked on
+
+2022-11-16 13:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TC010/Page_Brivge/span_Logistics' is clicked on
+
+2022-11-16 13:52:41 - [TEST_STEP][PASSED] - click(findTestObject("TC010/Page_Brivge/li_Inbound Monitoring List")): Object: 'Object Repository/TC010/Page_Brivge/li_Inbound Monitoring List' is clicked on
+
+2022-11-16 13:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TC010/Page_Brivge/li_Inbound Monitoring List' is clicked on
+
+2022-11-16 13:52:42 - [TEST_STEP][PASSED] - setText(findTestObject("TC010/Page_Brivge/input_inbound list"), findTestData("Toyotsu-data").getValue(6, 2)): Text 'o-20221116134928' is set on object 'Object Repository/TC010/Page_Brivge/input_inbound list'
+
+2022-11-16 13:52:46 - [MESSAGE][PASSED] - Text 'o-20221116134928' is set on object 'Object Repository/TC010/Page_Brivge/input_inbound list'
+
+2022-11-16 13:52:46 - [TEST_STEP][PASSED] - click(findTestObject("TC010/Page_Brivge/checkbox")): Object: 'Object Repository/TC010/Page_Brivge/checkbox' is clicked on
+
+2022-11-16 13:52:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TC010/Page_Brivge/checkbox' is clicked on
+
+2022-11-16 13:52:47 - [TEST_STEP][PASSED] - click(findTestObject("TC010/Page_Brivge/button download")): Object: 'Object Repository/TC010/Page_Brivge/button download' is clicked on
+
+2022-11-16 13:52:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TC010/Page_Brivge/button download' is clicked on
+
+2022-11-16 13:52:47 - [TEST_STEP][PASSED] - click(findTestObject("TC010/Page_Brivge/li_Download Inbound Plan")): Object: 'Object Repository/TC010/Page_Brivge/li_Download Inbound Plan' is clicked on
+
+2022-11-16 13:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TC010/Page_Brivge/li_Download Inbound Plan' is clicked on
+
+2022-11-16 13:52:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC010/Page_Brivge/p_The operation was successful"), CONTINUE_ON_FAILURE): Object 'Object Repository/TC010/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:52:49 - [MESSAGE][PASSED] - Object 'Object Repository/TC010/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:52:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-11-16 13:52:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-11-16 13:52:54 - [TEST_STEP][PASSED] - filename = util.getDownloadedFile.getLatestFileFromDirectory(): util.getDownloadedFile.getLatestFileFromDirectory is PASSED
+
+2022-11-16 13:52:54 - [MESSAGE][PASSED] - util.getDownloadedFile.getLatestFileFromDirectory is PASSED
+
+2022-11-16 13:52:54 - [TEST_STEP][PASSED] - logInfo("Last file received is " + filename): Last file received is C:\Katalon_downloaded_file\Inbound Plan.20221116135248.xlsx
+
+2022-11-16 13:52:54 - [MESSAGE][INFO] - Last file received is C:\Katalon_downloaded_file\Inbound Plan.20221116135248.xlsx
+
+2022-11-16 13:52:54 - [TEST_STEP][PASSED] - click(findTestObject("TC010/Page_Brivge/button confirm")): Object: 'Object Repository/TC010/Page_Brivge/button confirm' is clicked on
+
+2022-11-16 13:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC010/Page_Brivge/button confirm' is clicked on
+
+2022-11-16 13:52:55 - [TEST_STEP][PASSED] - timestamp = util.generateTime.dateTimeGenerator(): util.generateTime.dateTimeGenerator is PASSED
+
+2022-11-16 13:52:55 - [MESSAGE][PASSED] - util.generateTime.dateTimeGenerator is PASSED
+
+2022-11-16 13:52:55 - [TEST_STEP][PASSED] - inboundRefNo = "inbound" + timestamp: null
+
+2022-11-16 13:52:55 - [TEST_STEP][PASSED] - util.copyToExcel.exel(inboundRefNo, 1, 8): util.copyToExcel.exel is PASSED
+
+2022-11-16 13:52:55 - [MESSAGE][PASSED] - util.copyToExcel.exel is PASSED
+
+2022-11-16 13:52:55 - [TEST_STEP][PASSED] - setText(findTestObject("TC010/Page_Brivge/input__inboundRefNo"), inboundRefNo): Text 'inbound20221116135255' is set on object 'Object Repository/TC010/Page_Brivge/input__inboundRefNo'
+
+2022-11-16 13:52:57 - [MESSAGE][PASSED] - Text 'inbound20221116135255' is set on object 'Object Repository/TC010/Page_Brivge/input__inboundRefNo'
+
+2022-11-16 13:52:57 - [TEST_STEP][PASSED] - click(findTestObject("TC010/Page_Brivge/input__inboundDate")): Object: 'Object Repository/TC010/Page_Brivge/input__inboundDate' is clicked on
+
+2022-11-16 13:52:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC010/Page_Brivge/input__inboundDate' is clicked on
+
+2022-11-16 13:52:57 - [TEST_STEP][PASSED] - day = util.generateTime.currentDateDay(): util.generateTime.currentDateDay is PASSED
+
+2022-11-16 13:52:57 - [MESSAGE][PASSED] - util.generateTime.currentDateDay is PASSED
+
+2022-11-16 13:52:57 - [TEST_STEP][PASSED] - month = util.generateTime.currentMonth(): util.generateTime.currentMonth is PASSED
+
+2022-11-16 13:52:57 - [MESSAGE][PASSED] - util.generateTime.currentMonth is PASSED
+
+2022-11-16 13:52:57 - [TEST_STEP][PASSED] - util.handlePicker.handleCalendar(findTestObject("TC010/Page_Brivge/currentmonth"), findTestObject("TC010/Page_Brivge/button next calendar"), day, month): util.handlePicker.handleCalendar is PASSED
+
+2022-11-16 13:52:59 - [MESSAGE][PASSED] - util.handlePicker.handleCalendar is PASSED
+
+2022-11-16 13:52:59 - [TEST_STEP][PASSED] - util.parseValue.parseAValueToWebObject(findTestObject("TC010/Page_Brivge/input__inboundTime"), "12:00:00"): util.parseValue.parseAValueToWebObject is PASSED
+
+2022-11-16 13:52:59 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].value='12:00:00'' successfully
+
+2022-11-16 13:52:59 - [MESSAGE][PASSED] - util.parseValue.parseAValueToWebObject is PASSED
+
+2022-11-16 13:52:59 - [TEST_STEP][PASSED] - click(findTestObject("TC010/Page_Brivge/button_Confirm 2")): Object: 'Object Repository/TC010/Page_Brivge/button_Confirm 2' is clicked on
+
+2022-11-16 13:53:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC010/Page_Brivge/button_Confirm 2' is clicked on
+
+2022-11-16 13:53:00 - [TEST_STEP][PASSED] - click(findTestObject("TC010/Page_Brivge/button_CONFIRM 3")): Object: 'Object Repository/TC010/Page_Brivge/button_CONFIRM 3' is clicked on
+
+2022-11-16 13:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC010/Page_Brivge/button_CONFIRM 3' is clicked on
+
+2022-11-16 13:53:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC010/Page_Brivge/p_The operation was successful")): Object 'Object Repository/TC010/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:53:02 - [MESSAGE][PASSED] - Object 'Object Repository/TC010/Page_Brivge/p_The operation was successful' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC011 - DC Outbound Details (DC)" time="112.842" classname="Test Cases/TC011 - DC Outbound Details (DC)" status="PASSED">
+         <system-out><![CDATA[2022-11-16 13:53:02 - [TEST_CASE][PASSED] - Test Cases/TC011 - DC Outbound Details (DC): Test Cases/TC011 - DC Outbound Details (DC)
+
+2022-11-16 13:53:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Login"), ["username":usernameLuqman, "password":passwordLuqman, "verification":verificationLuqman, "company":sgttap], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:53:03 - [TEST_CASE][PASSED] - Test Cases/common/Login: Test Cases/common/Login
+
+2022-11-16 13:53:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-16 13:53:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-16 13:53:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-16 13:53:04 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Katalon_downloaded_file}']
+
+2022-11-16 13:53:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-16 13:53:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-16 13:53:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-16 13:53:06 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-16 13:53:06 - [TEST_STEP][PASSED] - navigateToUrl("https://test.brivge.com/home"): Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:53:10 - [MESSAGE][PASSED] - Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:53:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/input_Sign In_username"), 0): Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:53:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:53:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:53:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_username"), username): Text 'Luqman' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:53:13 - [MESSAGE][PASSED] - Text 'Luqman' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:53:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_password"), password): Text 'Luqman-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:53:14 - [MESSAGE][PASSED] - Text 'Luqman-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:53:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Sign In")): Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:53:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:53:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Verify_verificationCode"), verification): Text '986737' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:53:15 - [MESSAGE][PASSED] - Text '986737' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:53:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Verify")): Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:53:16 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_aazwanSGDC-Azwan")): Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:53:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:53:27 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_company")): Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:53:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:53:28 - [TEST_STEP][PASSED] - click(findTestObject("Login/li_Company", ["company":company])): Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:53:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:53:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:53:29 - [TEST_STEP][PASSED] - click(findTestObject("TC011/Page_Brivge/button_Order")): Object: 'Object Repository/TC011/Page_Brivge/button_Order' is clicked on
+
+2022-11-16 13:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TC011/Page_Brivge/button_Order' is clicked on
+
+2022-11-16 13:53:30 - [TEST_STEP][PASSED] - click(findTestObject("TC011/Page_Brivge/li_SO Monitoring List")): Object: 'Object Repository/TC011/Page_Brivge/li_SO Monitoring List' is clicked on
+
+2022-11-16 13:53:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC011/Page_Brivge/li_SO Monitoring List' is clicked on
+
+2022-11-16 13:53:31 - [TEST_STEP][PASSED] - setText(findTestObject("TC011/Page_Brivge/input_SO Monitoring List"), custContractNo): Text 'SGTTAP TO VNTTVN 1028001' is set on object 'Object Repository/TC011/Page_Brivge/input_SO Monitoring List'
+
+2022-11-16 13:53:36 - [MESSAGE][PASSED] - Text 'SGTTAP TO VNTTVN 1028001' is set on object 'Object Repository/TC011/Page_Brivge/input_SO Monitoring List'
+
+2022-11-16 13:53:36 - [TEST_STEP][PASSED] - y = getText(findTestObject("TC011/Page_Brivge/div_orderNo")): Text of object 'Object Repository/TC011/Page_Brivge/div_orderNo' is: 's102801-2211014'
+
+2022-11-16 13:53:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC011/Page_Brivge/div_orderNo' is: 's102801-2211014'
+
+2022-11-16 13:53:37 - [TEST_STEP][PASSED] - util.copyToExcel.exel(y, 1, 12): util.copyToExcel.exel is PASSED
+
+2022-11-16 13:53:37 - [MESSAGE][PASSED] - util.copyToExcel.exel is PASSED
+
+2022-11-16 13:53:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Login"), ["username":usernameAzwan, "password":passwordAzwan, "verification":verificationAzwan, "company":sgttapdc], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:53:37 - [TEST_CASE][PASSED] - Test Cases/common/Login: Test Cases/common/Login
+
+2022-11-16 13:53:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-16 13:53:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-16 13:53:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-16 13:53:38 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Katalon_downloaded_file}']
+
+2022-11-16 13:53:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-16 13:53:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-16 13:53:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-16 13:53:40 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-16 13:53:40 - [TEST_STEP][PASSED] - navigateToUrl("https://test.brivge.com/home"): Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:53:44 - [MESSAGE][PASSED] - Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:53:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/input_Sign In_username"), 0): Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:53:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:53:45 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:53:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_username"), username): Text 'Azwan' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:53:46 - [MESSAGE][PASSED] - Text 'Azwan' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:53:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_password"), password): Text 'Azwan-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:53:47 - [MESSAGE][PASSED] - Text 'Azwan-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:53:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Sign In")): Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:53:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Verify_verificationCode"), verification): Text '707501' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:53:50 - [MESSAGE][PASSED] - Text '707501' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:53:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Verify")): Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:53:50 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_aazwanSGDC-Azwan")): Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:53:54 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_company")): Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:53:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:53:55 - [TEST_STEP][PASSED] - click(findTestObject("Login/li_Company", ["company":company])): Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:53:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:53:56 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/h6_Logistics")): Object: 'Object Repository/TC006/Page_Brivge/h6_Logistics' is clicked on
+
+2022-11-16 13:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/h6_Logistics' is clicked on
+
+2022-11-16 13:53:57 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/li_Outbound Monitoring List")): Object: 'Object Repository/TC006/Page_Brivge/li_Outbound Monitoring List' is clicked on
+
+2022-11-16 13:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/li_Outbound Monitoring List' is clicked on
+
+2022-11-16 13:53:59 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/button create")): Object: 'Object Repository/TC006/Page_Brivge/button create' is clicked on
+
+2022-11-16 13:54:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/button create' is clicked on
+
+2022-11-16 13:54:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Long Form/11_1 - input basic info"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Long Form/11_1 - input basic info' successfully
+
+2022-11-16 13:54:01 - [TEST_CASE][PASSED] - Test Cases/common/Long Form/11_1 - input basic info: Test Cases/common/Long Form/11_1 - input basic info
+
+2022-11-16 13:54:02 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/input__buyer")): Object: 'Object Repository/TC006/Page_Brivge/input__buyer' is clicked on
+
+2022-11-16 13:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/input__buyer' is clicked on
+
+2022-11-16 13:54:05 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input__buyer"), "VN-TTVN"): Text 'VN-TTVN' is set on object 'Object Repository/TC006/Page_Brivge/input__buyer'
+
+2022-11-16 13:54:06 - [MESSAGE][PASSED] - Text 'VN-TTVN' is set on object 'Object Repository/TC006/Page_Brivge/input__buyer'
+
+2022-11-16 13:54:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC006/Page_Brivge/input__buyer"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/TC006/Page_Brivge/input__buyer'
+
+2022-11-16 13:54:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC006/Page_Brivge/input__buyer'
+
+2022-11-16 13:54:06 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/input__receiver"), STOP_ON_FAILURE): Object: 'Object Repository/TC006/Page_Brivge/input__receiver' is clicked on
+
+2022-11-16 13:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/input__receiver' is clicked on
+
+2022-11-16 13:54:07 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input__receiver"), "VN-TTVN"): Text 'VN-TTVN' is set on object 'Object Repository/TC006/Page_Brivge/input__receiver'
+
+2022-11-16 13:54:09 - [MESSAGE][PASSED] - Text 'VN-TTVN' is set on object 'Object Repository/TC006/Page_Brivge/input__receiver'
+
+2022-11-16 13:54:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC006/Page_Brivge/input__receiver"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/TC006/Page_Brivge/input__receiver'
+
+2022-11-16 13:54:09 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC006/Page_Brivge/input__receiver'
+
+2022-11-16 13:54:09 - [TEST_STEP][PASSED] - y = util.generateTime.dateTimeGenerator(): util.generateTime.dateTimeGenerator is PASSED
+
+2022-11-16 13:54:09 - [MESSAGE][PASSED] - util.generateTime.dateTimeGenerator is PASSED
+
+2022-11-16 13:54:09 - [TEST_STEP][PASSED] - outBoundRefNo = "o-" + y: null
+
+2022-11-16 13:54:09 - [TEST_STEP][PASSED] - util.copyToExcel.exel(outBoundRefNo, 1, 9): util.copyToExcel.exel is PASSED
+
+2022-11-16 13:54:09 - [MESSAGE][PASSED] - util.copyToExcel.exel is PASSED
+
+2022-11-16 13:54:09 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input__outboundRefNo"), outBoundRefNo): Text 'o-20221116135409' is set on object 'Object Repository/TC006/Page_Brivge/input__outboundRefNo'
+
+2022-11-16 13:54:11 - [MESSAGE][PASSED] - Text 'o-20221116135409' is set on object 'Object Repository/TC006/Page_Brivge/input__outboundRefNo'
+
+2022-11-16 13:54:11 - [TEST_STEP][PASSED] - bookingNo = "BN" + y: null
+
+2022-11-16 13:54:11 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input__bookingNo"), bookingNo): Text 'BN20221116135409' is set on object 'Object Repository/TC006/Page_Brivge/input__bookingNo'
+
+2022-11-16 13:54:12 - [MESSAGE][PASSED] - Text 'BN20221116135409' is set on object 'Object Repository/TC006/Page_Brivge/input__bookingNo'
+
+2022-11-16 13:54:12 - [TEST_STEP][PASSED] - util.copyToExcel.exel(bookingNo, 1, 10): util.copyToExcel.exel is PASSED
+
+2022-11-16 13:54:12 - [MESSAGE][PASSED] - util.copyToExcel.exel is PASSED
+
+2022-11-16 13:54:12 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/input__etd")): Object: 'Object Repository/TC006/Page_Brivge/input__etd' is clicked on
+
+2022-11-16 13:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/input__etd' is clicked on
+
+2022-11-16 13:54:13 - [TEST_STEP][PASSED] - util.handlePicker.handleCalendar(findTestObject("TC006/TC006_1/Page_Brivge/div_calendar header"), findTestObject("TC006/Page_Brivge/button next calendar"), 1, 2): util.handlePicker.handleCalendar is PASSED
+
+2022-11-16 13:54:17 - [MESSAGE][PASSED] - util.handlePicker.handleCalendar is PASSED
+
+2022-11-16 13:54:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-11-16 13:54:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-11-16 13:54:20 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/input__eta")): Object: 'Object Repository/TC006/Page_Brivge/input__eta' is clicked on
+
+2022-11-16 13:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/input__eta' is clicked on
+
+2022-11-16 13:54:20 - [TEST_STEP][PASSED] - util.handlePicker.handleCalendar(findTestObject("TC006/TC006_1/Page_Brivge/div_calendar header"), findTestObject("TC006/Page_Brivge/button next calendar"), 15, 2): util.handlePicker.handleCalendar is PASSED
+
+2022-11-16 13:54:25 - [MESSAGE][PASSED] - util.handlePicker.handleCalendar is PASSED
+
+2022-11-16 13:54:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Long Form/11_1 - input basic info' successfully
+
+2022-11-16 13:54:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Long Form/11_2 - input container info"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Long Form/11_2 - input container info' successfully
+
+2022-11-16 13:54:25 - [TEST_CASE][PASSED] - Test Cases/common/Long Form/11_2 - input container info: Test Cases/common/Long Form/11_2 - input container info
+
+2022-11-16 13:54:26 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/input_ADD CONTAINER_containerType")): Object: 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_containerType' is clicked on
+
+2022-11-16 13:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_containerType' is clicked on
+
+2022-11-16 13:54:26 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/li_20FT")): Object: 'Object Repository/TC006/Page_Brivge/li_20FT' is clicked on
+
+2022-11-16 13:54:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/li_20FT' is clicked on
+
+2022-11-16 13:54:27 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input_ADD CONTAINER_containerNo"), "C-221028001"): Text 'C-221028001' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_containerNo'
+
+2022-11-16 13:54:28 - [MESSAGE][PASSED] - Text 'C-221028001' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_containerNo'
+
+2022-11-16 13:54:28 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input_ADD CONTAINER_sealNo"), "C-221028001"): Text 'C-221028001' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_sealNo'
+
+2022-11-16 13:54:30 - [MESSAGE][PASSED] - Text 'C-221028001' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_sealNo'
+
+2022-11-16 13:54:30 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input_ADD CONTAINER_m3"), "1000"): Text '1000' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_m3'
+
+2022-11-16 13:54:31 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_m3'
+
+2022-11-16 13:54:31 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input_ADD CONTAINER_netWeight"), "1000"): Text '1000' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_netWeight'
+
+2022-11-16 13:54:32 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_netWeight'
+
+2022-11-16 13:54:32 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input_ADD CONTAINER_grossWeight"), "1000"): Text '1000' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_grossWeight'
+
+2022-11-16 13:54:33 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/TC006/Page_Brivge/input_ADD CONTAINER_grossWeight'
+
+2022-11-16 13:54:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Long Form/11_2 - input container info' successfully
+
+2022-11-16 13:54:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Long Form/11_3 - input outer package"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Long Form/11_3 - input outer package' successfully
+
+2022-11-16 13:54:33 - [TEST_CASE][PASSED] - Test Cases/common/Long Form/11_3 - input outer package: Test Cases/common/Long Form/11_3 - input outer package
+
+2022-11-16 13:54:34 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/button_ADD OUTER PACKAGE")): Object: 'Object Repository/TC006/Page_Brivge/button_ADD OUTER PACKAGE' is clicked on
+
+2022-11-16 13:54:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/button_ADD OUTER PACKAGE' is clicked on
+
+2022-11-16 13:54:34 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input_Outer Package 1_outerPackageNo"), "O-221028001"): Text 'O-221028001' is set on object 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_outerPackageNo'
+
+2022-11-16 13:54:36 - [MESSAGE][PASSED] - Text 'O-221028001' is set on object 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_outerPackageNo'
+
+2022-11-16 13:54:36 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/input_Outer Package 1_outerPackageType")): Object: 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_outerPackageType' is clicked on
+
+2022-11-16 13:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_outerPackageType' is clicked on
+
+2022-11-16 13:54:37 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/li_CARTONBOX")): Object: 'Object Repository/TC006/Page_Brivge/li_CARTONBOX' is clicked on
+
+2022-11-16 13:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/li_CARTONBOX' is clicked on
+
+2022-11-16 13:54:37 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input_Outer Package 1_m3"), "10.0"): Text '10.0' is set on object 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_m3'
+
+2022-11-16 13:54:39 - [MESSAGE][PASSED] - Text '10.0' is set on object 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_m3'
+
+2022-11-16 13:54:39 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input_Outer Package 1_netWeight"), "10.0"): Text '10.0' is set on object 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_netWeight'
+
+2022-11-16 13:54:40 - [MESSAGE][PASSED] - Text '10.0' is set on object 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_netWeight'
+
+2022-11-16 13:54:40 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/Page_Brivge/input_Outer Package 1_grossWeight"), "10.0"): Text '10.0' is set on object 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_grossWeight'
+
+2022-11-16 13:54:41 - [MESSAGE][PASSED] - Text '10.0' is set on object 'Object Repository/TC006/Page_Brivge/input_Outer Package 1_grossWeight'
+
+2022-11-16 13:54:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Long Form/11_3 - input outer package' successfully
+
+2022-11-16 13:54:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Long Form/11_4 - input add parts"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Long Form/11_4 - input add parts' successfully
+
+2022-11-16 13:54:41 - [TEST_CASE][PASSED] - Test Cases/common/Long Form/11_4 - input add parts: Test Cases/common/Long Form/11_4 - input add parts
+
+2022-11-16 13:54:41 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/button_ADD PARTS")): Object: 'Object Repository/TC006/Page_Brivge/button_ADD PARTS' is clicked on
+
+2022-11-16 13:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/button_ADD PARTS' is clicked on
+
+2022-11-16 13:54:42 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/TC006_4/input_inner_part_list_search"), findTestData("Toyotsu-data").getValue(13, 2)): Text 's102801-2211014' is set on object 'Object Repository/TC006/TC006_4/input_inner_part_list_search'
+
+2022-11-16 13:54:44 - [MESSAGE][PASSED] - Text 's102801-2211014' is set on object 'Object Repository/TC006/TC006_4/input_inner_part_list_search'
+
+2022-11-16 13:54:44 - [TEST_STEP][PASSED] - check(findTestObject("TC006/TC006_4/input_checkboxAll")): Object 'Object Repository/TC006/TC006_4/input_checkboxAll' is checked
+
+2022-11-16 13:54:44 - [MESSAGE][PASSED] - Object 'Object Repository/TC006/TC006_4/input_checkboxAll' is checked
+
+2022-11-16 13:54:44 - [TEST_STEP][PASSED] - click(findTestObject("TC006/TC006_4/button_OK")): Object: 'Object Repository/TC006/TC006_4/button_OK' is clicked on
+
+2022-11-16 13:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/TC006_4/button_OK' is clicked on
+
+2022-11-16 13:54:45 - [TEST_STEP][PASSED] - a = getText(findTestObject("TC006/TC006_4/not yet delivery price 1")): Text of object 'Object Repository/TC006/TC006_4/not yet delivery price 1' is: '1,500'
+
+2022-11-16 13:54:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC006/TC006_4/not yet delivery price 1' is: '1,500'
+
+2022-11-16 13:54:46 - [TEST_STEP][PASSED] - b = getText(findTestObject("TC006/TC006_4/not yet delivery price 2")): Text of object 'Object Repository/TC006/TC006_4/not yet delivery price 2' is: '1,500'
+
+2022-11-16 13:54:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC006/TC006_4/not yet delivery price 2' is: '1,500'
+
+2022-11-16 13:54:46 - [TEST_STEP][PASSED] - click(findTestObject("TC006/TC006_4/input_ADD PARTS_1"), STOP_ON_FAILURE): Object: 'Object Repository/TC006/TC006_4/input_ADD PARTS_1' is clicked on
+
+2022-11-16 13:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/TC006_4/input_ADD PARTS_1' is clicked on
+
+2022-11-16 13:54:47 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/TC006_4/input_ADD PARTS_1"), a): Text '1,500' is set on object 'Object Repository/TC006/TC006_4/input_ADD PARTS_1'
+
+2022-11-16 13:54:47 - [MESSAGE][PASSED] - Text '1,500' is set on object 'Object Repository/TC006/TC006_4/input_ADD PARTS_1'
+
+2022-11-16 13:54:47 - [TEST_STEP][PASSED] - click(findTestObject("TC006/TC006_4/input_ADD PARTS_2"), STOP_ON_FAILURE): Object: 'Object Repository/TC006/TC006_4/input_ADD PARTS_2' is clicked on
+
+2022-11-16 13:54:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/TC006_4/input_ADD PARTS_2' is clicked on
+
+2022-11-16 13:54:48 - [TEST_STEP][PASSED] - setText(findTestObject("TC006/TC006_4/input_ADD PARTS_2"), b): Text '1,500' is set on object 'Object Repository/TC006/TC006_4/input_ADD PARTS_2'
+
+2022-11-16 13:54:49 - [MESSAGE][PASSED] - Text '1,500' is set on object 'Object Repository/TC006/TC006_4/input_ADD PARTS_2'
+
+2022-11-16 13:54:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Long Form/11_4 - input add parts' successfully
+
+2022-11-16 13:54:49 - [TEST_STEP][PASSED] - click(findTestObject("TC006/TC006_4/click before scroll up")): Object: 'Object Repository/TC006/TC006_4/click before scroll up' is clicked on
+
+2022-11-16 13:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/TC006_4/click before scroll up' is clicked on
+
+2022-11-16 13:54:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(HOME)): Keys 'HOME + ' sent to object: 'tempBody'
+
+2022-11-16 13:54:50 - [MESSAGE][WARNING] - Test object id is null
+
+2022-11-16 13:54:50 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-11-16 13:54:50 - [MESSAGE][PASSED] - Keys 'HOME + ' sent to object: 'tempBody'
+
+2022-11-16 13:54:50 - [TEST_STEP][PASSED] - click(findTestObject("TC006/TC006_4/button_Submit")): Object: 'Object Repository/TC006/TC006_4/button_Submit' is clicked on
+
+2022-11-16 13:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/TC006_4/button_Submit' is clicked on
+
+2022-11-16 13:54:51 - [TEST_STEP][PASSED] - click(findTestObject("TC006/Page_Brivge/button_CONFIRM")): Object: 'Object Repository/TC006/Page_Brivge/button_CONFIRM' is clicked on
+
+2022-11-16 13:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC006/Page_Brivge/button_CONFIRM' is clicked on
+
+2022-11-16 13:54:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC006/Page_Brivge/p_The operation was successful")): Object 'Object Repository/TC006/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:54:55 - [MESSAGE][PASSED] - Object 'Object Repository/TC006/Page_Brivge/p_The operation was successful' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC012 - Revise and Approve Seller Invoice (BU)" time="36.874" classname="Test Cases/TC012 - Revise and Approve Seller Invoice (BU)" status="PASSED">
+         <system-out><![CDATA[2022-11-16 13:54:55 - [TEST_CASE][PASSED] - Test Cases/TC012 - Revise and Approve Seller Invoice (BU): Test Cases/TC012 - Revise and Approve Seller Invoice (BU)
+
+2022-11-16 13:54:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Login"), ["username":usernameLuqman, "password":passwordLuqman, "verification":verificationLuqman, "company":sgttap], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:54:56 - [TEST_CASE][PASSED] - Test Cases/common/Login: Test Cases/common/Login
+
+2022-11-16 13:54:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-16 13:54:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-16 13:54:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-16 13:54:57 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Katalon_downloaded_file}']
+
+2022-11-16 13:54:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-16 13:54:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-16 13:54:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-16 13:54:59 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-16 13:54:59 - [TEST_STEP][PASSED] - navigateToUrl("https://test.brivge.com/home"): Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:55:02 - [MESSAGE][PASSED] - Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:55:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/input_Sign In_username"), 0): Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:55:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:55:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:55:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_username"), username): Text 'Luqman' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:55:06 - [MESSAGE][PASSED] - Text 'Luqman' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:55:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_password"), password): Text 'Luqman-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:55:07 - [MESSAGE][PASSED] - Text 'Luqman-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:55:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Sign In")): Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:55:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Verify_verificationCode"), verification): Text '986737' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:55:09 - [MESSAGE][PASSED] - Text '986737' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:55:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Verify")): Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:55:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:55:09 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_aazwanSGDC-Azwan")): Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:55:19 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_company")): Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:55:21 - [TEST_STEP][PASSED] - click(findTestObject("Login/li_Company", ["company":company])): Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:55:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:55:21 - [TEST_STEP][PASSED] - click(findTestObject("TC012/button_Accounting")): Object: 'Object Repository/TC012/button_Accounting' is clicked on
+
+2022-11-16 13:55:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TC012/button_Accounting' is clicked on
+
+2022-11-16 13:55:22 - [TEST_STEP][PASSED] - click(findTestObject("TC012/li_Seller(GI) Invoice List")): Object: 'Object Repository/TC012/li_Seller(GI) Invoice List' is clicked on
+
+2022-11-16 13:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TC012/li_Seller(GI) Invoice List' is clicked on
+
+2022-11-16 13:55:24 - [TEST_STEP][PASSED] - click(findTestObject("TC012/input_Seller(GI) Invoice List")): Object: 'Object Repository/TC012/input_Seller(GI) Invoice List' is clicked on
+
+2022-11-16 13:55:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TC012/input_Seller(GI) Invoice List' is clicked on
+
+2022-11-16 13:55:25 - [TEST_STEP][PASSED] - setText(findTestObject("TC012/input_Seller(GI) Invoice List"), custContractNo): Text 'SGTTAP TO VNTTVN 1028001' is set on object 'Object Repository/TC012/input_Seller(GI) Invoice List'
+
+2022-11-16 13:55:29 - [MESSAGE][PASSED] - Text 'SGTTAP TO VNTTVN 1028001' is set on object 'Object Repository/TC012/input_Seller(GI) Invoice List'
+
+2022-11-16 13:55:29 - [TEST_STEP][PASSED] - invoiceNo = getText(findTestObject("TC012/p_invoiceNo")): Text of object 'Object Repository/TC012/p_invoiceNo' is: 'TTA2211011'
+
+2022-11-16 13:55:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC012/p_invoiceNo' is: 'TTA2211011'
+
+2022-11-16 13:55:29 - [TEST_STEP][PASSED] - util.copyToExcel.exel(invoiceNo, 1, 11): util.copyToExcel.exel is PASSED
+
+2022-11-16 13:55:29 - [MESSAGE][PASSED] - util.copyToExcel.exel is PASSED
+
+2022-11-16 13:55:29 - [TEST_STEP][PASSED] - check(findTestObject("TC012/input_SGTTAP TO VNTTVN 1103010")): Object 'Object Repository/TC012/input_SGTTAP TO VNTTVN 1103010' is checked
+
+2022-11-16 13:55:30 - [MESSAGE][PASSED] - Object 'Object Repository/TC012/input_SGTTAP TO VNTTVN 1103010' is checked
+
+2022-11-16 13:55:30 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("TC012/div_Status"), 0): Scroll to object 'Object Repository/TC012/div_Status' successfully
+
+2022-11-16 13:55:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:55:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC012/div_Status' successfully
+
+2022-11-16 13:55:30 - [TEST_STEP][PASSED] - click(findTestObject("TC012/button_Approve")): Object: 'Object Repository/TC012/button_Approve' is clicked on
+
+2022-11-16 13:55:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC012/button_Approve' is clicked on
+
+2022-11-16 13:55:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("TC012/div_ApproveAre you sure to do Approve"), 0): Object 'Object Repository/TC012/div_ApproveAre you sure to do Approve' is present
+
+2022-11-16 13:55:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:55:31 - [MESSAGE][PASSED] - Object 'Object Repository/TC012/div_ApproveAre you sure to do Approve' is present
+
+2022-11-16 13:55:31 - [TEST_STEP][PASSED] - click(findTestObject("TC012/button_CONFIRM")): Object: 'Object Repository/TC012/button_CONFIRM' is clicked on
+
+2022-11-16 13:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TC012/button_CONFIRM' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC013 - BU Complete Export Customs Invoice (BU)" time="56.252" classname="Test Cases/TC013 - BU Complete Export Customs Invoice (BU)" status="PASSED">
+         <system-out><![CDATA[2022-11-16 13:55:32 - [TEST_CASE][PASSED] - Test Cases/TC013 - BU Complete Export Customs Invoice (BU): Test Cases/TC013 - BU Complete Export Customs Invoice (BU)
+
+2022-11-16 13:55:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Login"), ["username":usernameLuqman, "password":passwordLuqman, "verification":verificationLuqman, "company":sgttap], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:55:32 - [TEST_CASE][PASSED] - Test Cases/common/Login: Test Cases/common/Login
+
+2022-11-16 13:55:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-16 13:55:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-16 13:55:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-16 13:55:33 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Katalon_downloaded_file}']
+
+2022-11-16 13:55:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-16 13:55:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-16 13:55:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-16 13:55:36 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-16 13:55:36 - [TEST_STEP][PASSED] - navigateToUrl("https://test.brivge.com/home"): Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:55:39 - [MESSAGE][PASSED] - Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:55:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/input_Sign In_username"), 0): Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:55:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:55:41 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:55:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_username"), username): Text 'Luqman' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:55:41 - [MESSAGE][PASSED] - Text 'Luqman' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:55:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_password"), password): Text 'Luqman-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:55:42 - [MESSAGE][PASSED] - Text 'Luqman-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:55:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Sign In")): Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:55:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Verify_verificationCode"), verification): Text '986737' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:55:44 - [MESSAGE][PASSED] - Text '986737' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:55:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Verify")): Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:55:45 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_aazwanSGDC-Azwan")): Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:56:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:56:05 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_company")): Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:56:06 - [TEST_STEP][PASSED] - click(findTestObject("Login/li_Company", ["company":company])): Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:56:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:56:07 - [TEST_STEP][PASSED] - click(findTestObject("TC013/Page_Brivge/button_Logistics")): Object: 'Object Repository/TC013/Page_Brivge/button_Logistics' is clicked on
+
+2022-11-16 13:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TC013/Page_Brivge/button_Logistics' is clicked on
+
+2022-11-16 13:56:08 - [TEST_STEP][PASSED] - click(findTestObject("TC013/Page_Brivge/li_Customs Invoice List(Export)")): Object: 'Object Repository/TC013/Page_Brivge/li_Customs Invoice List(Export)' is clicked on
+
+2022-11-16 13:56:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TC013/Page_Brivge/li_Customs Invoice List(Export)' is clicked on
+
+2022-11-16 13:56:09 - [TEST_STEP][PASSED] - setText(findTestObject("TC013/Page_Brivge/input_Customs Invoice(Export)"), findTestData("Toyotsu-data").getValue(12, 2)): Text 'TTA2211011' is set on object 'Object Repository/TC013/Page_Brivge/input_Customs Invoice(Export)'
+
+2022-11-16 13:56:12 - [MESSAGE][PASSED] - Text 'TTA2211011' is set on object 'Object Repository/TC013/Page_Brivge/input_Customs Invoice(Export)'
+
+2022-11-16 13:56:12 - [TEST_STEP][PASSED] - click(findTestObject("TC013/Page_Brivge/checkbox")): Object: 'Object Repository/TC013/Page_Brivge/checkbox' is clicked on
+
+2022-11-16 13:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TC013/Page_Brivge/checkbox' is clicked on
+
+2022-11-16 13:56:12 - [TEST_STEP][PASSED] - click(findTestObject("TC013/Page_Brivge/button_update 1")): Object: 'Object Repository/TC013/Page_Brivge/button_update 1' is clicked on
+
+2022-11-16 13:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC013/Page_Brivge/button_update 1' is clicked on
+
+2022-11-16 13:56:13 - [TEST_STEP][PASSED] - click(findTestObject("TC013/Page_Brivge/input_Input Cargo Status_cargoStatus")): Object: 'Object Repository/TC013/Page_Brivge/input_Input Cargo Status_cargoStatus' is clicked on
+
+2022-11-16 13:56:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC013/Page_Brivge/input_Input Cargo Status_cargoStatus' is clicked on
+
+2022-11-16 13:56:14 - [TEST_STEP][PASSED] - click(findTestObject("TC013/Page_Brivge/li_Exp clearance in progress")): Object: 'Object Repository/TC013/Page_Brivge/li_Exp clearance in progress' is clicked on
+
+2022-11-16 13:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TC013/Page_Brivge/li_Exp clearance in progress' is clicked on
+
+2022-11-16 13:56:15 - [TEST_STEP][PASSED] - click(findTestObject("TC013/Page_Brivge/button_update 2")): Object: 'Object Repository/TC013/Page_Brivge/button_update 2' is clicked on
+
+2022-11-16 13:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TC013/Page_Brivge/button_update 2' is clicked on
+
+2022-11-16 13:56:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC013/Page_Brivge/p_The operation was successful")): Object 'Object Repository/TC013/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:56:16 - [MESSAGE][PASSED] - Object 'Object Repository/TC013/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:56:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-11-16 13:56:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-11-16 13:56:21 - [TEST_STEP][PASSED] - click(findTestObject("TC013/Page_Brivge/button_completed")): Object: 'Object Repository/TC013/Page_Brivge/button_completed' is clicked on
+
+2022-11-16 13:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TC013/Page_Brivge/button_completed' is clicked on
+
+2022-11-16 13:56:22 - [TEST_STEP][PASSED] - click(findTestObject("TC013/Page_Brivge/button_CONFIRM")): Object: 'Object Repository/TC013/Page_Brivge/button_CONFIRM' is clicked on
+
+2022-11-16 13:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TC013/Page_Brivge/button_CONFIRM' is clicked on
+
+2022-11-16 13:56:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC013/Page_Brivge/p_The operation was successful")): Object 'Object Repository/TC013/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:56:24 - [MESSAGE][PASSED] - Object 'Object Repository/TC013/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:56:24 - [TEST_STEP][PASSED] - click(findTestObject("TC013/Page_Brivge/button_print 1")): Object: 'Object Repository/TC013/Page_Brivge/button_print 1' is clicked on
+
+2022-11-16 13:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TC013/Page_Brivge/button_print 1' is clicked on
+
+2022-11-16 13:56:24 - [TEST_STEP][PASSED] - click(findTestObject("TC013/Page_Brivge/div_Print Invoice")): Object: 'Object Repository/TC013/Page_Brivge/div_Print Invoice' is clicked on
+
+2022-11-16 13:56:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TC013/Page_Brivge/div_Print Invoice' is clicked on
+
+2022-11-16 13:56:25 - [TEST_STEP][PASSED] - click(findTestObject("TC013/Page_Brivge/button_Print 2")): Object: 'Object Repository/TC013/Page_Brivge/button_Print 2' is clicked on
+
+2022-11-16 13:56:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TC013/Page_Brivge/button_Print 2' is clicked on
+
+2022-11-16 13:56:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC013/Page_Brivge/p_The operation was successful")): Object 'Object Repository/TC013/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:56:26 - [MESSAGE][PASSED] - Object 'Object Repository/TC013/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:56:26 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-11-16 13:56:28 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-11-16 13:56:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\azwan\\git\\Toyotsu\\Reports\\20221116_134352\\Flow\\20221116_134352\\1668578186836.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC014 - Customer Complete Import Customs Invoice (Customer)" time="47.183" classname="Test Cases/TC014 - Customer Complete Import Customs Invoice (Customer)" status="PASSED">
+         <system-out><![CDATA[2022-11-16 13:56:28 - [TEST_CASE][PASSED] - Test Cases/TC014 - Customer Complete Import Customs Invoice (Customer): Test Cases/TC014 - Customer Complete Import Customs Invoice (Customer)
+
+2022-11-16 13:56:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Login"), ["username":usernameLuqman, "password":passwordLuqman, "verification":verificationLuqman, "company":vnttvn], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:56:29 - [TEST_CASE][PASSED] - Test Cases/common/Login: Test Cases/common/Login
+
+2022-11-16 13:56:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-16 13:56:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-16 13:56:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-16 13:56:30 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Katalon_downloaded_file}']
+
+2022-11-16 13:56:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-16 13:56:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-16 13:56:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-16 13:56:31 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-16 13:56:31 - [TEST_STEP][PASSED] - navigateToUrl("https://test.brivge.com/home"): Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:56:34 - [MESSAGE][PASSED] - Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:56:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/input_Sign In_username"), 0): Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:56:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:56:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:56:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_username"), username): Text 'Luqman' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:56:37 - [MESSAGE][PASSED] - Text 'Luqman' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:56:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_password"), password): Text 'Luqman-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:56:38 - [MESSAGE][PASSED] - Text 'Luqman-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:56:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Sign In")): Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:56:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:56:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Verify_verificationCode"), verification): Text '986737' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:56:39 - [MESSAGE][PASSED] - Text '986737' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:56:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Verify")): Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:56:40 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_aazwanSGDC-Azwan")): Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:56:50 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_company")): Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:56:51 - [TEST_STEP][PASSED] - click(findTestObject("Login/li_Company", ["company":company])): Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:56:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:56:52 - [TEST_STEP][PASSED] - click(findTestObject("TC014/Page_Brivge/button_Logistics")): Object: 'Object Repository/TC014/Page_Brivge/button_Logistics' is clicked on
+
+2022-11-16 13:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TC014/Page_Brivge/button_Logistics' is clicked on
+
+2022-11-16 13:56:53 - [TEST_STEP][PASSED] - click(findTestObject("TC014/Page_Brivge/li_Customs Invoice List(Import)")): Object: 'Object Repository/TC014/Page_Brivge/li_Customs Invoice List(Import)' is clicked on
+
+2022-11-16 13:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC014/Page_Brivge/li_Customs Invoice List(Import)' is clicked on
+
+2022-11-16 13:57:00 - [TEST_STEP][PASSED] - setText(findTestObject("TC014/Page_Brivge/input_Customs Invoice(Import)"), findTestData("Toyotsu-data").getValue(12, 2)): Text 'TTA2211011' is set on object 'Object Repository/TC014/Page_Brivge/input_Customs Invoice(Import)'
+
+2022-11-16 13:57:03 - [MESSAGE][PASSED] - Text 'TTA2211011' is set on object 'Object Repository/TC014/Page_Brivge/input_Customs Invoice(Import)'
+
+2022-11-16 13:57:03 - [TEST_STEP][PASSED] - click(findTestObject("TC014/Page_Brivge/input_checkbox")): Object: 'Object Repository/TC014/Page_Brivge/input_checkbox' is clicked on
+
+2022-11-16 13:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TC014/Page_Brivge/input_checkbox' is clicked on
+
+2022-11-16 13:57:03 - [TEST_STEP][PASSED] - click(findTestObject("TC014/Page_Brivge/button_input cargo status")): Object: 'Object Repository/TC014/Page_Brivge/button_input cargo status' is clicked on
+
+2022-11-16 13:57:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TC014/Page_Brivge/button_input cargo status' is clicked on
+
+2022-11-16 13:57:04 - [TEST_STEP][PASSED] - click(findTestObject("TC014/Page_Brivge/input_Input Cargo Status_cargoStatus")): Object: 'Object Repository/TC014/Page_Brivge/input_Input Cargo Status_cargoStatus' is clicked on
+
+2022-11-16 13:57:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC014/Page_Brivge/input_Input Cargo Status_cargoStatus' is clicked on
+
+2022-11-16 13:57:05 - [TEST_STEP][PASSED] - click(findTestObject("TC014/Page_Brivge/li_Imp clearance in progress")): Object: 'Object Repository/TC014/Page_Brivge/li_Imp clearance in progress' is clicked on
+
+2022-11-16 13:57:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC014/Page_Brivge/li_Imp clearance in progress' is clicked on
+
+2022-11-16 13:57:05 - [TEST_STEP][PASSED] - click(findTestObject("TC014/Page_Brivge/button_update")): Object: 'Object Repository/TC014/Page_Brivge/button_update' is clicked on
+
+2022-11-16 13:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TC014/Page_Brivge/button_update' is clicked on
+
+2022-11-16 13:57:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC014/Page_Brivge/p_The operation was successful")): Object 'Object Repository/TC014/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:57:07 - [MESSAGE][PASSED] - Object 'Object Repository/TC014/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:57:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-11-16 13:57:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-11-16 13:57:12 - [TEST_STEP][PASSED] - click(findTestObject("TC014/Page_Brivge/button_complete")): Object: 'Object Repository/TC014/Page_Brivge/button_complete' is clicked on
+
+2022-11-16 13:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TC014/Page_Brivge/button_complete' is clicked on
+
+2022-11-16 13:57:12 - [TEST_STEP][PASSED] - click(findTestObject("TC014/Page_Brivge/button_CONFIRM")): Object: 'Object Repository/TC014/Page_Brivge/button_CONFIRM' is clicked on
+
+2022-11-16 13:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC014/Page_Brivge/button_CONFIRM' is clicked on
+
+2022-11-16 13:57:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC014/Page_Brivge/p_The operation was successful")): Object 'Object Repository/TC014/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:57:14 - [MESSAGE][PASSED] - Object 'Object Repository/TC014/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:57:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TC014/Page_Brivge/div_Imp clearance in progress"), "Imp clearance in progress"): Actual text and expected text of test object 'Object Repository/TC014/Page_Brivge/div_Imp clearance in progress' are matched.
+
+2022-11-16 13:57:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC014/Page_Brivge/div_Imp clearance in progress' are matched.
+
+2022-11-16 13:57:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TC014/Page_Brivge/div_Customs Clearance Completed"), "Customs Clearance Completed"): Actual text and expected text of test object 'Object Repository/TC014/Page_Brivge/div_Customs Clearance Completed' are matched.
+
+2022-11-16 13:57:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC014/Page_Brivge/div_Customs Clearance Completed' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC015 - Customer Inbound Details (Customer)" time="42.127" classname="Test Cases/TC015 - Customer Inbound Details (Customer)" status="PASSED">
+         <system-out><![CDATA[2022-11-16 13:57:15 - [TEST_CASE][PASSED] - Test Cases/TC015 - Customer Inbound Details (Customer): Test Cases/TC015 - Customer Inbound Details (Customer)
+
+2022-11-16 13:57:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("common/Login"), ["username":usernameLuqman, "password":passwordLuqman, "verification":verificationLuqman, "company":vnttvn], STOP_ON_FAILURE): Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:57:16 - [TEST_CASE][PASSED] - Test Cases/common/Login: Test Cases/common/Login
+
+2022-11-16 13:57:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-16 13:57:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-16 13:57:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-16 13:57:16 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\Katalon_downloaded_file}']
+
+2022-11-16 13:57:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-16 13:57:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-16 13:57:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-16 13:57:18 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-16 13:57:18 - [TEST_STEP][PASSED] - navigateToUrl("https://test.brivge.com/home"): Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:57:21 - [MESSAGE][PASSED] - Navigate to 'https://test.brivge.com/home' successfully
+
+2022-11-16 13:57:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/input_Sign In_username"), 0): Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:57:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2022-11-16 13:57:22 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_Sign In_username' is visible
+
+2022-11-16 13:57:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_username"), username): Text 'Luqman' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:57:23 - [MESSAGE][PASSED] - Text 'Luqman' is set on object 'Object Repository/Login/input_Sign In_username'
+
+2022-11-16 13:57:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Sign In_password"), password): Text 'Luqman-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:57:24 - [MESSAGE][PASSED] - Text 'Luqman-123' is set on object 'Object Repository/Login/input_Sign In_password'
+
+2022-11-16 13:57:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Sign In")): Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:57:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Sign In' is clicked on
+
+2022-11-16 13:57:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Verify_verificationCode"), verification): Text '986737' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:57:26 - [MESSAGE][PASSED] - Text '986737' is set on object 'Object Repository/Login/input_Verify_verificationCode'
+
+2022-11-16 13:57:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/span_Verify")): Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/span_Verify' is clicked on
+
+2022-11-16 13:57:27 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_aazwanSGDC-Azwan")): Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_aazwanSGDC-Azwan' is clicked on
+
+2022-11-16 13:57:38 - [TEST_STEP][PASSED] - click(findTestObject("TC003/button_company")): Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003/button_company' is clicked on
+
+2022-11-16 13:57:38 - [TEST_STEP][PASSED] - click(findTestObject("Login/li_Company", ["company":company])): Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/li_Company' is clicked on
+
+2022-11-16 13:57:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/common/Login' successfully
+
+2022-11-16 13:57:41 - [TEST_STEP][PASSED] - click(findTestObject("TC015/Page_Brivge/button_Logistics")): Object: 'Object Repository/TC015/Page_Brivge/button_Logistics' is clicked on
+
+2022-11-16 13:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TC015/Page_Brivge/button_Logistics' is clicked on
+
+2022-11-16 13:57:42 - [TEST_STEP][PASSED] - click(findTestObject("TC015/Page_Brivge/li_Inbound Monitoring List")): Object: 'Object Repository/TC015/Page_Brivge/li_Inbound Monitoring List' is clicked on
+
+2022-11-16 13:57:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC015/Page_Brivge/li_Inbound Monitoring List' is clicked on
+
+2022-11-16 13:57:46 - [TEST_STEP][PASSED] - click(findTestObject("TC015/Page_Brivge/button_create")): Object: 'Object Repository/TC015/Page_Brivge/button_create' is clicked on
+
+2022-11-16 13:57:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TC015/Page_Brivge/button_create' is clicked on
+
+2022-11-16 13:57:47 - [TEST_STEP][PASSED] - click(findTestObject("TC015/Page_Brivge/button_Download")): Object: 'Object Repository/TC015/Page_Brivge/button_Download' is clicked on
+
+2022-11-16 13:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC015/Page_Brivge/button_Download' is clicked on
+
+2022-11-16 13:57:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC015/Page_Brivge/p_The operation was successful")): Object 'Object Repository/TC015/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:57:50 - [MESSAGE][PASSED] - Object 'Object Repository/TC015/Page_Brivge/p_The operation was successful' is visible
+
+2022-11-16 13:57:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-11-16 13:57:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-11-16 13:57:55 - [TEST_STEP][PASSED] - y = util.getDownloadedFile.getLatestFileFromDirectory(): util.getDownloadedFile.getLatestFileFromDirectory is PASSED
+
+2022-11-16 13:57:55 - [MESSAGE][PASSED] - util.getDownloadedFile.getLatestFileFromDirectory is PASSED
+
+2022-11-16 13:57:55 - [TEST_STEP][PASSED] - out.println(y): null
+
+2022-11-16 13:57:55 - [TEST_STEP][PASSED] - file = util.copyToExcel.exelInboundPlan2(y, "test1", 4, 9): util.copyToExcel.exelInboundPlan2 is PASSED
+
+2022-11-16 13:57:56 - [MESSAGE][PASSED] - util.copyToExcel.exelInboundPlan2 is PASSED
+
+2022-11-16 13:57:56 - [TEST_STEP][PASSED] - file = util.copyToExcel.exelInboundPlan(y, "test2", 4, 2): util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [MESSAGE][PASSED] - util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [TEST_STEP][PASSED] - file = util.copyToExcel.exelInboundPlan(y, "test3", 4, 3): util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [MESSAGE][PASSED] - util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [TEST_STEP][PASSED] - file = util.copyToExcel.exelInboundPlan(y, "test4", 4, 4): util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [MESSAGE][PASSED] - util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [TEST_STEP][PASSED] - file = util.copyToExcel.exelInboundPlan(y, "test5", 4, 6): util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [MESSAGE][PASSED] - util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [TEST_STEP][PASSED] - file = util.copyToExcel.exelInboundPlan(y, "test6", 4, 7): util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [MESSAGE][PASSED] - util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [TEST_STEP][PASSED] - file = util.copyToExcel.exelInboundPlan(y, "test7", 4, 8): util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [MESSAGE][PASSED] - util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [TEST_STEP][PASSED] - file = util.copyToExcel.exelInboundPlan(y, "test8", 4, 16): util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [MESSAGE][PASSED] - util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [TEST_STEP][PASSED] - file = util.copyToExcel.exelInboundPlan(y, "test9", 4, 17): util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [MESSAGE][PASSED] - util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [TEST_STEP][PASSED] - file = util.copyToExcel.exelInboundPlan(y, "test10", 4, 26): util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [MESSAGE][PASSED] - util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [TEST_STEP][PASSED] - file = util.copyToExcel.exelInboundPlan(y, "test11", 4, 27): util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [MESSAGE][PASSED] - util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [TEST_STEP][PASSED] - file = util.copyToExcel.exelInboundPlan(y, "test12", 4, 32): util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [MESSAGE][PASSED] - util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:56 - [TEST_STEP][PASSED] - file = util.copyToExcel.exelInboundPlan(y, "test13", 4, 33): util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:57 - [MESSAGE][PASSED] - util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:57 - [TEST_STEP][PASSED] - file = util.copyToExcel.exelInboundPlan(y, "test14", 4, 34): util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:57 - [MESSAGE][PASSED] - util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:57 - [TEST_STEP][PASSED] - file = util.copyToExcel.exelInboundPlan(y, "test15", 4, 38): util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:57 - [MESSAGE][PASSED] - util.copyToExcel.exelInboundPlan is PASSED
+
+2022-11-16 13:57:57 - [TEST_STEP][PASSED] - logInfo("Last file received is " + y): Last file received is C:\Katalon_downloaded_file\Pending Inbound.20221116135750.xlsx
+
+2022-11-16 13:57:57 - [MESSAGE][INFO] - Last file received is C:\Katalon_downloaded_file\Pending Inbound.20221116135750.xlsx
+
+2022-11-16 13:57:57 - [TEST_STEP][PASSED] - uploadFile(findTestObject("TC015/Page_Brivge/button_Upload"), file): File 'C:\\Katalon_downloaded_file\\Pending Inbound.20221116135750.xlsx' sent to object: 'Object Repository/TC015/Page_Brivge/button_Upload'
+
+2022-11-16 13:57:57 - [MESSAGE][PASSED] - File 'C:\\Katalon_downloaded_file\\Pending Inbound.20221116135750.xlsx' sent to object: 'Object Repository/TC015/Page_Brivge/button_Upload']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-16 13:44:11 - [TEST_SUITE][PASSED] - Flow: Test Cases/TC015 - Customer Inbound Details (Customer)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -36,6 +36,8 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Login/input_Verify_
 WebUI.setText(findTestObject('Object Repository/Login/input_Verify_verificationCode'), GlobalVariable.verificationAzwan, 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Login/span_Verify'))
+
 WebUI.verifyElementVisible(findTestObject('TC001/Page_Brivge/Verify_Inbound Record'))
 
 WebUI.click(findTestObject('TC003/button_aazwanSGDC-Azwan'))

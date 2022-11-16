@@ -14,11 +14,11 @@ import internal.GlobalVariable as GlobalVariable
 
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
-suiteProperties.put('id', 'Test Suites/Fail Test')
-suiteProperties.put('name', 'Fail Test')
+suiteProperties.put('id', 'Test Suites/Flow')
+suiteProperties.put('name', 'Flow')
 suiteProperties.put('description', '')
 suiteProperties.put('rerunTestFailImmediately', 'true')
-suiteProperties.put('retryCount', '0')
+suiteProperties.put('retryCount', '1')
  
 
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\azwan\\git\\Toyotsu\\Reports\\20221116_125802\\Fail Test\\20221116_125802\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\azwan\\git\\Toyotsu\\Reports\\20221116_134352\\Flow\\20221116_134352\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Fail Test', suiteProperties, new File("C:\\Users\\azwan\\git\\Toyotsu\\Reports\\20221116_125802\\Fail Test\\20221116_125802\\testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/Flow', suiteProperties, new File("C:\\Users\\azwan\\git\\Toyotsu\\Reports\\20221116_134352\\Flow\\20221116_134352\\testCaseBinding"))

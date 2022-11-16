@@ -1,0 +1,23 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC001/button_issue",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20221116_134352/Flow/20221116_134352/Object Repository/TC001/button_issue_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC004/button_issue",
+      "brokenLocator": "//button[@type \u003d \u0027button\u0027 and (text() \u003d \u0027issue\u0027 or . \u003d \u0027issue\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20221116_134352/Flow/20221116_134352/Object Repository/TC004/button_issue_attributes.png"
+    }
+  ]
+}
