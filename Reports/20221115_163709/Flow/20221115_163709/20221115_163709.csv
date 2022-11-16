@@ -1,0 +1,295 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Flow,Chrome 107.0.0.0,,,2022-11-15 16:37:31,2022-11-15 16:48:53,11m - 22.086s,PASSED
+,,,,,,,
+Test Cases/TC001 - Customer Place Order for Contract (Customer),Chrome 107.0.0.0,Customer create order on Place Order page,,2022-11-15 16:37:32,2022-11-15 16:38:45,1m - 12.798s,PASSED
+"callTestCase(findTestCase(""common/Login""), [""username"":usernameLuqman, ""password"":passwordLuqman, ""verification"":verificationLuqman, ""company"":vnttvn], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:37:33,2022-11-15 16:38:04,31.371s,PASSED
+"click(findTestObject(""TC001/h6_Order""))",Chrome 107.0.0.0,"Login with user Luqman and VN-TTVN
+",,2022-11-15 16:38:04,2022-11-15 16:38:10,5.943s,PASSED
+"click(findTestObject(""TC001/p_Place Order""))",Chrome 107.0.0.0,,,2022-11-15 16:38:10,2022-11-15 16:38:12,1.254s,PASSED
+"waitForElementVisible(findTestObject(""TC001/input_Spot Order Without Contract_lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm231 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd""), 0)",Chrome 107.0.0.0,,,2022-11-15 16:38:12,2022-11-15 16:38:13,1.599s,PASSED
+"setText(findTestObject(""TC001/input_Spot Order Without Contract_lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm231 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd""), custContractNo)",Chrome 107.0.0.0,,,2022-11-15 16:38:13,2022-11-15 16:38:16,2.684s,PASSED
+"verifyElementText(findTestObject(""TC001/verify_div_SGTTAP TO VNTTVN 1028002""), custContractNo, OPTIONAL)",Chrome 107.0.0.0,,,2022-11-15 16:38:16,2022-11-15 16:38:16,0.496s,PASSED
+"y = getText(findTestObject(""TC003/div_CR-VN-TTVN-2210020""))",Chrome 107.0.0.0,,,2022-11-15 16:38:16,2022-11-15 16:38:17,0.349s,PASSED
+"util.copyToExcel.exel(y, 1, 0)",Chrome 107.0.0.0,,,2022-11-15 16:38:17,2022-11-15 16:38:18,1.294s,PASSED
+"click(findTestObject(""TC001/button_AND_lcbm-MuiButtonBase-root lcbm-MuiIconButton-root""))",Chrome 107.0.0.0,,,2022-11-15 16:38:18,2022-11-15 16:38:19,1.101s,PASSED
+"click(findTestObject(""TC001/button_Input OrderFC QTY for each PN_lcbm-MuiButtonBase-root lcbm-MuiIconButton-root""))",Chrome 107.0.0.0,,,2022-11-15 16:38:19,2022-11-15 16:38:20,0.803s,PASSED
+"doubleClick(findTestObject(""TC001/input number 1""))",Chrome 107.0.0.0,,,2022-11-15 16:38:20,2022-11-15 16:38:24,4.385s,PASSED
+"sendKeys(findTestObject(""TC001/input number 1""), ""1000"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:38:24,2022-11-15 16:38:25,0.406s,PASSED
+"doubleClick(findTestObject(""TC001/input number 2""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:38:25,2022-11-15 16:38:26,0.770s,PASSED
+"sendKeys(findTestObject(""TC001/input number 2""), ""1000"")",Chrome 107.0.0.0,,,2022-11-15 16:38:26,2022-11-15 16:38:26,0.940s,PASSED
+"doubleClick(findTestObject(""TC001/input number 3""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:38:26,2022-11-15 16:38:27,0.639s,PASSED
+"sendKeys(findTestObject(""TC001/input number 3""), ""1000"")",Chrome 107.0.0.0,,,2022-11-15 16:38:27,2022-11-15 16:38:28,0.507s,PASSED
+"doubleClick(findTestObject(""TC001/input number 4""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:38:28,2022-11-15 16:38:28,0.592s,PASSED
+"sendKeys(findTestObject(""TC001/input number 4""), ""1000"")",Chrome 107.0.0.0,,,2022-11-15 16:38:28,2022-11-15 16:38:29,0.441s,PASSED
+"click(findTestObject(""TC001/button_Input Shipping Plan_lcbm-MuiButtonBase-root lcbm-MuiIconButton-root""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:38:29,2022-11-15 16:38:29,0.773s,PASSED
+"click(findTestObject(""TC001/button_AND_lcbm-MuiButtonBase-root lcbm-MuiButton-root lcbm-lcbm368 lcbm-MuiButton-text lcbm-lcbm383""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:38:29,2022-11-15 16:38:30,0.564s,PASSED
+"click(findTestObject(""TC001/input__inboundPlanDate""))",Chrome 107.0.0.0,,,2022-11-15 16:38:30,2022-11-15 16:38:31,0.616s,PASSED
+"click(findTestObject(""TC001/button date""))",Chrome 107.0.0.0,,,2022-11-15 16:38:31,2022-11-15 16:38:31,0.533s,PASSED
+"click(findTestObject(""TC001/button date""))",Chrome 107.0.0.0,,,2022-11-15 16:38:31,2022-11-15 16:38:32,0.999s,PASSED
+"click(findTestObject(""TC001/button date""))",Chrome 107.0.0.0,,,2022-11-15 16:38:32,2022-11-15 16:38:33,1.029s,PASSED
+"click(findTestObject(""TC001/button date""))",Chrome 107.0.0.0,,,2022-11-15 16:38:33,2022-11-15 16:38:34,1.049s,PASSED
+"click(findTestObject(""TC001/button_17""))",Chrome 107.0.0.0,,,2022-11-15 16:38:34,2022-11-15 16:38:35,1.135s,PASSED
+"click(findTestObject(""TC001/button_Confirm""))",Chrome 107.0.0.0,,,2022-11-15 16:38:35,2022-11-15 16:38:36,0.931s,PASSED
+"click(findTestObject(""TC001/input number 5""))",Chrome 107.0.0.0,,,2022-11-15 16:38:36,2022-11-15 16:38:37,0.689s,PASSED
+"sendKeys(findTestObject(""TC001/input number 5""), ""1000"")",Chrome 107.0.0.0,,,2022-11-15 16:38:37,2022-11-15 16:38:37,0.508s,PASSED
+"click(findTestObject(""TC001/input number 6""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:38:37,2022-11-15 16:38:38,0.589s,PASSED
+"sendKeys(findTestObject(""TC001/input number 6""), ""1000"")",Chrome 107.0.0.0,,,2022-11-15 16:38:38,2022-11-15 16:38:39,0.494s,PASSED
+"click(findTestObject(""TC001/button_Basic info (order summary)_lcbm-MuiButtonBase-root lcbm-MuiIconButton-root""))",Chrome 107.0.0.0,,,2022-11-15 16:38:39,2022-11-15 16:38:39,0.469s,PASSED
+currentTime = util.generateTime.dateTimeGenerator(),Chrome 107.0.0.0,,,2022-11-15 16:38:39,2022-11-15 16:38:39,0.069s,PASSED
+"util.copyToExcel.exel(currentTime, 1, 1)",Chrome 107.0.0.0,,,2022-11-15 16:38:39,2022-11-15 16:38:39,0.081s,PASSED
+"setText(findTestObject(""TC001/input_Basic info (order summary)_orderRefNo""), currentTime)",Chrome 107.0.0.0,,,2022-11-15 16:38:39,2022-11-15 16:38:41,1.551s,PASSED
+"click(findTestObject(""TC001/button_issue""))",Chrome 107.0.0.0,,,2022-11-15 16:38:41,2022-11-15 16:38:42,1.063s,PASSED
+"click(findTestObject(""TC001/button_CONFIRM (1)""))",Chrome 107.0.0.0,,,2022-11-15 16:38:42,2022-11-15 16:38:42,0.518s,PASSED
+"verifyElementVisible(findTestObject(""TC001/p_The operation was successful""))",Chrome 107.0.0.0,,,2022-11-15 16:38:42,2022-11-15 16:38:45,2.371s,PASSED
+,,,,,,,
+Test Cases/TC002 - Run Combine Order Batch (Admin),Chrome 107.0.0.0,,,2022-11-15 16:38:45,2022-11-15 16:38:52,7.546s,PASSED
+"navigateToUrl(""https://test.brivge.com/batch"")",Chrome 107.0.0.0,,,2022-11-15 16:38:45,2022-11-15 16:38:49,3.655s,PASSED
+"click(findTestObject(""TC002/button_Combine Order""))",Chrome 107.0.0.0,,,2022-11-15 16:38:49,2022-11-15 16:38:51,2.386s,PASSED
+"verifyElementVisible(findTestObject(""TC002/p_The operation was successful""))",Chrome 107.0.0.0,,,2022-11-15 16:38:51,2022-11-15 16:38:52,1.127s,PASSED
+,,,,,,,
+Test Cases/TC003 - Confirm Supplier Order (Supplier),Chrome 107.0.0.0,,,2022-11-15 16:38:52,2022-11-15 16:39:32,40.182s,PASSED
+"callTestCase(findTestCase(""common/Login""), [""username"":usernameAzwan, ""password"":passwordAzwan, ""verification"":verificationAzwan, ""company"":sgbafco], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:38:53,2022-11-15 16:39:11,18.291s,PASSED
+"click(findTestObject(""TC001/h6_Order""))",Chrome 107.0.0.0,,,2022-11-15 16:39:11,2022-11-15 16:39:12,0.988s,PASSED
+"click(findTestObject(""TC003/li_SO Monitoring List""))",Chrome 107.0.0.0,,,2022-11-15 16:39:12,2022-11-15 16:39:15,2.525s,PASSED
+"verifyElementVisible(findTestObject(""TC003/div_what can you do in SO monitoring""), OPTIONAL)",Chrome 107.0.0.0,,,2022-11-15 16:39:15,2022-11-15 16:39:16,1.681s,PASSED
+"if (verifyElementVisible(findTestObject(""TC003/div_what can you do in SO monitoring""), OPTIONAL) == true)",Chrome 107.0.0.0,,,2022-11-15 16:39:16,2022-11-15 16:39:19,2.479s,PASSED
+"setText(findTestObject(""TC003/input_SO Monitoring List Search""), supplContractNo)",Chrome 107.0.0.0,,,2022-11-15 16:39:19,2022-11-15 16:39:20,1.460s,PASSED
+"click(findTestObject(""TC003/filter button""))",Chrome 107.0.0.0,,,2022-11-15 16:39:20,2022-11-15 16:39:21,0.497s,PASSED
+"click(findTestObject(""TC003/input__statusList""))",Chrome 107.0.0.0,,,2022-11-15 16:39:21,2022-11-15 16:39:22,0.990s,PASSED
+"click(findTestObject(""TC003/li_Received""))",Chrome 107.0.0.0,,,2022-11-15 16:39:22,2022-11-15 16:39:22,0.522s,PASSED
+"click(findTestObject(""TC003/button_Search""))",Chrome 107.0.0.0,,,2022-11-15 16:39:22,2022-11-15 16:39:23,0.515s,PASSED
+"click(findTestObject(""TC003/button detail""))",Chrome 107.0.0.0,,,2022-11-15 16:39:23,2022-11-15 16:39:24,1.134s,PASSED
+"salesOrderNo = getAttribute(findTestObject(""TC003/Page_Brivge/input_Please input related basic information_orderNo""), ""value"")",Chrome 107.0.0.0,,,2022-11-15 16:39:24,2022-11-15 16:39:25,0.795s,PASSED
+"buyer = getAttribute(findTestObject(""TC003/Page_Brivge/input_Please input related basic information_buyer""), ""value"")",Chrome 107.0.0.0,,,2022-11-15 16:39:25,2022-11-15 16:39:28,3.124s,PASSED
+"receiver = getAttribute(findTestObject(""TC003/Page_Brivge/input_Please input related basic information_receiver""), ""value"")",Chrome 107.0.0.0,,,2022-11-15 16:39:28,2022-11-15 16:39:28,0.435s,PASSED
+"util.copyToExcel.exel(salesOrderNo, 1, 2)",Chrome 107.0.0.0,,,2022-11-15 16:39:28,2022-11-15 16:39:28,0.073s,PASSED
+"util.copyToExcel.exel(buyer, 1, 3)",Chrome 107.0.0.0,,,2022-11-15 16:39:28,2022-11-15 16:39:28,0.078s,PASSED
+"util.copyToExcel.exel(receiver, 1, 4)",Chrome 107.0.0.0,,,2022-11-15 16:39:28,2022-11-15 16:39:28,0.073s,PASSED
+"verifyElementAttributeValue(findTestObject(""TC003/input_Please input related basic information_status""), ""value"", ""Received"", 0)",Chrome 107.0.0.0,,,2022-11-15 16:39:28,2022-11-15 16:39:29,0.458s,PASSED
+"y = getAttribute(findTestObject(""TC003/input_Please input related basic information_orderNo""), ""value"")",Chrome 107.0.0.0,,,2022-11-15 16:39:29,2022-11-15 16:39:29,0.335s,PASSED
+"out.println(""sales order no: "" + y)",Chrome 107.0.0.0,,,2022-11-15 16:39:29,2022-11-15 16:39:29,0.019s,PASSED
+"click(findTestObject(""TC003/button_Confirm""))",Chrome 107.0.0.0,,,2022-11-15 16:39:29,2022-11-15 16:39:30,0.607s,PASSED
+"waitForElementVisible(findTestObject(""TC003/p_Are you sure to do Confirm(c0001)""), 0)",Chrome 107.0.0.0,,,2022-11-15 16:39:30,2022-11-15 16:39:30,0.585s,PASSED
+"click(findTestObject(""TC003/button_CONFIRM (1)""))",Chrome 107.0.0.0,,,2022-11-15 16:39:30,2022-11-15 16:39:31,0.617s,PASSED
+"verifyElementVisible(findTestObject(""TC003/p_The operation was successful""))",Chrome 107.0.0.0,,,2022-11-15 16:39:31,2022-11-15 16:39:32,1.390s,PASSED
+,,,,,,,
+Test Cases/TC004 - Customer Change Order (Customer),Chrome 107.0.0.0,,,2022-11-15 16:39:32,2022-11-15 16:40:36,1m - 3.506s,PASSED
+"callTestCase(findTestCase(""common/Login""), [""username"":usernameLuqman, ""password"":passwordLuqman, ""verification"":verificationLuqman, ""company"":vnttvn], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:39:33,2022-11-15 16:40:01,28.065s,PASSED
+"click(findTestObject(""TC001/h6_Order""))",Chrome 107.0.0.0,,,2022-11-15 16:40:01,2022-11-15 16:40:05,4.495s,PASSED
+"click(findTestObject(""delete order summary/li_Place ChangeCancel""))",Chrome 107.0.0.0,,,2022-11-15 16:40:05,2022-11-15 16:40:06,0.891s,PASSED
+"focus(findTestObject(""delete order summary/input_Forecast Change_lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm110 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd""), STOP_ON_FAILURE)",Chrome 107.0.0.0,Contract Route No. generated from TC001,,2022-11-15 16:40:06,2022-11-15 16:40:07,1.072s,PASSED
+"setText(findTestObject(""delete order summary/input_Forecast Change_lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm110 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd""), findTestData(""Toyotsu-data"").getValue(1, 2))",Chrome 107.0.0.0,Contract Route No. generated from TC001,,2022-11-15 16:40:07,2022-11-15 16:40:12,4.348s,PASSED
+delay(2),Chrome 107.0.0.0,,,2022-11-15 16:40:12,2022-11-15 16:40:14,2.021s,PASSED
+"click(findTestObject(""TC004/create button""))",Chrome 107.0.0.0,,,2022-11-15 16:40:14,2022-11-15 16:40:15,1.086s,PASSED
+"doubleClick(findTestObject(""TC004/input 1""))",Chrome 107.0.0.0,,,2022-11-15 16:40:15,2022-11-15 16:40:16,1.236s,PASSED
+"sendKeys(findTestObject(""TC004/input 1""), ""1500"")",Chrome 107.0.0.0,,,2022-11-15 16:40:16,2022-11-15 16:40:18,2.207s,PASSED
+"doubleClick(findTestObject(""TC004/input 2""))",Chrome 107.0.0.0,,,2022-11-15 16:40:18,2022-11-15 16:40:19,0.719s,PASSED
+"sendKeys(findTestObject(""TC004/input 2""), ""1500"")",Chrome 107.0.0.0,,,2022-11-15 16:40:19,2022-11-15 16:40:20,0.539s,PASSED
+"click(findTestObject(""TC004/button input shipping plan""))",Chrome 107.0.0.0,,,2022-11-15 16:40:20,2022-11-15 16:40:20,0.759s,PASSED
+"click(findTestObject(""TC004/input__newInboundPlanDate""))",Chrome 107.0.0.0,,,2022-11-15 16:40:20,2022-11-15 16:40:21,1.011s,PASSED
+"doubleClick(findTestObject(""TC004/button next calendar""))",Chrome 107.0.0.0,,,2022-11-15 16:40:21,2022-11-15 16:40:23,1.841s,PASSED
+"doubleClick(findTestObject(""TC004/button next calendar""))",Chrome 107.0.0.0,,,2022-11-15 16:40:23,2022-11-15 16:40:24,1.218s,PASSED
+"doubleClick(findTestObject(""TC004/button next calendar""))",Chrome 107.0.0.0,,,2022-11-15 16:40:24,2022-11-15 16:40:26,1.198s,PASSED
+"click(findTestObject(""TC004/button_17""))",Chrome 107.0.0.0,,,2022-11-15 16:40:26,2022-11-15 16:40:27,1.140s,PASSED
+"click(findTestObject(""TC004/button_Confirm input plan""))",Chrome 107.0.0.0,,,2022-11-15 16:40:27,2022-11-15 16:40:28,0.989s,PASSED
+"doubleClick(findTestObject(""TC004/input 3""))",Chrome 107.0.0.0,,,2022-11-15 16:40:28,2022-11-15 16:40:29,0.851s,PASSED
+"sendKeys(findTestObject(""TC004/input 3""), ""1500"")",Chrome 107.0.0.0,,,2022-11-15 16:40:29,2022-11-15 16:40:29,0.624s,PASSED
+"doubleClick(findTestObject(""TC004/input 4""))",Chrome 107.0.0.0,,,2022-11-15 16:40:29,2022-11-15 16:40:30,0.604s,PASSED
+"sendKeys(findTestObject(""TC004/input 4""), ""1500"")",Chrome 107.0.0.0,,,2022-11-15 16:40:30,2022-11-15 16:40:30,0.507s,PASSED
+y = util.generateTime.dateTimeGenerator(),Chrome 107.0.0.0,,,2022-11-15 16:40:30,2022-11-15 16:40:30,0.001s,PASSED
+"util.copyToExcel.exel(y, 1, 1)",Chrome 107.0.0.0,,,2022-11-15 16:40:30,2022-11-15 16:40:30,0.075s,PASSED
+"doubleClick(findTestObject(""TC004/input_Basic info (order summary)_customerRefNo""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:40:30,2022-11-15 16:40:31,0.772s,PASSED
+"sendKeys(findTestObject(""TC004/input_Basic info (order summary)_customerRefNo""), y)",Chrome 107.0.0.0,,,2022-11-15 16:40:31,2022-11-15 16:40:32,0.658s,PASSED
+"click(findTestObject(""TC004/div_scroll""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:40:32,2022-11-15 16:40:32,0.521s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(HOME))",Chrome 107.0.0.0,,,2022-11-15 16:40:32,2022-11-15 16:40:33,0.517s,PASSED
+"click(findTestObject(""TC004/button_issue""))",Chrome 107.0.0.0,,,2022-11-15 16:40:33,2022-11-15 16:40:33,0.549s,PASSED
+"click(findTestObject(""TC004/button_CONFIRM""))",Chrome 107.0.0.0,,,2022-11-15 16:40:33,2022-11-15 16:40:34,0.643s,PASSED
+"verifyElementPresent(findTestObject(""TC003/p_The operation was successful""), 0)",Chrome 107.0.0.0,,,2022-11-15 16:40:34,2022-11-15 16:40:36,1.902s,PASSED
+,,,,,,,
+Test Cases/TC005 - Approve Change Cancel Request (Supplier),Chrome 107.0.0.0,,,2022-11-15 16:40:36,2022-11-15 16:41:11,35.114s,PASSED
+"callTestCase(findTestCase(""common/Login""), [""username"":usernameAzwan, ""password"":passwordAzwan, ""verification"":verificationAzwan, ""company"":sgbafco], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:40:36,2022-11-15 16:40:53,16.968s,PASSED
+"click(findTestObject(""TC005/h6_Order""))",Chrome 107.0.0.0,,,2022-11-15 16:40:53,2022-11-15 16:40:54,0.943s,PASSED
+"click(findTestObject(""TC005/li_ChangeCancel Request List""))",Chrome 107.0.0.0,,,2022-11-15 16:40:54,2022-11-15 16:41:00,6.210s,PASSED
+"if (verifyElementVisible(findTestObject(""TC005/h1_What can you do in Change or Cancel Request List"")) == true)",Chrome 107.0.0.0,,,2022-11-15 16:41:00,2022-11-15 16:41:03,2.980s,PASSED
+"setText(findTestObject(""TC005/input Search""), findTestData(""Toyotsu-data"").getValue(1, 2))",Chrome 107.0.0.0,,,2022-11-15 16:41:03,2022-11-15 16:41:05,1.369s,PASSED
+"click(findTestObject(""TC005/button filter""))",Chrome 107.0.0.0,,,2022-11-15 16:41:05,2022-11-15 16:41:05,0.629s,PASSED
+"click(findTestObject(""TC005/input__requestStatusList""))",Chrome 107.0.0.0,,,2022-11-15 16:41:05,2022-11-15 16:41:06,1.043s,PASSED
+"click(findTestObject(""TC005/li_New""))",Chrome 107.0.0.0,,,2022-11-15 16:41:06,2022-11-15 16:41:07,0.528s,PASSED
+"click(findTestObject(""TC005/button_Search""))",Chrome 107.0.0.0,,,2022-11-15 16:41:07,2022-11-15 16:41:08,0.523s,PASSED
+"click(findTestObject(""TC005/button detail""))",Chrome 107.0.0.0,,,2022-11-15 16:41:08,2022-11-15 16:41:09,1.177s,PASSED
+"click(findTestObject(""TC005/button_Approve""))",Chrome 107.0.0.0,,,2022-11-15 16:41:09,2022-11-15 16:41:09,0.768s,PASSED
+"verifyElementVisible(findTestObject(""TC005/p_The operation was successful""))",Chrome 107.0.0.0,,,2022-11-15 16:41:09,2022-11-15 16:41:11,1.566s,PASSED
+,,,,,,,
+Test Cases/TC006 - Supplier Outbound Details (Supplier),Chrome 107.0.0.0,,,2022-11-15 16:41:11,2022-11-15 16:42:28,1m - 16.835s,PASSED
+"callTestCase(findTestCase(""common/Login""), [""username"":usernameAzwan, ""password"":passwordAzwan, ""verification"":verificationAzwan, ""company"":sgbafco], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:41:12,2022-11-15 16:41:29,17.529s,PASSED
+"click(findTestObject(""TC006/Page_Brivge/h6_Logistics""))",Chrome 107.0.0.0,,,2022-11-15 16:41:29,2022-11-15 16:41:30,0.894s,PASSED
+"click(findTestObject(""TC006/Page_Brivge/li_Outbound Monitoring List""))",Chrome 107.0.0.0,,,2022-11-15 16:41:30,2022-11-15 16:41:33,2.510s,PASSED
+"click(findTestObject(""TC006/Page_Brivge/button create""))",Chrome 107.0.0.0,,,2022-11-15 16:41:33,2022-11-15 16:41:35,2.273s,PASSED
+"callTestCase(findTestCase(""common/Long Form/6_1 - input basic info""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:41:35,2022-11-15 16:41:58,22.722s,PASSED
+"callTestCase(findTestCase(""common/Long Form/6_2 - input container info""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:41:58,2022-11-15 16:42:05,7.553s,PASSED
+"callTestCase(findTestCase(""common/Long Form/6_3 - input outer package""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:42:05,2022-11-15 16:42:13,7.425s,PASSED
+"callTestCase(findTestCase(""common/Long Form/6_4 - input add parts""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:42:13,2022-11-15 16:42:21,8.570s,PASSED
+"click(findTestObject(""TC006/TC006_4/click before scroll up""))",Chrome 107.0.0.0,,,2022-11-15 16:42:21,2022-11-15 16:42:22,0.582s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(HOME))",Chrome 107.0.0.0,,,2022-11-15 16:42:22,2022-11-15 16:42:22,0.533s,PASSED
+"click(findTestObject(""TC006/TC006_4/button_Submit""))",Chrome 107.0.0.0,,,2022-11-15 16:42:22,2022-11-15 16:42:23,0.898s,PASSED
+"click(findTestObject(""TC006/Page_Brivge/button_CONFIRM""))",Chrome 107.0.0.0,,,2022-11-15 16:42:23,2022-11-15 16:42:24,1.058s,PASSED
+"verifyElementVisible(findTestObject(""TC006/Page_Brivge/p_The operation was successful""))",Chrome 107.0.0.0,,,2022-11-15 16:42:24,2022-11-15 16:42:28,3.641s,PASSED
+,,,,,,,
+Test Cases/TC007 - Supplier Approve Release Seller GI Invoice (Supplier),Chrome 107.0.0.0,,,2022-11-15 16:42:28,2022-11-15 16:43:08,39.848s,PASSED
+"callTestCase(findTestCase(""common/Login""), [""username"":usernameAzwan, ""password"":passwordAzwan, ""verification"":verificationAzwan, ""company"":sgbafco], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:42:28,2022-11-15 16:42:46,17.281s,PASSED
+"click(findTestObject(""TC007/Page_Brivge/h6_Accounting""))",Chrome 107.0.0.0,,,2022-11-15 16:42:46,2022-11-15 16:42:47,0.813s,PASSED
+"click(findTestObject(""TC007/Page_Brivge/li_Seller(GI) Invoice List""))",Chrome 107.0.0.0,,,2022-11-15 16:42:47,2022-11-15 16:42:49,2.771s,PASSED
+"setText(findTestObject(""TC007/Page_Brivge/input_contract no list""), supplContractNo)",Chrome 107.0.0.0,"supplier contract no
+",,2022-11-15 16:42:49,2022-11-15 16:42:54,4.606s,PASSED
+"click(findTestObject(""TC007/Page_Brivge/button filter""))",Chrome 107.0.0.0,,,2022-11-15 16:42:54,2022-11-15 16:42:55,0.707s,PASSED
+"click(findTestObject(""TC007/Page_Brivge/input__statusList""))",Chrome 107.0.0.0,,,2022-11-15 16:42:55,2022-11-15 16:42:56,1.091s,PASSED
+"click(findTestObject(""TC007/Page_Brivge/li_New""))",Chrome 107.0.0.0,,,2022-11-15 16:42:56,2022-11-15 16:42:56,0.623s,PASSED
+"click(findTestObject(""TC007/Page_Brivge/button_Search""))",Chrome 107.0.0.0,,,2022-11-15 16:42:56,2022-11-15 16:42:57,0.527s,PASSED
+"y = getText(findTestObject(""TC007/Page_Brivge/div_invoice No""))",Chrome 107.0.0.0,,,2022-11-15 16:42:57,2022-11-15 16:42:58,0.669s,PASSED
+"util.copyToExcel.exel(y, 1, 6)",Chrome 107.0.0.0,Save invoice no to desktop toyotsudata.xlsx,,2022-11-15 16:42:58,2022-11-15 16:42:58,0.075s,PASSED
+"click(findTestObject(""TC007/Page_Brivge/button approve""))",Chrome 107.0.0.0,,,2022-11-15 16:42:58,2022-11-15 16:42:58,0.502s,PASSED
+"click(findTestObject(""TC007/Page_Brivge/button_CONFIRM""))",Chrome 107.0.0.0,Clicking confirm to approve GI Invoice,,2022-11-15 16:42:58,2022-11-15 16:42:59,1.080s,PASSED
+"verifyElementVisible(findTestObject(""TC007/Page_Brivge/p_The operation was successful""))",Chrome 107.0.0.0,,,2022-11-15 16:42:59,2022-11-15 16:43:00,0.827s,PASSED
+"click(findTestObject(""TC007/Page_Brivge/button filter""))",Chrome 107.0.0.0,,,2022-11-15 16:43:00,2022-11-15 16:43:01,0.520s,PASSED
+"click(findTestObject(""TC007/Page_Brivge/button_clear""))",Chrome 107.0.0.0,,,2022-11-15 16:43:01,2022-11-15 16:43:02,0.969s,PASSED
+"click(findTestObject(""TC007/Page_Brivge/button_Search""))",Chrome 107.0.0.0,,,2022-11-15 16:43:02,2022-11-15 16:43:02,0.526s,PASSED
+"verifyElementText(findTestObject(""TC007/Page_Brivge/div_Approved""), ""Approved"")",Chrome 107.0.0.0,,,2022-11-15 16:43:02,2022-11-15 16:43:03,0.722s,PASSED
+"click(findTestObject(""TC007/Page_Brivge/button release""))",Chrome 107.0.0.0,,,2022-11-15 16:43:03,2022-11-15 16:43:03,0.626s,PASSED
+"click(findTestObject(""TC007/Page_Brivge/button_CONFIRM""))",Chrome 107.0.0.0,Clicking confirm to release GI Invoice,,2022-11-15 16:43:03,2022-11-15 16:43:04,1.080s,PASSED
+"verifyElementVisible(findTestObject(""TC007/Page_Brivge/p_The operation was successful""))",Chrome 107.0.0.0,,,2022-11-15 16:43:04,2022-11-15 16:43:05,0.819s,PASSED
+"click(findTestObject(""TC007/Page_Brivge/button filter""))",Chrome 107.0.0.0,,,2022-11-15 16:43:05,2022-11-15 16:43:06,0.456s,PASSED
+"click(findTestObject(""TC007/Page_Brivge/button_clear""))",Chrome 107.0.0.0,,,2022-11-15 16:43:06,2022-11-15 16:43:06,0.649s,PASSED
+"click(findTestObject(""TC007/Page_Brivge/button_Search""))",Chrome 107.0.0.0,,,2022-11-15 16:43:06,2022-11-15 16:43:07,0.600s,PASSED
+"verifyElementText(findTestObject(""TC007/Page_Brivge/div_Released""), ""Released"")",Chrome 107.0.0.0,,,2022-11-15 16:43:07,2022-11-15 16:43:08,0.757s,PASSED
+,,,,,,,
+Test Cases/TC008 - Auto Generate Buyer GR Invoice (BU),Chrome 107.0.0.0,,,2022-11-15 16:43:08,2022-11-15 16:43:44,36.473s,PASSED
+"callTestCase(findTestCase(""common/Login""), [""username"":usernameLuqman, ""password"":passwordLuqman, ""verification"":verificationLuqman, ""company"":sgttap], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:43:08,2022-11-15 16:43:34,26.081s,PASSED
+"click(findTestObject(""TC007/Page_Brivge/h6_Accounting""))",Chrome 107.0.0.0,,,2022-11-15 16:43:34,2022-11-15 16:43:35,0.611s,PASSED
+"click(findTestObject(""TC008/Page_Brivge/li_Buyer(GR) Invoice List""))",Chrome 107.0.0.0,,,2022-11-15 16:43:35,2022-11-15 16:43:36,1.504s,PASSED
+"setText(findTestObject(""TC008/Page_Brivge/input_Buyer(GR) Invoice List""), findTestData(""Toyotsu-data"").getValue(7, 2))",Chrome 107.0.0.0,,,2022-11-15 16:43:36,2022-11-15 16:43:38,1.828s,PASSED
+"verifyElementText(findTestObject(""TC008/Page_Brivge/div_Released""), ""Released"")",Chrome 107.0.0.0,,,2022-11-15 16:43:38,2022-11-15 16:43:40,2.242s,PASSED
+takeScreenshot(),Chrome 107.0.0.0,,,2022-11-15 16:43:40,2022-11-15 16:43:41,0.923s,PASSED
+"click(findTestObject(""TC008/Page_Brivge/button view""))",Chrome 107.0.0.0,,,2022-11-15 16:43:41,2022-11-15 16:43:42,0.980s,PASSED
+"verifyElementVisible(findTestObject(""TC008/Page_Brivge/h3_Buyer(GR) Invoice Detail""))",Chrome 107.0.0.0,,,2022-11-15 16:43:42,2022-11-15 16:43:43,0.656s,PASSED
+takeFullPageScreenshot(),Chrome 107.0.0.0,,,2022-11-15 16:43:43,2022-11-15 16:43:44,1.189s,PASSED
+,,,,,,,
+Test Cases/TC009 - Supplier Revise and Confirm Shipment (Supplier),Chrome 107.0.0.0,,,2022-11-15 16:43:44,2022-11-15 16:44:21,37.248s,PASSED
+"callTestCase(findTestCase(""common/Login""), [""username"":usernameAzwan, ""password"":passwordAzwan, ""verification"":verificationAzwan, ""company"":sgbafco], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:43:45,2022-11-15 16:44:01,16.283s,PASSED
+"click(findTestObject(""TC009/Page_Brivge/h6_Logistics""))",Chrome 107.0.0.0,,,2022-11-15 16:44:01,2022-11-15 16:44:02,1.021s,PASSED
+"click(findTestObject(""TC009/Page_Brivge/li_Shipping Detail List""))",Chrome 107.0.0.0,,,2022-11-15 16:44:02,2022-11-15 16:44:05,2.789s,PASSED
+"setText(findTestObject(""TC009/Page_Brivge/input_Shipping Detail List""), findTestData(""Toyotsu-data"").getValue(8, 2))",Chrome 107.0.0.0,Booking no from TC006(timestamp) will change later,,2022-11-15 16:44:05,2022-11-15 16:44:08,2.867s,PASSED
+"click(findTestObject(""TC009/Page_Brivge/button_edit""))",Chrome 107.0.0.0,,,2022-11-15 16:44:08,2022-11-15 16:44:09,1.048s,PASSED
+y = util.generateTime.dateTimeGenerator(),Chrome 107.0.0.0,,,2022-11-15 16:44:09,2022-11-15 16:44:09,0.001s,PASSED
+"click(findTestObject(""TC009/Page_Brivge/input__atd""))",Chrome 107.0.0.0,choose date for atd,,2022-11-15 16:44:09,2022-11-15 16:44:10,0.901s,PASSED
+"click(findTestObject(""TC009/Page_Brivge/button next atd calendar""))",Chrome 107.0.0.0,,,2022-11-15 16:44:10,2022-11-15 16:44:11,1.407s,PASSED
+"click(findTestObject(""TC009/Page_Brivge/button_1""))",Chrome 107.0.0.0,,,2022-11-15 16:44:11,2022-11-15 16:44:12,1.143s,PASSED
+"click(findTestObject(""TC009/Page_Brivge/input__blDate""))",Chrome 107.0.0.0,choose bl date,,2022-11-15 16:44:12,2022-11-15 16:44:13,0.907s,PASSED
+"click(findTestObject(""TC009/Page_Brivge/button next bl calendar""))",Chrome 107.0.0.0,,,2022-11-15 16:44:13,2022-11-15 16:44:14,0.518s,PASSED
+"click(findTestObject(""TC009/Page_Brivge/button_15""))",Chrome 107.0.0.0,,,2022-11-15 16:44:14,2022-11-15 16:44:15,1.188s,PASSED
+"setText(findTestObject(""TC009/Page_Brivge/input__blNo""), ""BL No "" + y)",Chrome 107.0.0.0,input bl no,,2022-11-15 16:44:15,2022-11-15 16:44:16,1.375s,PASSED
+"setText(findTestObject(""TC009/Page_Brivge/input__voyageNo""), ""voyage "" + y)",Chrome 107.0.0.0,input vogaye no,,2022-11-15 16:44:16,2022-11-15 16:44:17,1.006s,PASSED
+"setText(findTestObject(""TC009/Page_Brivge/input__vesselName""), ""Vessel A"")",Chrome 107.0.0.0,input vessel name,,2022-11-15 16:44:17,2022-11-15 16:44:18,0.756s,PASSED
+"click(findTestObject(""TC009/Page_Brivge/input__cargoStatus""))",Chrome 107.0.0.0,,,2022-11-15 16:44:18,2022-11-15 16:44:18,0.444s,PASSED
+"click(findTestObject(""TC009/Page_Brivge/li_Cargo Outbound""))",Chrome 107.0.0.0,,,2022-11-15 16:44:18,2022-11-15 16:44:19,0.627s,PASSED
+"click(findTestObject(""TC009/Page_Brivge/button_Confirm""))",Chrome 107.0.0.0,,,2022-11-15 16:44:19,2022-11-15 16:44:20,0.706s,PASSED
+"verifyElementVisible(findTestObject(""TC009/Page_Brivge/p_Are you sure to do Confirm(c0001)""))",Chrome 107.0.0.0,,,2022-11-15 16:44:20,2022-11-15 16:44:20,0.465s,PASSED
+"click(findTestObject(""TC009/Page_Brivge/button_CONFIRM 2""))",Chrome 107.0.0.0,,,2022-11-15 16:44:20,2022-11-15 16:44:21,0.505s,PASSED
+"verifyElementVisible(findTestObject(""TC007/Page_Brivge/p_The operation was successful""))",Chrome 107.0.0.0,,,2022-11-15 16:44:21,2022-11-15 16:44:21,0.810s,PASSED
+,,,,,,,
+Test Cases/TC010 - DC Inbound Details (DC),Chrome 107.0.0.0,,,2022-11-15 16:44:21,2022-11-15 16:44:58,36.763s,PASSED
+"callTestCase(findTestCase(""common/Login""), [""username"":usernameAzwan, ""password"":passwordAzwan, ""verification"":verificationAzwan, ""company"":sgttapdc], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:44:22,2022-11-15 16:44:38,16.509s,PASSED
+"click(findTestObject(""TC010/Page_Brivge/span_Logistics""))",Chrome 107.0.0.0,,,2022-11-15 16:44:38,2022-11-15 16:44:39,0.673s,PASSED
+"click(findTestObject(""TC010/Page_Brivge/li_Inbound Monitoring List""))",Chrome 107.0.0.0,,,2022-11-15 16:44:39,2022-11-15 16:44:41,1.448s,PASSED
+"setText(findTestObject(""TC010/Page_Brivge/input_inbound list""), findTestData(""Toyotsu-data"").getValue(6, 2))",Chrome 107.0.0.0,generated from TC006,,2022-11-15 16:44:41,2022-11-15 16:44:43,2.766s,PASSED
+"click(findTestObject(""TC010/Page_Brivge/checkbox""))",Chrome 107.0.0.0,,,2022-11-15 16:44:43,2022-11-15 16:44:44,0.602s,PASSED
+"click(findTestObject(""TC010/Page_Brivge/button download""))",Chrome 107.0.0.0,,,2022-11-15 16:44:44,2022-11-15 16:44:45,0.549s,PASSED
+"click(findTestObject(""TC010/Page_Brivge/li_Download Inbound Plan""))",Chrome 107.0.0.0,,,2022-11-15 16:44:45,2022-11-15 16:44:45,0.622s,PASSED
+"verifyElementVisible(findTestObject(""TC010/Page_Brivge/p_The operation was successful""), CONTINUE_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:44:45,2022-11-15 16:44:46,0.947s,PASSED
+delay(5),Chrome 107.0.0.0,,,2022-11-15 16:44:46,2022-11-15 16:44:51,5.003s,PASSED
+filename = util.getDownloadedFile.getLatestFileFromDirectory(),Chrome 107.0.0.0,,,2022-11-15 16:44:51,2022-11-15 16:44:51,0.029s,PASSED
+"logInfo(""Last file received is "" + filename)",Chrome 107.0.0.0,,,2022-11-15 16:44:51,2022-11-15 16:44:51,0.013s,PASSED
+"click(findTestObject(""TC010/Page_Brivge/button confirm""))",Chrome 107.0.0.0,,,2022-11-15 16:44:51,2022-11-15 16:44:52,0.464s,PASSED
+timestamp = util.generateTime.dateTimeGenerator(),Chrome 107.0.0.0,input inbound ref no,,2022-11-15 16:44:52,2022-11-15 16:44:52,0.001s,PASSED
+"inboundRefNo = ""inbound"" + timestamp",Chrome 107.0.0.0,,,2022-11-15 16:44:52,2022-11-15 16:44:52,0.001s,PASSED
+"util.copyToExcel.exel(inboundRefNo, 1, 8)",Chrome 107.0.0.0,,,2022-11-15 16:44:52,2022-11-15 16:44:52,0.059s,PASSED
+"setText(findTestObject(""TC010/Page_Brivge/input__inboundRefNo""), inboundRefNo)",Chrome 107.0.0.0,,,2022-11-15 16:44:52,2022-11-15 16:44:53,1.284s,PASSED
+"click(findTestObject(""TC010/Page_Brivge/input__inboundDate""))",Chrome 107.0.0.0,input inbound date,,2022-11-15 16:44:53,2022-11-15 16:44:53,0.454s,PASSED
+"util.handlePicker.handleCalendar(findTestObject(""TC010/Page_Brivge/currentmonth""), findTestObject(""TC010/Page_Brivge/button next calendar""), 15, 11)",Chrome 107.0.0.0,,,2022-11-15 16:44:53,2022-11-15 16:44:55,1.372s,PASSED
+"util.parseValue.parseAValueToWebObject(findTestObject(""TC010/Page_Brivge/input__inboundTime""), ""12:00:00"")",Chrome 107.0.0.0,Input time,,2022-11-15 16:44:55,2022-11-15 16:44:56,0.790s,PASSED
+"click(findTestObject(""TC010/Page_Brivge/button_Confirm 2""))",Chrome 107.0.0.0,,,2022-11-15 16:44:56,2022-11-15 16:44:56,0.548s,PASSED
+"click(findTestObject(""TC010/Page_Brivge/button_CONFIRM 3""))",Chrome 107.0.0.0,,,2022-11-15 16:44:56,2022-11-15 16:44:57,0.507s,PASSED
+"verifyElementVisible(findTestObject(""TC010/Page_Brivge/p_The operation was successful""))",Chrome 107.0.0.0,,,2022-11-15 16:44:57,2022-11-15 16:44:58,1.653s,PASSED
+,,,,,,,
+Test Cases/TC011 - DC Outbound Details (DC),Chrome 107.0.0.0,,,2022-11-15 16:44:58,2022-11-15 16:46:43,1m - 44.266s,PASSED
+"callTestCase(findTestCase(""common/Login""), [""username"":usernameLuqman, ""password"":passwordLuqman, ""verification"":verificationLuqman, ""company"":sgttap], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:44:59,2022-11-15 16:45:23,23.730s,PASSED
+"click(findTestObject(""TC011/Page_Brivge/button_Order""))",Chrome 107.0.0.0,,,2022-11-15 16:45:23,2022-11-15 16:45:23,0.598s,PASSED
+"click(findTestObject(""TC011/Page_Brivge/li_SO Monitoring List""))",Chrome 107.0.0.0,,,2022-11-15 16:45:23,2022-11-15 16:45:25,1.412s,PASSED
+"setText(findTestObject(""TC011/Page_Brivge/input_SO Monitoring List""), custContractNo)",Chrome 107.0.0.0,,,2022-11-15 16:45:25,2022-11-15 16:45:29,4.812s,PASSED
+"y = getText(findTestObject(""TC011/Page_Brivge/div_orderNo""))",Chrome 107.0.0.0,,,2022-11-15 16:45:29,2022-11-15 16:45:30,0.335s,PASSED
+"util.copyToExcel.exel(y, 1, 12)",Chrome 107.0.0.0,,,2022-11-15 16:45:30,2022-11-15 16:45:30,0.050s,PASSED
+"callTestCase(findTestCase(""common/Login""), [""username"":usernameAzwan, ""password"":passwordAzwan, ""verification"":verificationAzwan, ""company"":sgttapdc], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:45:30,2022-11-15 16:45:47,16.668s,PASSED
+"click(findTestObject(""TC006/Page_Brivge/h6_Logistics""))",Chrome 107.0.0.0,,,2022-11-15 16:45:47,2022-11-15 16:45:47,0.692s,PASSED
+"click(findTestObject(""TC006/Page_Brivge/li_Outbound Monitoring List""))",Chrome 107.0.0.0,,,2022-11-15 16:45:47,2022-11-15 16:45:49,1.946s,PASSED
+"click(findTestObject(""TC006/Page_Brivge/button create""))",Chrome 107.0.0.0,,,2022-11-15 16:45:49,2022-11-15 16:45:52,2.496s,PASSED
+"callTestCase(findTestCase(""common/Long Form/11_1 - input basic info""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:45:52,2022-11-15 16:46:12,20.505s,PASSED
+"callTestCase(findTestCase(""common/Long Form/11_2 - input container info""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:46:12,2022-11-15 16:46:21,9.230s,PASSED
+"callTestCase(findTestCase(""common/Long Form/11_3 - input outer package""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:46:21,2022-11-15 16:46:29,7.698s,PASSED
+"callTestCase(findTestCase(""common/Long Form/11_4 - input add parts""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:46:29,2022-11-15 16:46:37,7.571s,PASSED
+"click(findTestObject(""TC006/TC006_4/click before scroll up""))",Chrome 107.0.0.0,,,2022-11-15 16:46:37,2022-11-15 16:46:38,1.021s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(HOME))",Chrome 107.0.0.0,,,2022-11-15 16:46:38,2022-11-15 16:46:38,0.636s,PASSED
+"click(findTestObject(""TC006/TC006_4/button_Submit""))",Chrome 107.0.0.0,,,2022-11-15 16:46:38,2022-11-15 16:46:39,1.064s,PASSED
+"click(findTestObject(""TC006/Page_Brivge/button_CONFIRM""))",Chrome 107.0.0.0,,,2022-11-15 16:46:39,2022-11-15 16:46:40,1.078s,PASSED
+"verifyElementVisible(findTestObject(""TC006/Page_Brivge/p_The operation was successful""))",Chrome 107.0.0.0,,,2022-11-15 16:46:40,2022-11-15 16:46:43,2.087s,PASSED
+,,,,,,,
+Test Cases/TC012 - Revise and Approve Seller Invoice (BU),Chrome 107.0.0.0,,,2022-11-15 16:46:43,2022-11-15 16:47:17,34.741s,PASSED
+"callTestCase(findTestCase(""common/Login""), [""username"":usernameLuqman, ""password"":passwordLuqman, ""verification"":verificationLuqman, ""company"":sgttap], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:46:43,2022-11-15 16:47:07,23.829s,PASSED
+"click(findTestObject(""TC012/button_Accounting""))",Chrome 107.0.0.0,,,2022-11-15 16:47:07,2022-11-15 16:47:08,0.614s,PASSED
+"click(findTestObject(""TC012/li_Seller(GI) Invoice List""))",Chrome 107.0.0.0,,,2022-11-15 16:47:08,2022-11-15 16:47:09,1.481s,PASSED
+"click(findTestObject(""TC012/input_Seller(GI) Invoice List""))",Chrome 107.0.0.0,,,2022-11-15 16:47:09,2022-11-15 16:47:10,0.890s,PASSED
+"setText(findTestObject(""TC012/input_Seller(GI) Invoice List""), custContractNo)",Chrome 107.0.0.0,,,2022-11-15 16:47:10,2022-11-15 16:47:14,4.289s,PASSED
+"invoiceNo = getText(findTestObject(""TC012/p_invoiceNo""))",Chrome 107.0.0.0,,,2022-11-15 16:47:14,2022-11-15 16:47:15,0.330s,PASSED
+"util.copyToExcel.exel(invoiceNo, 1, 11)",Chrome 107.0.0.0,,,2022-11-15 16:47:15,2022-11-15 16:47:15,0.051s,PASSED
+"check(findTestObject(""TC012/input_SGTTAP TO VNTTVN 1103010""))",Chrome 107.0.0.0,,,2022-11-15 16:47:15,2022-11-15 16:47:15,0.555s,PASSED
+"scrollToElement(findTestObject(""TC012/div_Status""), 0)",Chrome 107.0.0.0,,,2022-11-15 16:47:15,2022-11-15 16:47:16,0.439s,PASSED
+"click(findTestObject(""TC012/button_Approve""))",Chrome 107.0.0.0,,,2022-11-15 16:47:16,2022-11-15 16:47:16,0.681s,PASSED
+"waitForElementPresent(findTestObject(""TC012/div_ApproveAre you sure to do Approve""), 0)",Chrome 107.0.0.0,,,2022-11-15 16:47:16,2022-11-15 16:47:17,0.483s,PASSED
+"click(findTestObject(""TC012/button_CONFIRM""))",Chrome 107.0.0.0,,,2022-11-15 16:47:17,2022-11-15 16:47:17,0.545s,PASSED
+,,,,,,,
+Test Cases/TC013 - BU Complete Export Customs Invoice (BU),Chrome 107.0.0.0,,,2022-11-15 16:47:17,2022-11-15 16:48:01,44.156s,PASSED
+"callTestCase(findTestCase(""common/Login""), [""username"":usernameLuqman, ""password"":passwordLuqman, ""verification"":verificationLuqman, ""company"":sgttap], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:47:18,2022-11-15 16:47:41,22.976s,PASSED
+"click(findTestObject(""TC013/Page_Brivge/button_Logistics""))",Chrome 107.0.0.0,,,2022-11-15 16:47:41,2022-11-15 16:47:41,0.744s,PASSED
+"click(findTestObject(""TC013/Page_Brivge/li_Customs Invoice List(Export)""))",Chrome 107.0.0.0,,,2022-11-15 16:47:41,2022-11-15 16:47:43,1.437s,PASSED
+"setText(findTestObject(""TC013/Page_Brivge/input_Customs Invoice(Export)""), findTestData(""Toyotsu-data"").getValue(12, 2))",Chrome 107.0.0.0,,,2022-11-15 16:47:43,2022-11-15 16:47:45,1.939s,PASSED
+"click(findTestObject(""TC013/Page_Brivge/checkbox""))",Chrome 107.0.0.0,,,2022-11-15 16:47:45,2022-11-15 16:47:46,0.661s,PASSED
+"click(findTestObject(""TC013/Page_Brivge/button_update 1""))",Chrome 107.0.0.0,<---- Update cargo status ---->,,2022-11-15 16:47:46,2022-11-15 16:47:46,0.537s,PASSED
+"click(findTestObject(""TC013/Page_Brivge/input_Input Cargo Status_cargoStatus""))",Chrome 107.0.0.0,,,2022-11-15 16:47:46,2022-11-15 16:47:47,1.055s,PASSED
+"click(findTestObject(""TC013/Page_Brivge/li_Exp clearance in progress""))",Chrome 107.0.0.0,,,2022-11-15 16:47:47,2022-11-15 16:47:48,0.493s,PASSED
+"click(findTestObject(""TC013/Page_Brivge/button_update 2""))",Chrome 107.0.0.0,,,2022-11-15 16:47:48,2022-11-15 16:47:48,0.498s,PASSED
+"verifyElementVisible(findTestObject(""TC013/Page_Brivge/p_The operation was successful""))",Chrome 107.0.0.0,,,2022-11-15 16:47:48,2022-11-15 16:47:49,0.907s,PASSED
+delay(5),Chrome 107.0.0.0,,,2022-11-15 16:47:49,2022-11-15 16:47:54,5.005s,PASSED
+"click(findTestObject(""TC013/Page_Brivge/button_completed""))",Chrome 107.0.0.0,<---- Complete custom invoice ---->,,2022-11-15 16:47:54,2022-11-15 16:47:54,0.471s,PASSED
+"click(findTestObject(""TC013/Page_Brivge/button_CONFIRM""))",Chrome 107.0.0.0,,,2022-11-15 16:47:54,2022-11-15 16:47:56,1.077s,PASSED
+"verifyElementVisible(findTestObject(""TC013/Page_Brivge/p_The operation was successful""))",Chrome 107.0.0.0,,,2022-11-15 16:47:56,2022-11-15 16:47:56,0.714s,PASSED
+"click(findTestObject(""TC013/Page_Brivge/button_print 1""))",Chrome 107.0.0.0,<---- Print invoice ---->,,2022-11-15 16:47:56,2022-11-15 16:47:57,0.401s,PASSED
+"click(findTestObject(""TC013/Page_Brivge/div_Print Invoice""))",Chrome 107.0.0.0,,,2022-11-15 16:47:57,2022-11-15 16:47:57,0.619s,PASSED
+"click(findTestObject(""TC013/Page_Brivge/button_Print 2""))",Chrome 107.0.0.0,,,2022-11-15 16:47:57,2022-11-15 16:47:58,0.521s,PASSED
+"verifyElementVisible(findTestObject(""TC013/Page_Brivge/p_The operation was successful""))",Chrome 107.0.0.0,,,2022-11-15 16:47:58,2022-11-15 16:47:59,1.240s,PASSED
+takeFullPageScreenshot(),Chrome 107.0.0.0,,,2022-11-15 16:47:59,2022-11-15 16:48:01,2.380s,PASSED
+,,,,,,,
+Test Cases/TC014 - Customer Complete Import Customs Invoice (Customer),Chrome 107.0.0.0,,,2022-11-15 16:48:01,2022-11-15 16:48:53,51.898s,PASSED
+"callTestCase(findTestCase(""common/Login""), [""username"":usernameLuqman, ""password"":passwordLuqman, ""verification"":verificationLuqman, ""company"":vnttvn], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-15 16:48:02,2022-11-15 16:48:29,26.957s,PASSED
+"click(findTestObject(""TC014/Page_Brivge/button_Logistics""))",Chrome 107.0.0.0,,,2022-11-15 16:48:29,2022-11-15 16:48:34,4.840s,PASSED
+"click(findTestObject(""TC014/Page_Brivge/li_Customs Invoice List(Import)""))",Chrome 107.0.0.0,,,2022-11-15 16:48:34,2022-11-15 16:48:35,1.059s,PASSED
+"setText(findTestObject(""TC014/Page_Brivge/input_Customs Invoice(Import)""), findTestData(""Toyotsu-data"").getValue(12, 2))",Chrome 107.0.0.0,,,2022-11-15 16:48:35,2022-11-15 16:48:41,5.757s,PASSED
+"click(findTestObject(""TC014/Page_Brivge/input_checkbox""))",Chrome 107.0.0.0,,,2022-11-15 16:48:41,2022-11-15 16:48:41,0.552s,PASSED
+"click(findTestObject(""TC014/Page_Brivge/button_input cargo status""))",Chrome 107.0.0.0,,,2022-11-15 16:48:41,2022-11-15 16:48:42,0.565s,PASSED
+"click(findTestObject(""TC014/Page_Brivge/input_Input Cargo Status_cargoStatus""))",Chrome 107.0.0.0,,,2022-11-15 16:48:42,2022-11-15 16:48:43,1.086s,PASSED
+"click(findTestObject(""TC014/Page_Brivge/li_Imp clearance in progress""))",Chrome 107.0.0.0,,,2022-11-15 16:48:43,2022-11-15 16:48:43,0.617s,PASSED
+"click(findTestObject(""TC014/Page_Brivge/button_update""))",Chrome 107.0.0.0,,,2022-11-15 16:48:43,2022-11-15 16:48:44,0.520s,PASSED
+"verifyElementVisible(findTestObject(""TC014/Page_Brivge/p_The operation was successful""))",Chrome 107.0.0.0,,,2022-11-15 16:48:44,2022-11-15 16:48:45,0.917s,PASSED
+delay(5),Chrome 107.0.0.0,,,2022-11-15 16:48:45,2022-11-15 16:48:50,5.003s,PASSED
+"click(findTestObject(""TC014/Page_Brivge/button_complete""))",Chrome 107.0.0.0,,,2022-11-15 16:48:50,2022-11-15 16:48:50,0.567s,PASSED
+"click(findTestObject(""TC014/Page_Brivge/button_CONFIRM""))",Chrome 107.0.0.0,,,2022-11-15 16:48:50,2022-11-15 16:48:52,1.187s,PASSED
+"verifyElementVisible(findTestObject(""TC014/Page_Brivge/p_The operation was successful""))",Chrome 107.0.0.0,,,2022-11-15 16:48:52,2022-11-15 16:48:53,0.998s,PASSED
+"verifyElementText(findTestObject(""TC014/Page_Brivge/div_Imp clearance in progress""), ""Imp clearance in progress"")",Chrome 107.0.0.0,,,2022-11-15 16:48:53,2022-11-15 16:48:53,0.350s,PASSED
+"verifyElementText(findTestObject(""TC014/Page_Brivge/div_Customs Clearance Completed""), ""Customs Clearance Completed"")",Chrome 107.0.0.0,,,2022-11-15 16:48:53,2022-11-15 16:48:53,0.333s,PASSED

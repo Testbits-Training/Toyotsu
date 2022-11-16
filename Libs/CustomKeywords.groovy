@@ -49,6 +49,19 @@ def static "util.copyToExcel.exelInboundPlan"(
          , 	colNum)
 }
 
+
+def static "util.copyToExcel.exelInboundPlan2"(
+    	File file	
+     , 	String name	
+     , 	int rowNum	
+     , 	int colNum	) {
+    (new util.copyToExcel()).exelInboundPlan2(
+        	file
+         , 	name
+         , 	rowNum
+         , 	colNum)
+}
+
  /**
 	 * Refresh browser
 	 */ 
@@ -101,6 +114,16 @@ def static "util.testing.otpKey"(
 }
 
 
+def static "util.generateTime.currentMonth"() {
+    (new util.generateTime()).currentMonth()
+}
+
+
+def static "util.generateTime.currentDateDay"() {
+    (new util.generateTime()).currentDateDay()
+}
+
+
 def static "util.generateTime.dateTimeGenerator"() {
     (new util.generateTime()).dateTimeGenerator()
 }
@@ -111,12 +134,10 @@ def static "util.getDownloadedFile.getLatestFileFromDirectory"() {
 }
 
 
-def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkElement"(
-    	Eyes eyes	
-     , 	WebElement element	) {
-    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkElement(
-        	eyes
-         , 	element)
+def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow"(
+    	String testName	) {
+    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkWindow(
+        	testName)
 }
 
 
@@ -129,10 +150,21 @@ def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkTestObject"(
 }
 
 
-def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow"(
-    	String testName	) {
-    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkWindow(
-        	testName)
+def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkElement"(
+    	Eyes eyes	
+     , 	WebElement element	) {
+    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkElement(
+        	eyes
+         , 	element)
+}
+
+
+def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpen"(
+    	String testName	
+     , 	RectangleSize viewportSize	) {
+    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesOpen(
+        	testName
+         , 	viewportSize)
 }
 
 
@@ -145,15 +177,6 @@ def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesClose"(
 
 def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesInit"() {
     (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesInit()
-}
-
-
-def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpen"(
-    	String testName	
-     , 	RectangleSize viewportSize	) {
-    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesOpen(
-        	testName
-         , 	viewportSize)
 }
 
 

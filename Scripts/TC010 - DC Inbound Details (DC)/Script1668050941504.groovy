@@ -25,7 +25,7 @@ WebUI.click(findTestObject('TC010/Page_Brivge/span_Logistics'))
 
 WebUI.click(findTestObject('TC010/Page_Brivge/li_Inbound Monitoring List'))
 
-'generated from TC001'
+'generated from TC006'
 WebUI.setText(findTestObject('TC010/Page_Brivge/input_inbound list'), findTestData('Toyotsu-data').getValue(6, 2))
 
 WebUI.click(findTestObject('TC010/Page_Brivge/checkbox'))
@@ -56,8 +56,12 @@ WebUI.setText(findTestObject('TC010/Page_Brivge/input__inboundRefNo'), inboundRe
 'input inbound date'
 WebUI.click(findTestObject('TC010/Page_Brivge/input__inboundDate'))
 
+day = CustomKeywords.'util.generateTime.currentDateDay'()
+
+month = CustomKeywords.'util.generateTime.currentMonth'()
+
 CustomKeywords.'util.handlePicker.handleCalendar'(findTestObject('TC010/Page_Brivge/currentmonth'), findTestObject('TC010/Page_Brivge/button next calendar'), 
-    15, 11)
+    day, month)
 
 'Input time'
 CustomKeywords.'util.parseValue.parseAValueToWebObject'(findTestObject('TC010/Page_Brivge/input__inboundTime'), '12:00:00')

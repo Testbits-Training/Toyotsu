@@ -1,9 +1,19 @@
 {
-  "keywordFileContentHash": "FF9EC21DD5EB2CCE95978828B3E9A11D",
+  "keywordFileContentHash": "3022BF7AB1DB69492A83C6D4924D6B24",
   "keywordClasses": [
     {
       "name": "util.generateTime",
       "keywordMethods": [
+        {
+          "name": "currentMonth",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "currentDateDay",
+          "parameters": [],
+          "javadoc": ""
+        },
         {
           "name": "dateTimeGenerator",
           "parameters": [],

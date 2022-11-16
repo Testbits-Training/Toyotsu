@@ -56,6 +56,38 @@ public class copyToExcel {
 
 		//edit
 		XSSFSheet sheet = workbook.getSheet("Inbound");
+		Row row = sheet.getRow(rowNum);
+		Cell cell = row.createCell(colNum);
+		cell.setCellValue(name);
+
+		//close
+		FileOutputStream fos = new FileOutputStream(path);
+		workbook.write(fos);
+		fos.close();
+
+		//return the file path for upload
+		System.out.println("File path is: " + path);
+		return path;
+
+	}
+	
+	@Keyword
+	public String exelInboundPlan2(File file, String name, int rowNum, int colNum) throws IOException{
+
+		//convert downloaded File to Path
+		String path = file.getAbsolutePath();
+		path = path.replace("\\","\\\\");
+
+		System.out.println(path);
+
+
+
+		//open excel file
+		FileInputStream fis = new FileInputStream(path);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+
+		//edit
+		XSSFSheet sheet = workbook.getSheet("Inbound");
 		Row row = sheet.createRow(rowNum);
 		Cell cell = row.createCell(colNum);
 		cell.setCellValue(name);
