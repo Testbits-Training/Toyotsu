@@ -14,6 +14,7 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('common/Login'), [('username') : GlobalVariable.usernameLuqman, ('password') : GlobalVariable.passwordLuqman
         , ('verification') : GlobalVariable.verificationLuqman, ('company') : GlobalVariable.sgttap], FailureHandling.STOP_ON_FAILURE)
@@ -34,4 +35,10 @@ WebUI.click(findTestObject('TC008/Page_Brivge/button view'))
 WebUI.verifyElementVisible(findTestObject('TC008/Page_Brivge/h3_Buyer(GR) Invoice Detail'))
 
 WebUI.takeFullPageScreenshot()
+
+WebUI.takeFullPageScreenshotAsCheckpoint('Invoice Detail')
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
+
+WebUI.takeFullPageScreenshotAsCheckpoint('Invoice Detail 2')
 
