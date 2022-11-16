@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Fail Test,Chrome 107.0.0.0,,,2022-11-17 06:12:34,2022-11-17 06:13:04,30.131s,FAILED
+,,,,,,,
+Test Cases/common/Fail Login,Chrome 107.0.0.0,,,2022-11-17 06:12:34,2022-11-17 06:13:04,29.716s,FAILED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-17 06:12:35,2022-11-17 06:12:38,3.535s,PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-11-17 06:12:38,2022-11-17 06:12:39,0.170s,PASSED
+"navigateToUrl(""https://test.brivge.com/home"")",Chrome 107.0.0.0,,,2022-11-17 06:12:39,2022-11-17 06:12:41,2.738s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Login/input_Sign In_username""), 0)",Chrome 107.0.0.0,,,2022-11-17 06:12:41,2022-11-17 06:12:44,2.400s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Sign In_username""), usernameAzwan)",Chrome 107.0.0.0,,,2022-11-17 06:12:44,2022-11-17 06:12:45,1.484s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Sign In_password""), passwordAzwan)",Chrome 107.0.0.0,,,2022-11-17 06:12:45,2022-11-17 06:12:46,0.876s,PASSED
+"click(findTestObject(""Object Repository/Login/span_Sign In""))",Chrome 107.0.0.0,,,2022-11-17 06:12:46,2022-11-17 06:12:47,0.576s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Login/input_Verify_verificationCode""))",Chrome 107.0.0.0,,,2022-11-17 06:12:47,2022-11-17 06:12:48,0.890s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Verify_verificationCode""), verificationAzwan, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-17 06:12:48,2022-11-17 06:12:49,0.936s,PASSED
+"click(findTestObject(""Login/span_Verify""))",Chrome 107.0.0.0,,,2022-11-17 06:12:49,2022-11-17 06:12:49,0.401s,PASSED
+"verifyElementVisible(findTestObject(""TC001/Page_Brivge/Verify_text present""))",Chrome 107.0.0.0,,,2022-11-17 06:12:49,2022-11-17 06:13:04,15.142s,FAILED

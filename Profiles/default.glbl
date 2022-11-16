@@ -56,12 +56,32 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'SGTTAP TO VNTTVN 1028001'</initValue>
+      <initValue>'SGTTAP TO VNTTVN 1115002'</initValue>
       <name>custContractNo</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'SGBAFCO TO SGTTAP 1028001'</initValue>
+      <initValue>'SGBAFCO TO SGTTAP 1115002'</initValue>
       <name>supplContractNo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>28</initValue>
+      <name>inboundDate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>11</initValue>
+      <name>inboundMonth</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>28</initValue>
+      <name>outboundDate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>11</initValue>
+      <name>outboundMonth</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

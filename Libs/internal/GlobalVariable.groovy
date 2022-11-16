@@ -69,6 +69,26 @@ public class GlobalVariable {
      */
     public static Object supplContractNo
      
+    /**
+     * <p></p>
+     */
+    public static Object inboundDate
+     
+    /**
+     * <p></p>
+     */
+    public static Object inboundMonth
+     
+    /**
+     * <p></p>
+     */
+    public static Object outboundDate
+     
+    /**
+     * <p></p>
+     */
+    public static Object outboundMonth
+     
 
     static {
         try {
@@ -88,6 +108,10 @@ public class GlobalVariable {
             sgttapdc = selectedVariables['sgttapdc']
             custContractNo = selectedVariables['custContractNo']
             supplContractNo = selectedVariables['supplContractNo']
+            inboundDate = selectedVariables['inboundDate']
+            inboundMonth = selectedVariables['inboundMonth']
+            outboundDate = selectedVariables['outboundDate']
+            outboundMonth = selectedVariables['outboundMonth']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

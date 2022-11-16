@@ -12,7 +12,7 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>3fa583d4-9f8e-4d8e-aa78-cf34678540d3</testSuiteGuid>
    <testCaseLink>
-      <guid>1e254876-cf09-4420-9743-4f8d49ff325e</guid>
+      <guid>2e211e0a-8123-4e26-8db0-607c3fd6aca7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/common/Fail Login</testCaseId>

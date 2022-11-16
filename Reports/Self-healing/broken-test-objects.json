@@ -1,3 +1,54 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC006/TC006_4/not yet delivery price 1",
+      "brokenLocator": "(//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div[5]/div[2]/div/div/div/div[3]/div[2]/div/div/div[3]/div/div[2]/div/div/div/div/div[3]/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[5]/div/p)[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027+ ADD PARTS\u0027])[1]/following::p[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC006/TC006_4/not yet delivery price 1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC006/TC006_4/not yet delivery price 2",
+      "brokenLocator": "//tr[2]/td[5]/div/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027+ ADD INNER PACKAGE\u0027])[1]/preceding::p[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC006/TC006_4/not yet delivery price 2_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC006/TC006_4/input_ADD PARTS_1",
+      "brokenLocator": "(//td[4]/div/div/input)[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@type \u003d \u0027number\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC006/TC006_4/input_ADD PARTS_1_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC007/Page_Brivge/div_invoice No",
+      "brokenLocator": "//td[3]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027AND\u0027])[1]/following::div[51]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC007/Page_Brivge/div_invoice No_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC007/Page_Brivge/button_CONFIRM",
+      "brokenLocator": "//button[@type \u003d \u0027button\u0027 and (text() \u003d \u0027CONFIRM\u0027 or . \u003d \u0027CONFIRM\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Chats\u0027])[1]/preceding::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC007/Page_Brivge/button_CONFIRM_neighbor.png"
+    }
+  ]
 }
