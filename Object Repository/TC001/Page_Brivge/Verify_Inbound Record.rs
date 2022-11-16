@@ -13,8 +13,12 @@
          <key>XPATH</key>
          <value>//h6[(text() = 'Inbound Record' or . = 'Inbound Record')]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Has login' or . = 'Has login')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h6</value>
-      <webElementGuid>90240730-d918-4fb8-8025-b9490a280681</webElementGuid>
+      <webElementGuid>7a720d09-387d-4c74-b015-3b631f44f853</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +34,15 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiTypography-root lcbm-lcbm48 lcbm-MuiTypography-h6 lcbm-MuiTypography-colorPrimary</value>
-      <webElementGuid>41317c7c-4b9d-4262-bf72-06d83851cb3b</webElementGuid>
+      <webElementGuid>cb87fae4-4a71-4eda-9acc-ed0dbb85fbf7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Inbound Record</value>
-      <webElementGuid>121d7cdd-227c-424c-a87a-ac16638b9127</webElementGuid>
+      <value>Has login</value>
+      <webElementGuid>3a7adb2a-0de6-4947-8a26-503948a30e71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm1 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm5&quot;]/div[@class=&quot;lcbm-MuiGrid-root lcbm-MuiGrid-container lcbm-MuiGrid-spacing-xs-2&quot;]/div[@class=&quot;lcbm-MuiGrid-root lcbm-MuiGrid-item lcbm-MuiGrid-grid-md-9&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm25 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-lcbm32&quot;]/div[@class=&quot;lcbm-lcbm47&quot;]/h6[@class=&quot;lcbm-MuiTypography-root lcbm-lcbm48 lcbm-MuiTypography-h6 lcbm-MuiTypography-colorPrimary&quot;]</value>
-      <webElementGuid>0391d4ee-3672-4d9d-b3e9-e288fb31de10</webElementGuid>
+      <webElementGuid>e4efb364-bdef-4648-8cea-fb0026e54839</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div/div/div/div[2]/div[2]/div[2]/h6</value>
-      <webElementGuid>16d77a07-b9cf-48e4-a794-4324e7b73f00</webElementGuid>
+      <webElementGuid>67fb51f4-06fc-4fac-ab94-0d3b3976965f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No Data'])[1]/following::h6[1]</value>
-      <webElementGuid>2926a2b3-0d5d-4b21-8214-2765d4e470ed</webElementGuid>
+      <webElementGuid>b1dec781-c3ff-4873-a3dc-b2667b5f01d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Orders'])[1]/following::h6[1]</value>
-      <webElementGuid>6ae33eaf-8b51-44c7-82e3-3488f2f04b88</webElementGuid>
+      <webElementGuid>031c389e-fcf0-43bf-b763-a8259c9845e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/preceding::h6[1]</value>
-      <webElementGuid>95e71552-fd6e-40cf-b614-3cc986a15760</webElementGuid>
+      <webElementGuid>fdb417c1-c154-4811-891a-2056c0812f8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Overview Of Purchase Order'])[1]/preceding::h6[1]</value>
-      <webElementGuid>547c4089-2604-4170-af90-944f561b8911</webElementGuid>
+      <webElementGuid>d7e8d876-aa9f-42a9-b52b-21c538cd526c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Inbound Record']/parent::*</value>
-      <webElementGuid>366a4063-df63-47ce-83cc-6cc496ada9ca</webElementGuid>
+      <webElementGuid>6155f0a7-4a43-4ad3-b021-5e8606bd83d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/h6</value>
-      <webElementGuid>c5d1ec8d-a37e-400c-b354-741b22b6567b</webElementGuid>
+      <webElementGuid>b3490ae1-5032-41c3-ace1-2f2b324e8459</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h6[(text() = 'Inbound Record' or . = 'Inbound Record')]</value>
-      <webElementGuid>4deea686-dea4-492a-898d-60cff101b3c1</webElementGuid>
+      <webElementGuid>ee8b2bc4-9b29-4202-a869-3f2c1533e6e9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
